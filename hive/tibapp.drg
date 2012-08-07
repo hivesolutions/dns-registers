@@ -42,4 +42,4 @@ ns1     IN    A     172.16.0.11
 ns2     IN    A     172.16.0.12
 
 ; domain alias
-*   IN    CNAME sandbox1.hive
+*   IN    CNAME sandbox1.hive.
