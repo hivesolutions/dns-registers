@@ -1,0 +1,42 @@
+; Hive Infrastructure
+; Copyright (C) 2010 Hive Solutions Lda.
+;
+; This file is part of Hive Infrastructure.
+;
+; Hive Infrastructure is confidential and property of Hive Solutions Lda.,
+; its usage is constrained by the terms of the Hive Solutions
+; Confidential Usage License.
+;
+; Hive Infrastructure should not be distributed under any circumstances,
+; violation of this may imply legal action.
+;
+; If you have any questions regarding the terms of this license please
+; refer to <http://www.hive.pt/licenses/>.
+
+; __author__    = João Magalhães <joamag@hive.pt>
+; __version__   = 1.0.0
+; __revision__  = $LastChangedRevision$
+; __date__      = $LastChangedDate$
+; __copyright__ = Copyright (c) 2010 Hive Solutions Lda.
+; __license__   = Hive Solutions Confidential Usage License (HSCUL)
+
+; domain general parameters
+ohub.co.    IN    SOA    ns1.ohub.co.    hostmaster.ohub.co. (
+            2000021660 ; serial number
+            86400      ; refresh time (seconds)
+            7200       ; transfer retry time (seconds)
+            1209600    ; expiry time (seconds)
+            604800     ; negative cache time (seconds)
+)
+
+; domain main address
+        IN    A     64.85.161.49
+
+; domain name servers
+        IN    NS    ns1.ohub.co.
+        IN    NS    ns2.ohub.co.
+
+; domain names
+www     IN    A     64.85.161.49
+ns1     IN    A     64.85.161.49
+ns2     IN    A     64.85.161.49

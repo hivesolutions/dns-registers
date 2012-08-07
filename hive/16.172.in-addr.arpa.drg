@@ -1,0 +1,55 @@
+; Hive Infrastructure
+; Copyright (C) 2010 Hive Solutions Lda.
+;
+; This file is part of Hive Infrastructure.
+;
+; Hive Infrastructure is confidential and property of Hive Solutions Lda.,
+; its usage is constrained by the terms of the Hive Solutions
+; Confidential Usage License.
+;
+; Hive Infrastructure should not be distributed under any circumstances,
+; violation of this may imply legal action.
+;
+; If you have any questions regarding the terms of this license please
+; refer to <http://www.hive.pt/licenses/>.
+
+; __author__    = João Magalhães <joamag@hive.pt>
+; __version__   = 1.0.0
+; __revision__  = $LastChangedRevision$
+; __date__      = $LastChangedDate$
+; __copyright__ = Copyright (c) 2010 Hive Solutions Lda.
+; __license__   = Hive Solutions Confidential Usage License (HSCUL)
+
+; domain general parameters
+@    IN    SOA    @    rname.invalid. (
+            2000021660 ; serial number
+            86400      ; refresh time (seconds)
+            7200       ; transfer retry time (seconds)
+            1209600    ; expiry time (seconds)
+            604800     ; negative cache time (seconds)
+)
+
+; domain name servers
+        IN    NS    @
+
+; domain names
+1.0.16.172.in-addr.arpa.   IN    PTR    router.hive.
+2.0.16.172.in-addr.arpa.   IN    PTR    switch.hive.
+3.0.16.172.in-addr.arpa.   IN    PTR    impressora1.hive.
+4.0.16.172.in-addr.arpa.   IN    PTR    front-switch.hive.
+5.0.16.172.in-addr.arpa.   IN    PTR    middle-switch.hive.
+
+11.0.16.172.in-addr.arpa.  IN    PTR    servidor1.hive.
+12.0.16.172.in-addr.arpa.  IN    PTR    servidor2.hive.
+13.0.16.172.in-addr.arpa.  IN    PTR    servidor3.hive.
+14.0.16.172.in-addr.arpa.  IN    PTR    servidor4.hive.
+
+21.0.16.172.in-addr.arpa.  IN    PTR    joamag.hive.
+22.0.16.172.in-addr.arpa.  IN    PTR    lmartinho.hive.
+23.0.16.172.in-addr.arpa.  IN    PTR    nlima.hive.
+24.0.16.172.in-addr.arpa.  IN    PTR    tsilva.hive.
+25.0.16.172.in-addr.arpa.  IN    PTR    srio.hive.
+26.0.16.172.in-addr.arpa.  IN    PTR    johndoe.hive.
+
+51.0.16.172.in-addr.arpa.  IN    PTR    sandbox1.hive.
+52.0.16.172.in-addr.arpa.  IN    PTR    sandbox2.hive.

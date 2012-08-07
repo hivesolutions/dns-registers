@@ -1,0 +1,51 @@
+; Hive Infrastructure
+; Copyright (C) 2010 Hive Solutions Lda.
+;
+; This file is part of Hive Infrastructure.
+;
+; Hive Infrastructure is confidential and property of Hive Solutions Lda.,
+; its usage is constrained by the terms of the Hive Solutions
+; Confidential Usage License.
+;
+; Hive Infrastructure should not be distributed under any circumstances,
+; violation of this may imply legal action.
+;
+; If you have any questions regarding the terms of this license please
+; refer to <http://www.hive.pt/licenses/>.
+
+; __author__    = João Magalhães <joamag@hive.pt>
+; __version__   = 1.0.0
+; __revision__  = $LastChangedRevision$
+; __date__      = $LastChangedDate$
+; __copyright__ = Copyright (c) 2010 Hive Solutions Lda.
+; __license__   = Hive Solutions Confidential Usage License (HSCUL)
+
+; domain general parameters
+first-day.pt.    IN    SOA    ns1.first-day.pt.    hostmaster.first-day.pt. (
+            2000021660 ; serial number
+            86400      ; refresh time (seconds)
+            7200       ; transfer retry time (seconds)
+            1209600    ; expiry time (seconds)
+            604800     ; negative cache time (seconds)
+)
+
+; domain main address
+        IN    A     46.252.201.1
+
+; google apps email
+        IN    MX    10    ASPMX.L.GOOGLE.COM.
+        IN    MX    20    ALT1.ASPMX.L.GOOGLE.COM.
+        IN    MX    20    ALT2.ASPMX.L.GOOGLE.COM.
+        IN    MX    30    ASPMX2.GOOGLEMAIL.COM.
+        IN    MX    30    ASPMX3.GOOGLEMAIL.COM.
+        IN    MX    30    ASPMX4.GOOGLEMAIL.COM.
+        IN    MX    30    ASPMX5.GOOGLEMAIL.COM.
+
+; domain name servers
+        IN    NS    ns1.first-day.pt.
+        IN    NS    ns2.first-day.pt.
+
+; domain names
+www     IN    A     46.252.201.1
+ns1     IN    A     85.17.132.225
+ns2     IN    A     64.85.161.49

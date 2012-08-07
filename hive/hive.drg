@@ -1,0 +1,93 @@
+; Hive Infrastructure
+; Copyright (C) 2010 Hive Solutions Lda.
+;
+; This file is part of Hive Infrastructure.
+;
+; Hive Infrastructure is confidential and property of Hive Solutions Lda.,
+; its usage is constrained by the terms of the Hive Solutions
+; Confidential Usage License.
+;
+; Hive Infrastructure should not be distributed under any circumstances,
+; violation of this may imply legal action.
+;
+; If you have any questions regarding the terms of this license please
+; refer to <http://www.hive.pt/licenses/>.
+
+; __author__    = João Magalhães <joamag@hive.pt>
+; __version__   = 1.0.0
+; __revision__  = $LastChangedRevision$
+; __date__      = $LastChangedDate$
+; __copyright__ = Copyright (c) 2010 Hive Solutions Lda.
+; __license__   = Hive Solutions Confidential Usage License (HSCUL)
+
+; domain general parameters
+hive.    IN    SOA    ns1.hive.    hostmaster.hive. (
+            2000021660 ; serial number
+            86400      ; refresh time (seconds)
+            7200       ; transfer retry time (seconds)
+            1209600    ; expiry time (seconds)
+            604800     ; negative cache time (seconds)
+)
+
+; domain main address
+        IN    A     172.16.0.11
+
+; domain name servers
+        IN    NS    ns1.hive.
+        IN    NS    ns2.hive.
+
+; domain names
+router  IN    A     172.16.0.1
+switch  IN    A     172.16.0.2
+impressora1   IN    A     172.16.0.3
+front-switch  IN    A     172.16.0.4
+middle-switch IN    A     172.16.0.5
+
+servidor1     IN    A     172.16.0.11
+servidor2     IN    A     172.16.0.12
+servidor3     IN    A     172.16.0.13
+servidor4     IN    A     172.16.0.14
+
+joamag  IN    A     172.16.0.21
+lmartinho     IN    A     172.16.0.22
+nlima   IN    A     172.16.0.23
+tsilva  IN    A     172.16.0.24
+srio    IN    A     172.16.0.25
+johndoe IN    A     172.16.0.26
+
+sandbox1      IN    A     172.16.0.51
+sandbox2      IN    A     172.16.0.52
+sandbox3      IN    A     172.16.0.53
+sandbox4      IN    A     172.16.0.54
+sandbox5      IN    A     172.16.0.55
+
+www     IN    A     172.16.0.11
+mail    IN    A     172.16.0.11
+
+ldap    IN    A     172.16.0.11
+nfs     IN    A     172.16.0.11
+
+tools   IN    A     172.16.0.12
+files   IN    A     172.16.0.12
+board   IN    A     172.16.0.12
+maven   IN    A     172.16.0.12
+trac    IN    A     172.16.0.12
+wiki    IN    A     172.16.0.12
+repo    IN    A     172.16.0.12
+svn     IN    A     172.16.0.12
+vpn     IN    A     172.16.0.12
+lib     IN    A     172.16.0.12
+api     IN    A     172.16.0.12
+
+dummy   IN    A     172.16.0.70
+
+ns1     IN    A     172.16.0.11
+ns2     IN    A     172.16.0.12
+
+; domain alias
+agata   IN    CNAME servidor1
+emanuel IN    CNAME servidor2
+barreiros     IN    CNAME servidor3
+
+; service alias
+media_dashboard     IN    CNAME servidor3
