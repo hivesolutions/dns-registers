@@ -42,8 +42,8 @@ amirandamagalhaes.com.    IN    SOA    ns1.amirandamagalhaes.com.    hostmaster.
         IN    MX    30    ASPMX5.GOOGLEMAIL.COM.
 
 ; domain name servers
-        IN    NS    ns1.inforvault.com.
-        IN    NS    ns2.inforvault.com.
+        IN    NS    ns1.bemisc.com.
+        IN    NS    ns2.bemisc.com.
 
 ; domain names
 www     IN    A     85.17.132.225

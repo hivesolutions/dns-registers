@@ -21,7 +21,7 @@
 ; __license__   = Hive Solutions Confidential Usage License (HSCUL)
 
 ; domain general parameters
-lugardasjoias.com.    IN    SOA    ns1.lugardasjoias.com.    hostmaster.lugardasjoias.com. (
+joao.me.    IN    SOA    ns1.joao.me.    hostmaster.joao.me. (
             2000021660 ; serial number
             86400      ; refresh time (seconds)
             7200       ; transfer retry time (seconds)
@@ -33,8 +33,8 @@ lugardasjoias.com.    IN    SOA    ns1.lugardasjoias.com.    hostmaster.lugardas
         IN    A     85.17.132.225
 
 ; domain name servers
-        IN    NS    ns1.inforvault.com.
-        IN    NS    ns2.inforvault.com.
+        IN    NS    ns1.bemisc.com.
+        IN    NS    ns2.bemisc.com.
 
 ; domain names
 www     IN    A     85.17.132.225

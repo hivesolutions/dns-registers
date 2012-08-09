@@ -21,7 +21,7 @@
 ; __license__   = Hive Solutions Confidential Usage License (HSCUL)
 
 ; domain general parameters
-joaomagalhaes.eu.    IN    SOA    ns1.joaomagalhaes.eu.    hostmaster.joaomagalhaes.eu. (
+lugardasjoias.com.    IN    SOA    ns1.lugardasjoias.com.    hostmaster.lugardasjoias.com. (
             2000021660 ; serial number
             86400      ; refresh time (seconds)
             7200       ; transfer retry time (seconds)
@@ -30,21 +30,11 @@ joaomagalhaes.eu.    IN    SOA    ns1.joaomagalhaes.eu.    hostmaster.joaomagalh
 )
 
 ; domain main address
-        IN    A     184.73.237.244
-
-; google apps email
-        IN    MX    10    ASPMX.L.GOOGLE.COM.
-        IN    MX    20    ALT1.ASPMX.L.GOOGLE.COM.
-        IN    MX    20    ALT2.ASPMX.L.GOOGLE.COM.
-        IN    MX    30    ASPMX2.GOOGLEMAIL.COM.
-        IN    MX    30    ASPMX3.GOOGLEMAIL.COM.
-        IN    MX    30    ASPMX4.GOOGLEMAIL.COM.
-        IN    MX    30    ASPMX5.GOOGLEMAIL.COM.
+        IN    A     85.17.132.225
 
 ; domain name servers
-        IN    NS    ns1.inforvault.com.
-        IN    NS    ns2.inforvault.com.
+        IN    NS    ns1.bemisc.com.
+        IN    NS    ns2.bemisc.com.
 
 ; domain names
-www     IN    A     184.73.237.244
-blog    IN    A     85.17.132.225
+www     IN    A     85.17.132.225

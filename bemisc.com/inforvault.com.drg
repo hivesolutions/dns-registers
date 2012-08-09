@@ -30,20 +30,16 @@ inforvault.com.    IN    SOA    ns1.inforvault.com.    hostmaster.inforvault.com
 )
 
 ; domain main address
-;        IN    A     85.17.132.225
         IN    A     64.85.161.49
 
 ; domain name servers
-        IN    NS    ns1.inforvault.com.
-        IN    NS    ns2.inforvault.com.
+        IN    NS    ns1.bemisc.com.
+        IN    NS    ns2.bemisc.com.
 
 ; inforvault.com grid nodes
 node1   IN    A     85.17.132.225
 
 ; domain names
-;www     IN    A     85.17.132.225
-;horde   IN    A     85.17.132.225
-;blog    IN    A     85.17.132.225
-;ns1     IN    A     85.17.132.225
-ns1     IN    A     64.85.161.49
-ns2     IN    A     64.85.161.49
+www     IN    A     64.85.161.49
+horde   IN    A     64.85.161.49
+blog    IN    A     64.85.161.49

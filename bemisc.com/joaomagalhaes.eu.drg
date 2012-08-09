@@ -21,15 +21,16 @@
 ; __license__   = Hive Solutions Confidential Usage License (HSCUL)
 
 ; domain general parameters
-lugardajoia.com.    IN    SOA    ns1.lugardajoia.com.    hostmaster.lugardajoia.com. (
+joaomagalhaes.eu.    IN    SOA    ns1.joaomagalhaes.eu.    hostmaster.joaomagalhaes.eu. (
             2000021660 ; serial number
             86400      ; refresh time (seconds)
             7200       ; transfer retry time (seconds)
             1209600    ; expiry time (seconds)
             604800     ; negative cache time (seconds)
 )
+
 ; domain main address
-        IN     A     109.71.41.149
+        IN    A     184.73.237.244
 
 ; google apps email
         IN    MX    10    ASPMX.L.GOOGLE.COM.
@@ -41,8 +42,9 @@ lugardajoia.com.    IN    SOA    ns1.lugardajoia.com.    hostmaster.lugardajoia.
         IN    MX    30    ASPMX5.GOOGLEMAIL.COM.
 
 ; domain name servers
-        IN    NS    ns1.inforvault.com.
-        IN    NS    ns2.inforvault.com.
+        IN    NS    ns1.bemisc.com.
+        IN    NS    ns2.bemisc.com.
 
 ; domain names
-www     IN    A     109.71.41.149
+www     IN    A     184.73.237.244
+blog    IN    A     85.17.132.225
