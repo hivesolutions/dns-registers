@@ -42,10 +42,8 @@ bargania.com.    IN    SOA    ns1.bargania.com.    hostmaster.bargania.com. (
         IN    MX    30    ASPMX5.GOOGLEMAIL.COM.
 
 ; domain name servers
-        IN    NS    ns1.bargania.com.
-        IN    NS    ns2.bargania.com.
+        IN    NS    ns1.bemisc.com.
+        IN    NS    ns2.bemisc.com.
 
 ; domain names
 www     IN    A     188.138.86.82
-ns1     IN    A     64.85.161.49
-ns2     IN    A     64.85.161.49

@@ -33,10 +33,8 @@ cargoshiphq.com.    IN    SOA    ns1.cargoshiphq.com.    hostmaster.cargoshiphq.
         IN    A     188.138.86.82
 
 ; domain name servers
-        IN    NS    ns1.cargoshiphq.com.
-        IN    NS    ns2.cargoshiphq.com.
+        IN    NS    ns1.bemisc.com.
+        IN    NS    ns2.bemisc.com.
 
 ; domain names
 *       IN    A     188.138.86.82
-ns1     IN    A     64.85.161.49
-ns2     IN    A     64.85.161.49

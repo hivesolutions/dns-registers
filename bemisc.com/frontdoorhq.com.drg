@@ -42,10 +42,8 @@ frontdoorhq.com.    IN    SOA    ns1.frontdoorhq.com.    hostmaster.frontdoorhq.
         IN    MX    30    ASPMX5.GOOGLEMAIL.COM.
 
 ; domain name servers
-        IN    NS    ns1.frontdoorhq.com.
-        IN    NS    ns2.frontdoorhq.com.
+        IN    NS    ns1.bemisc.com.
+        IN    NS    ns2.bemisc.com.
 
 ; domain names
 *       IN    A     188.138.86.82
-ns1     IN    A     64.85.161.49
-ns2     IN    A     64.85.161.49

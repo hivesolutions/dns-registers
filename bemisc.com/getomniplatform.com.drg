@@ -33,10 +33,8 @@ getomniplatform.com.    IN    SOA    ns1.getomniplatform.com.    hostmaster.geto
         IN    A     64.85.161.49
 
 ; domain name servers
-        IN    NS    ns1.getomniplatform.com.
-        IN    NS    ns2.getomniplatform.com.
+        IN    NS    ns1.bemisc.com.
+        IN    NS    ns2.bemisc.com.
 
 ; domain names
 www     IN    A     64.85.161.49
-ns1     IN    A     64.85.161.49
-ns2     IN    A     64.85.161.49
