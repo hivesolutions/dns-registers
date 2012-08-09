@@ -37,7 +37,6 @@ tibapp.    IN    SOA    ns1.tibapp.    hostmaster.tibapp. (
         IN    NS    ns2.tibapp.
 
 ; domain names
-
 ns1     IN    A     172.16.0.11
 ns2     IN    A     172.16.0.12
 
