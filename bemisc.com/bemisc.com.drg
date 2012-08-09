@@ -35,11 +35,15 @@ bemisc.com.    IN    SOA    ns1.bemisc.com.    hostmaster.bemisc.com. (
 ; domain name servers
         IN    NS    ns1.bemisc.com.
         IN    NS    ns2.bemisc.com.
+        IN    NS    ns3.bemisc.com.
 
 ; bemisc.com grid nodes
 node1   IN    A     64.85.161.49
+node2   IN    A     85.17.132.225
+node3   IN    A     64.85.161.49
 
 ; domain names
 www     IN    A     64.85.161.49
 ns1     IN    A     64.85.161.49
 ns2     IN    A     64.85.161.49
+ns3     IN    A     64.85.161.49
