@@ -42,4 +42,4 @@ node1   IN    A     64.85.161.49
 ; domain names
 www     IN    A     64.85.161.49
 ns1     IN    A     64.85.161.49
-ns2     IN    A     85.17.132.225
+ns2     IN    A     64.85.161.49
