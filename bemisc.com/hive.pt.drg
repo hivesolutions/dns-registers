@@ -42,8 +42,8 @@ hive.pt.    IN    SOA    ns1.hive.pt.    hostmaster.hive.pt. (
         IN    MX    30    ASPMX5.GOOGLEMAIL.COM.
 
 ; domain name servers
-        IN    NS    ns1.hive.pt.
-        IN    NS    ns2.hive.pt.
+        IN    NS    ns1.bemisc.com.
+        IN    NS    ns2.bemisc.com.
 
 ; domain names
 www     IN    A     64.85.161.49
@@ -61,5 +61,3 @@ reviewboard   IN    A     64.85.161.49
 reviews IN    A     64.85.161.49
 prototype     IN    A     64.85.161.49
 openid  IN    A     64.85.161.49
-ns1     IN    A     64.85.161.49
-ns2     IN    A     64.85.161.49

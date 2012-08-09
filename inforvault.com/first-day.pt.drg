@@ -42,10 +42,8 @@ first-day.pt.    IN    SOA    ns1.first-day.pt.    hostmaster.first-day.pt. (
         IN    MX    30    ASPMX5.GOOGLEMAIL.COM.
 
 ; domain name servers
-        IN    NS    ns1.first-day.pt.
-        IN    NS    ns2.first-day.pt.
+        IN    NS    ns1.inforvault.com.
+        IN    NS    ns2.inforvault.com.
 
 ; domain names
 www     IN    A     46.252.201.1
-ns1     IN    A     85.17.132.225
-ns2     IN    A     64.85.161.49

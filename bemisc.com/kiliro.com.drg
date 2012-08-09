@@ -33,13 +33,11 @@ kiliro.com.    IN    SOA    ns1.kiliro.com.    hostmaster.kiliro.com. (
         IN    A     82.102.4.142
 
 ; domain name servers
-        IN    NS    ns1.kiliro.com.
-        IN    NS    ns2.kiliro.com.
+        IN    NS    ns1.bemisc.com.
+        IN    NS    ns2.bemisc.com.
 
 ; bemisc.com grid nodes
 node1   IN    A     82.102.4.142
 
 ; domain names
 www     IN    A     82.102.4.142
-ns1     IN    A     64.85.161.49
-ns2     IN    A     85.17.132.225

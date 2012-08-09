@@ -33,10 +33,8 @@ joamag.com.    IN    SOA    ns1.joamag.com.    hostmaster.joamag.com. (
         IN    A     85.17.132.225
 
 ; domain name servers
-        IN    NS    ns1.joamag.com.
-        IN    NS    ns2.joamag.com.
+        IN    NS    ns1.inforvault.com.
+        IN    NS    ns2.inforvault.com.
 
 ; domain names
 www     IN    A     85.17.132.225
-ns1     IN    A     85.17.132.225
-ns2     IN    A     85.17.132.225

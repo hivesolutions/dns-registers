@@ -42,11 +42,9 @@ joaomagalhaes.eu.    IN    SOA    ns1.joaomagalhaes.eu.    hostmaster.joaomagalh
         IN    MX    30    ASPMX5.GOOGLEMAIL.COM.
 
 ; domain name servers
-        IN    NS    ns1.joaomagalhaes.eu.
-        IN    NS    ns2.joaomagalhaes.eu.
+        IN    NS    ns1.inforvault.com.
+        IN    NS    ns2.inforvault.com.
 
 ; domain names
 www     IN    A     184.73.237.244
 blog    IN    A     85.17.132.225
-ns1     IN    A     85.17.132.225
-ns2     IN    A     85.17.132.225
