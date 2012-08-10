@@ -20,10 +20,13 @@
 ; __copyright__ = Copyright (c) 2010-2012 Hive Solutions Lda.
 ; __license__   = Hive Solutions Confidential Usage License (HSCUL)
 
+; domain global parameters
+$TTL 1h
+
 ; domain general parameters
 startomni.com.    IN    SOA    ns1.startomni.com.    hostmaster.startomni.com. (
             2000021660 ; serial number
-            86400      ; refresh time (seconds)
+            1d         ; refresh time
             7200       ; transfer retry time (seconds)
             1209600    ; expiry time (seconds)
             604800     ; negative cache time (seconds)
