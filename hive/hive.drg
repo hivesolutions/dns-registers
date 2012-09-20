@@ -58,6 +58,9 @@ tsilva  IN    A     172.16.0.24
 srio    IN    A     172.16.0.25
 johndoe IN    A     172.16.0.26
 
+rasp1         IN    A     172.16.0.41
+rasp2         IN    A     172.16.0.42
+
 sandbox1      IN    A     172.16.0.51
 sandbox2      IN    A     172.16.0.52
 sandbox3      IN    A     172.16.0.53
