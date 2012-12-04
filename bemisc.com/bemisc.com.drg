@@ -53,4 +53,4 @@ ns1     IN    A     64.85.161.49
 ns2     IN    A     85.17.90.210
 
 ; domain alias
-*       IN    CNAME node1
+*       IN    A     85.17.45.98
