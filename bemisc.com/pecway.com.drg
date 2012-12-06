@@ -33,7 +33,7 @@ pecway.com.    IN    SOA    ns1.pecway.com. hostmaster.pecway.com. (
 )
 
 ; domain main address
-        IN    A      85.17.132.225
+        IN    A      85.17.45.98
 
 ; domain name servers
         IN    NS    ns1.bemisc.com.
