@@ -33,7 +33,7 @@ pinguapp.com.    IN    SOA    ns1.pinguapp.com. hostmaster.pinguapp.com. (
 )
 
 ; domain main address
-        IN    CNAME proxy.bemisc.com.
+        IN    A     64.85.161.49
 
 ; domain name servers
         IN    NS    ns1.bemisc.com.
