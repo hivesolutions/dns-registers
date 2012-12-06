@@ -33,7 +33,7 @@ pinguapp.com.    IN    SOA    ns1.pinguapp.com. hostmaster.pinguapp.com. (
 )
 
 ; domain main address
-        IN    A     64.85.161.49
+        IN    A     85.17.45.98
 
 ; domain name servers
         IN    NS    ns1.bemisc.com.
