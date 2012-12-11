@@ -47,6 +47,7 @@ node3   IN    A     85.17.45.98
 
 ; domain names
 www     IN    A     64.85.161.49
+smtp    IN    A     85.17.45.98
 admin   IN    A     85.17.45.98
 proxy   IN    A     85.17.45.98
 repo    IN    A     85.17.45.98
