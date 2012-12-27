@@ -85,6 +85,7 @@ vpn     IN    A     172.16.0.12
 lib     IN    A     172.16.0.12
 api     IN    A     172.16.0.12
 db      IN    A     172.16.0.14
+dbs     IN    A     172.16.0.12
 
 dummy   IN    A     172.16.0.70
 
