@@ -50,6 +50,7 @@ servidor1     IN    A     172.16.0.11
 servidor2     IN    A     172.16.0.12
 servidor3     IN    A     172.16.0.13
 servidor4     IN    A     172.16.0.14
+servidor5     IN    A     172.16.0.15
 
 joamag  IN    A     172.16.0.21
 lmartinho     IN    A     172.16.0.22
@@ -66,6 +67,8 @@ sandbox2      IN    A     172.16.0.52
 sandbox3      IN    A     172.16.0.53
 sandbox4      IN    A     172.16.0.54
 sandbox5      IN    A     172.16.0.55
+sandbox6      IN    A     172.16.0.56
+sandbox7      IN    A     172.16.0.57
 
 www     IN    A     172.16.0.11
 mail    IN    A     172.16.0.11
