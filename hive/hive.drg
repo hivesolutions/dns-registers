@@ -69,6 +69,7 @@ sandbox4      IN    A     172.16.0.54
 sandbox5      IN    A     172.16.0.55
 sandbox6      IN    A     172.16.0.56
 sandbox7      IN    A     172.16.0.57
+sandbox8      IN    A     172.16.0.58
 
 www     IN    A     172.16.0.11
 mail    IN    A     172.16.0.11
