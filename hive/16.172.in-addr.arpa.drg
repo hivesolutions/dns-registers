@@ -63,3 +63,4 @@ $TTL 1h
 57.0.16.172.in-addr.arpa.  IN    PTR    sandbox7.hive.
 58.0.16.172.in-addr.arpa.  IN    PTR    sandbox8.hive.
 59.0.16.172.in-addr.arpa.  IN    PTR    sandbox9.hive.
+60.0.16.172.in-addr.arpa.  IN    PTR    sandbox10.hive.
