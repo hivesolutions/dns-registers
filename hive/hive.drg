@@ -77,30 +77,34 @@ sandbox12     IN    A     172.16.0.62
 sandbox13     IN    A     172.16.0.63
 sandbox14     IN    A     172.16.0.64
 
-www     IN    A     172.16.0.11
-mail    IN    A     172.16.0.11
-
-ldap    IN    A     172.16.0.11
-nfs     IN    A     172.16.0.11
-
-tools   IN    A     172.16.0.12
-files   IN    A     172.16.0.12
-board   IN    A     172.16.0.12
-maven   IN    A     172.16.0.12
-trac    IN    A     172.16.0.12
-wiki    IN    A     172.16.0.12
-repo    IN    A     172.16.0.12
-svn     IN    A     172.16.0.12
-vpn     IN    A     172.16.0.12
-lib     IN    A     172.16.0.12
-api     IN    A     172.16.0.12
-db      IN    A     172.16.0.14
-dbs     IN    A     172.16.0.11
-
-dummy   IN    A     172.16.0.70
-
 ns1     IN    A     172.16.0.11
 ns2     IN    A     172.16.0.12
+
+; services
+www     IN    CNAME servidor1
+mail    IN    CNAME servidor1
+ldap    IN    CNAME servidor1
+nfs     IN    CNAME servidor1
+dbs     IN    CNAME servidor1
+
+tools   IN    CNAME servidor2
+files   IN    CNAME servidor2
+board   IN    CNAME servidor2
+maven   IN    CNAME servidor2
+trac    IN    CNAME servidor2
+wiki    IN    CNAME servidor2
+repo    IN    CNAME servidor2
+svn     IN    CNAME servidor2
+vpn     IN    CNAME servidor2
+lib     IN    CNAME servidor2
+api     IN    CNAME servidor2
+
+dash    IN    CNAME servidor3
+
+db      IN    CNAME servidor4
+
+stage   IN    CNAME servidor5
+staging IN    CNAME servidor5
 
 ; domain alias
 agata   IN    CNAME servidor1
