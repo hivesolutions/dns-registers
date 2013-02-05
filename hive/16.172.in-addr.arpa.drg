@@ -46,6 +46,7 @@ $TTL 1h
 12.0.16.172.in-addr.arpa.  IN    PTR    servidor2.hive.
 13.0.16.172.in-addr.arpa.  IN    PTR    servidor3.hive.
 14.0.16.172.in-addr.arpa.  IN    PTR    servidor4.hive.
+15.0.16.172.in-addr.arpa.  IN    PTR    servidor5.hive.
 
 21.0.16.172.in-addr.arpa.  IN    PTR    joamag.hive.
 22.0.16.172.in-addr.arpa.  IN    PTR    lmartinho.hive.
