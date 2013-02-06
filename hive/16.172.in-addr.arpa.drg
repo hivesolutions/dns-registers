@@ -39,8 +39,9 @@ $TTL 1h
 1.0.16.172.in-addr.arpa.   IN    PTR    router.hive.
 2.0.16.172.in-addr.arpa.   IN    PTR    switch.hive.
 3.0.16.172.in-addr.arpa.   IN    PTR    impressora1.hive.
-4.0.16.172.in-addr.arpa.   IN    PTR    front-switch.hive.
-5.0.16.172.in-addr.arpa.   IN    PTR    middle-switch.hive.
+4.0.16.172.in-addr.arpa.   IN    PTR    front-router.hive.
+5.0.16.172.in-addr.arpa.   IN    PTR    middle-router.hive.
+6.0.16.172.in-addr.arpa.   IN    PTR    back-router.hive.
 
 11.0.16.172.in-addr.arpa.  IN    PTR    servidor1.hive.
 12.0.16.172.in-addr.arpa.  IN    PTR    servidor2.hive.
