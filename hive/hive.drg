@@ -43,8 +43,9 @@ hive.    IN    SOA    ns1.hive.    hostmaster.hive. (
 router  IN    A     172.16.0.1
 switch  IN    A     172.16.0.2
 impressora1   IN    A     172.16.0.3
-front-switch  IN    A     172.16.0.4
-middle-switch IN    A     172.16.0.5
+front-router  IN    A     172.16.0.4
+middle-router IN    A     172.16.0.5
+back-router   IN    A     172.16.0.6
 
 servidor1     IN    A     172.16.0.11
 servidor2     IN    A     172.16.0.12
@@ -76,6 +77,9 @@ sandbox11     IN    A     172.16.0.61
 sandbox12     IN    A     172.16.0.62
 sandbox13     IN    A     172.16.0.63
 sandbox14     IN    A     172.16.0.64
+
+hole1         IN    A     172.16.0.71
+hole2         IN    A     172.16.0.72
 
 ns1     IN    A     172.16.0.11
 ns2     IN    A     172.16.0.12
