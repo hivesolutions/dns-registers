@@ -114,6 +114,8 @@ staging IN    CNAME servidor5
 agata   IN    CNAME servidor1
 emanuel IN    CNAME servidor2
 barreiros     IN    CNAME servidor3
+toy     IN    CNAME servidor4
+carreira      IN    CNAME servidor5
 
 ; service alias
 media_dashboard     IN    CNAME servidor3
