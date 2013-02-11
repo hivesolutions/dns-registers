@@ -48,4 +48,4 @@ lugardajoia.com.    IN    SOA    ns1.lugardajoia.com.    hostmaster.lugardajoia.
         IN    NS    ns2.bemisc.com.
 
 ; domain names
-www     IN    A     109.71.41.149
+www     IN    A     130.185.83.152
