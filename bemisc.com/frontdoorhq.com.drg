@@ -27,9 +27,9 @@ $TTL 1h
 frontdoorhq.com.    IN    SOA    ns1.frontdoorhq.com.    hostmaster.frontdoorhq.com. (
             1          ; serial number
             1h         ; refresh time
-            600        ; transfer retry time (seconds)
-            86400      ; expiry time (seconds)
-            3600       ; negative cache time (seconds)
+            10m        ; transfer retry time
+            1d         ; expiry time
+            1h         ; negative cache time
 )
 
 ; domain main address
