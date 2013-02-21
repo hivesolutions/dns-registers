@@ -25,11 +25,11 @@ $TTL 1h
 
 ; domain general parameters
 joaomagalhaes.eu.    IN    SOA    ns1.joaomagalhaes.eu.    hostmaster.joaomagalhaes.eu. (
-            2000021660 ; serial number
-            1d         ; refresh time
-            7200       ; transfer retry time (seconds)
-            1209600    ; expiry time (seconds)
-            604800     ; negative cache time (seconds)
+            1          ; serial number
+            1h         ; refresh time
+            600        ; transfer retry time (seconds)
+            86400      ; expiry time (seconds)
+            3600       ; negative cache time (seconds)
 )
 
 ; domain main address

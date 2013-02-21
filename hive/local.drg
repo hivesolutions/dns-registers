@@ -25,11 +25,11 @@ $TTL 1h
 
 ; domain general parameters
 local.    IN    SOA    ns1.local.    hostmaster.local. (
-            2000021660 ; serial number
-            1d         ; refresh time
-            7200       ; transfer retry time (seconds)
-            1209600    ; expiry time (seconds)
-            604800     ; negative cache time (seconds)
+            1          ; serial number
+            1h         ; refresh time
+            10m        ; transfer retry time
+            1d         ; expiry time
+            1h         ; negative cache time
 )
 
 ; domain main address
