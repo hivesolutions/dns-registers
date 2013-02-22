@@ -43,5 +43,6 @@ startomni.com.    IN    SOA    ns1.startomni.com.    hostmaster.startomni.com. (
 node1   IN    A     85.25.176.55
 node2   IN    A     188.138.86.82
 
-; domain names
-erp     IN    A     85.25.176.55
+; domain alias
+erp     IN    CNAME node1
+db1     IN    CNAME node2
