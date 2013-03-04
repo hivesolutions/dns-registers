@@ -56,6 +56,11 @@ $TTL 1h
 25.0.16.172.in-addr.arpa.  IN    PTR    srio.hive.
 26.0.16.172.in-addr.arpa.  IN    PTR    johndoe.hive.
 
+31.0.16.172.in-addr.arpa.  IN    PTR    nas1.hive.
+
+41.0.16.172.in-addr.arpa.  IN    PTR    rasp1.hive.
+42.0.16.172.in-addr.arpa.  IN    PTR    rasp2.hive.
+
 51.0.16.172.in-addr.arpa.  IN    PTR    sandbox1.hive.
 52.0.16.172.in-addr.arpa.  IN    PTR    sandbox2.hive.
 53.0.16.172.in-addr.arpa.  IN    PTR    sandbox3.hive.
