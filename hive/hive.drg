@@ -79,6 +79,7 @@ sandbox11     IN    A     172.16.0.61
 sandbox12     IN    A     172.16.0.62
 sandbox13     IN    A     172.16.0.63
 sandbox14     IN    A     172.16.0.64
+sandbox15     IN    A     172.16.0.65
 
 hole1         IN    A     172.16.0.71
 hole2         IN    A     172.16.0.72
