@@ -33,11 +33,11 @@ cognicis.com.    IN    SOA    ns1.cognicis.com.    hostmaster.cognicis.com. (
 )
 
 ; domain main address
-        IN    A     64.85.161.49
+        IN    A     37.139.10.84
 
 ; domain name servers
         IN    NS    ns1.bemisc.com.
         IN    NS    ns2.bemisc.com.
 
 ; domain names
-www     IN    A     64.85.161.49
+www     IN    A     37.139.10.84

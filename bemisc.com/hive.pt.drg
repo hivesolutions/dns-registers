@@ -33,7 +33,7 @@ hive.pt.    IN    SOA    ns1.hive.pt.    hostmaster.hive.pt. (
 )
 
 ; domain main address
-        IN    A     64.85.161.49
+        IN    A     37.139.10.84
 
 ; google apps email
         IN    MX    10    ASPMX.L.GOOGLE.COM.
@@ -49,18 +49,18 @@ hive.pt.    IN    SOA    ns1.hive.pt.    hostmaster.hive.pt. (
         IN    NS    ns2.bemisc.com.
 
 ; domain names
-www     IN    A     64.85.161.49
-mail    IN    A     64.85.161.49
+www     IN    A     37.139.10.84
+mail    IN    A     37.139.10.84
 svn     IN    A     82.102.4.142
 repo    IN    A     82.102.4.142
-hg      IN    A     64.85.161.49
-trac    IN    A     64.85.161.49
-continuum     IN    A     64.85.161.49
-blog    IN    A     64.85.161.49
-forum   IN    A     64.85.161.49
-docs    IN    A     64.85.161.49
-joomla  IN    A     64.85.161.49
-reviewboard   IN    A     64.85.161.49
-reviews IN    A     64.85.161.49
-prototype     IN    A     64.85.161.49
-openid  IN    A     64.85.161.49
+hg      IN    A     37.139.10.84
+trac    IN    A     37.139.10.84
+continuum     IN    A     37.139.10.84
+blog    IN    A     37.139.10.84
+forum   IN    A     37.139.10.84
+docs    IN    A     37.139.10.84
+joomla  IN    A     37.139.10.84
+reviewboard   IN    A     37.139.10.84
+reviews IN    A     37.139.10.84
+prototype     IN    A     37.139.10.84
+openid  IN    A     37.139.10.84
