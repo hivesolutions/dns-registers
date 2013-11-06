@@ -49,3 +49,5 @@ lugardajoia.com.    IN    SOA    ns1.lugardajoia.com.    hostmaster.lugardajoia.
 
 ; domain names
 www     IN    A     130.185.83.152
+sede    IN    A     62.48.210.70     
+hq      IN    A     62.48.210.70
