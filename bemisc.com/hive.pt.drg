@@ -49,6 +49,7 @@ hive.pt.    IN    SOA    ns1.hive.pt.    hostmaster.hive.pt. (
         IN    NS    ns2.bemisc.com.
 
 ; domain names
+
 www     IN    A     37.139.10.84
 mail    IN    A     37.139.10.84
 svn     IN    A     82.102.4.142
@@ -64,3 +65,7 @@ reviewboard   IN    A     37.139.10.84
 reviews IN    A     37.139.10.84
 prototype     IN    A     37.139.10.84
 openid  IN    A     37.139.10.84
+
+; headquarters domain names
+hq      IN    A     62.48.210.62
+vpn     IN    A     62.48.210.62
