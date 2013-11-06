@@ -69,3 +69,4 @@ openid  IN    A     37.139.10.84
 ; headquarters domain names
 hq      IN    A     62.48.210.62
 vpn     IN    A     62.48.210.62
+sede    IN    A     62.48.210.62
