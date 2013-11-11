@@ -62,4 +62,5 @@ ns3     IN    A     146.185.138.218
 
 ; domain alias
 omnix   IN    CNAME cameria
+crossline     IN    CNAME cameria
 *       IN    CNAME proxy
