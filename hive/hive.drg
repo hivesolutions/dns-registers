@@ -86,6 +86,7 @@ sandbox15     IN    A     172.16.0.65
 
 hole1         IN    A     172.16.0.71
 hole2         IN    A     172.16.0.72
+hole3         IN    A     172.16.0.73
 
 ns1     IN    A     172.16.0.11
 ns2     IN    A     172.16.0.12
