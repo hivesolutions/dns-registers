@@ -72,4 +72,4 @@ sede    IN    A     62.48.210.62
 test    IN    A     62.48.210.62
 
 ; wildcard redirection
-*.stage IN    CNAME 62.48.210.62
+*.stage IN    A     62.48.210.62
