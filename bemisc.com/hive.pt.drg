@@ -49,7 +49,6 @@ hive.pt.    IN    SOA    ns1.hive.pt.    hostmaster.hive.pt. (
         IN    NS    ns2.bemisc.com.
 
 ; domain names
-
 www     IN    A     37.139.10.84
 mail    IN    A     37.139.10.84
 svn     IN    A     82.102.4.142
@@ -71,3 +70,6 @@ hq      IN    A     62.48.210.62
 vpn     IN    A     62.48.210.62
 sede    IN    A     62.48.210.62
 test    IN    A     62.48.210.62
+
+; wildcard redirection
+*.stage IN    CNAME 62.48.210.62
