@@ -84,3 +84,4 @@ $TTL 1h
 74.0.16.172.in-addr.arpa.  IN    PTR    hole4.hive.
 75.0.16.172.in-addr.arpa.  IN    PTR    hole5.hive.
 76.0.16.172.in-addr.arpa.  IN    PTR    hole6.hive.
+77.0.16.172.in-addr.arpa.  IN    PTR    hole7.hive.
