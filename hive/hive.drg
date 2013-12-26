@@ -89,6 +89,7 @@ hole2         IN    A     172.16.0.72
 hole3         IN    A     172.16.0.73
 hole4         IN    A     172.16.0.74
 hole5         IN    A     172.16.0.75
+hole6         IN    A     172.16.0.76
 
 ns1     IN    A     172.16.0.11
 ns2     IN    A     172.16.0.12
