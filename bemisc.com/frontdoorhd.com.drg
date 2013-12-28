@@ -49,4 +49,4 @@ frontdoorhd.com.    IN    SOA    ns1.frontdoorhd.com.    hostmaster.frontdoorhd.
         IN    NS    ns2.bemisc.com.
 
 ; domain names
-ldj     IN    A     85.25.176.55
+ldj     IN    A     144.76.43.179
