@@ -44,5 +44,4 @@ node1   IN    A     85.25.176.55
 node2   IN    A     188.138.86.82
 
 ; domain alias
-erp     IN    CNAME node4.bemisc.com.
-db1     IN    CNAME node4.bemisc.com.
+db1     IN    CNAME node1
