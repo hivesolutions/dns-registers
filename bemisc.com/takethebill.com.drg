@@ -50,3 +50,4 @@ takethebill.com.    IN    SOA    ns1.takethebill.com. hostmaster.takethebill.com
 
 ; domain names
 www     IN    A    37.139.10.84
+amiranda      IN    A    146.185.180.196
