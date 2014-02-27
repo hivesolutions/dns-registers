@@ -55,7 +55,7 @@ repo    IN    A     146.185.138.218
 sandbox IN    A     146.185.145.202
 db      IN    A     146.185.147.105
 cameria IN    A     146.185.147.110
-consulting    IN    A     46.185.158.169
+consulting    IN    A     146.185.158.169
 amiranda      IN    A     146.185.180.196
 hive    IN    A     95.85.19.64
 ns1     IN    A     37.139.10.84
