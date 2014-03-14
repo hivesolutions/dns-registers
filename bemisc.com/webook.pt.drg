@@ -1,0 +1,43 @@
+; Hive Infrastructure
+; Copyright (C) 2010-2012 Hive Solutions Lda.
+;
+; This file is part of Hive Infrastructure.
+;
+; Hive Infrastructure is confidential and property of Hive Solutions Lda.,
+; its usage is constrained by the terms of the Hive Solutions
+; Confidential Usage License.
+;
+; Hive Infrastructure should not be distributed under any circumstances,
+; violation of this may imply legal action.
+;
+; If you have any questions regarding the terms of this license please
+; refer to <http://www.hive.pt/licenses/>.
+
+; __author__    = João Magalhães <joamag@hive.pt>
+; __version__   = 1.0.0
+; __revision__  = $LastChangedRevision$
+; __date__      = $LastChangedDate$
+; __copyright__ = Copyright (c) 2010-2012 Hive Solutions Lda.
+; __license__   = Hive Solutions Confidential Usage License (HSCUL)
+
+; domain global parameters
+$TTL 1h
+
+; domain general parameters
+webook.pt.    IN    SOA    ns1.webook.pt.    hostmaster.webook.pt. (
+            1          ; serial number
+            1h         ; refresh time
+            10m        ; transfer retry time
+            1d         ; expiry time
+            1h         ; negative cache time
+)
+
+; domain main address
+        IN    A     146.185.158.169
+
+; domain name servers
+        IN    NS    ns1.bemisc.com.
+        IN    NS    ns2.bemisc.com.
+
+; domain names
+*       IN    A     146.185.158.169
