@@ -47,12 +47,7 @@ node3   IN    A     146.185.138.218
 node4   IN    A     144.76.43.179
 
 ; domain names
-www     IN    A     37.139.10.84
-smtp    IN    A     146.185.138.218
-admin   IN    A     146.185.138.218
-proxy   IN    A     146.185.138.218
-repo    IN    A     146.185.138.218
-sandbox IN    A     146.185.145.202
+misc    IN    A     37.139.2.116
 db      IN    A     146.185.147.105
 cameria IN    A     146.185.147.110
 consulting    IN    A     146.185.158.169
@@ -63,6 +58,12 @@ ns2     IN    A     192.241.148.12
 ns3     IN    A     146.185.138.218
 
 ; domain alias
+www     IN    CNAME node1
+smtp    IN    CNAME node3
+admin   IN    CNAME node3
+proxy   IN    CNAME node3
+repo    IN    CNAME node3
+sandbox IN    CNAME node3
 libs    IN    CNAME cameria
 omnix   IN    CNAME cameria
 crossline     IN    CNAME cameria
