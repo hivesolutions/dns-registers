@@ -69,3 +69,6 @@ omnix   IN    CNAME cameria
 crossline     IN    CNAME cameria
 print   IN    CNAME cameria
 *       IN    CNAME proxy
+
+@        IN      TXT    "google-site-verification=3WhCbVENKQx9Bdp7fTqUVTfQ_qByciYUa-8bEG2wdv0"
+yr7s4tjv6qti IN CNAME gv-zhmzhml5gelkye.dv.googlehosted.com
