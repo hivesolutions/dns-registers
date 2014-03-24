@@ -35,6 +35,15 @@ webook.pt.    IN    SOA    ns1.webook.pt.    hostmaster.webook.pt. (
 ; domain main address
         IN    A     146.185.158.169
 
+; google apps email
+        IN    MX    10    ASPMX.L.GOOGLE.COM.
+        IN    MX    20    ALT1.ASPMX.L.GOOGLE.COM.
+        IN    MX    20    ALT2.ASPMX.L.GOOGLE.COM.
+        IN    MX    30    ASPMX2.GOOGLEMAIL.COM.
+        IN    MX    30    ASPMX3.GOOGLEMAIL.COM.
+        IN    MX    30    ASPMX4.GOOGLEMAIL.COM.
+        IN    MX    30    ASPMX5.GOOGLEMAIL.COM.
+
 ; domain name servers
         IN    NS    ns1.bemisc.com.
         IN    NS    ns2.bemisc.com.
