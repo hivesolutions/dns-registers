@@ -41,3 +41,5 @@ webook.pt.    IN    SOA    ns1.webook.pt.    hostmaster.webook.pt. (
 
 ; domain names
 *       IN    A     146.185.158.169
+
+yr7s4tjv6qti IN CNAME gv-zhmzhml5gelkye.dv.googlehosted.com
