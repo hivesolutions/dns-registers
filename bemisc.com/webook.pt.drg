@@ -52,5 +52,5 @@ webook.pt.    IN    SOA    ns1.webook.pt.    hostmaster.webook.pt. (
 *       IN    A     146.185.158.169
 
 ; email validation fields
-        IN    TXT   "v=spf1 a -all"
+webook.pt.    IN    TXT   "v=spf1 a -all"
         IN    SPF   "v=spf1 a -all"
