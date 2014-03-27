@@ -58,4 +58,4 @@ webook.pt.    IN    TXT   "v=spf1 a mx include:spf.mtasv.net -all"
 ; dkim validation fields
 20140326153705.pm._domainkey.webook.pt.    IN    TXT    "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC6EcdQ2UM5b7s85EvRN9NhCcnlVlK342yVCvaaViKh3kHdv8H++OOpE7Z+I9Lp3IFKTey9qSz8R3crbNn7Oo90L8N69BmTopYrg8zYeOeXTtrw1/YmZVEoxCUNzrYeNYCaMs85YeFBBn/XkwfHGbPulikDlB9Df0AhkYdIK+bOkwIDAQAB"
 20140326153706.hive._domainkey.webook.pt.  IN    TXT    "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC8C8x6ai1tgiPsWM8RhWeB/T1M6Nh+EdBc1WGssEi6NvJwjCB1f9/F14rq0JweHA7n8CNmBJFdcx8/GYf5TJBEX9R7YDGy0EswjCm4C+IDuSMBmi5caXYJoTouJ7OA7ghifSF22T288ldEgKyIlSfzFSRAd2b0NSlskCNqSpAjNQIDAQAB"
-20140327175143._domainkey.webook.pt.       IN    TXT    "k=rsa; p=MDswDQYJKoZIhvcNAQEBBQADKgAwJwIgBYn/TdF2vtRtE9UyywhayGCXkA0EXFvQ/cLBFYHfX4kCAwEAAQ=="
+20140327175522._domainkey.webook.pt.       IN    TXT    "k=rsa; p=MIGeMA0GCSqGSIb3DQEBAQUAA4GMADCBiAKBgMQmAhxCX4kJW3prj6rv0eB60c3azxrDA0WZn66PoUznWCrnD4hHhegv1gcOl+cRkUsuGdsLx4vHLZumA1V9eNAgMTwsYlbVzm541In0GgQtSJtRZ+Pl0KeFIfJ7Z78giG2v/FhyuQpFCD1nWZQfyXLTQOWPJUt3IuC0ZExpUqufAgMBAAE="
