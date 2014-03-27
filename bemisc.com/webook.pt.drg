@@ -58,6 +58,4 @@ webook.pt.    IN    TXT   "v=spf1 a mx include:spf.mtasv.net -all"
 ; dkim validation fields
 20140326153705.pm._domainkey.webook.pt.    IN    TXT    "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC6EcdQ2UM5b7s85EvRN9NhCcnlVlK342yVCvaaViKh3kHdv8H++OOpE7Z+I9Lp3IFKTey9qSz8R3crbNn7Oo90L8N69BmTopYrg8zYeOeXTtrw1/YmZVEoxCUNzrYeNYCaMs85YeFBBn/XkwfHGbPulikDlB9Df0AhkYdIK+bOkwIDAQAB"
 20140326153706.hive._domainkey.webook.pt.  IN    TXT    "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC8C8x6ai1tgiPsWM8RhWeB/T1M6Nh+EdBc1WGssEi6NvJwjCB1f9/F14rq0JweHA7n8CNmBJFdcx8/GYf5TJBEX9R7YDGy0EswjCm4C+IDuSMBmi5caXYJoTouJ7OA7ghifSF22T288ldEgKyIlSfzFSRAd2b0NSlskCNqSpAjNQIDAQAB"
-20140327165639.hive._domainkey.webook.pt.  IN    TXT    "k=rsa; p=MIIBXjANBgkqhkiG9w0BAQEFAAOCAUsAMIIBRgKCAQAVgaxlm8I0hY2q31QemCxUI1vn/9hDTV1gwybZWNIH/uW81xFdIZycuwe/gMeUQSQTFJqGUKOfkhNBZ898EIuD1ZDbxJwGOEkunazh25AH5+WUsrz1r4gJLS+hglT4SBfofadfV9f7orz/r+4rGqehK8dEZ0/BERKUxl4TXSB1WDFa"
-20140327165639.hive._domainkey.webook.pt.  IN    TXT    "bltrX9JjNgvtrT1Mw1aOjSsBxwww2Bp+Gy9/9tqxtD/lEMg1vBDuAZKWqNSQWXQYIwGnxvDlVePFxTsls+TKPrxqB3RW2vJxiwpV+pfm3s3vz+fNj7fkO3FUZmfRElFQScxnDfSw80Cv1lkuWBKv3M60gtOAkg/fNFmKX27tAkD+Ae7lQlapQQzjvhzDEhUl8ay0OkIoEVh4W2eOV0pQ9EeSy/vtCJzwM"
-20140327165639.hive._domainkey.webook.pt.  IN    TXT    "qkIs7ewaqD4apaim8j/zTb83jLTJ4a9"
+20140327175143._domainkey.webook.pt.       IN    TXT    "k=rsa; p=MDswDQYJKoZIhvcNAQEBBQADKgAwJwIgBYn/TdF2vtRtE9UyywhayGCXkA0EXFvQ/cLBFYHfX4kCAwEAAQ=="
