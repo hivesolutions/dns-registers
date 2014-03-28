@@ -59,11 +59,11 @@ ns3     IN    A     146.185.138.218
 
 ; domain alias
 www     IN    CNAME node1
+smtp    IN    CNAME node3
 admin   IN    CNAME node3
 proxy   IN    CNAME node3
 repo    IN    CNAME node3
 sandbox IN    CNAME node3
-smtp    IN    CNAME node4
 mail    IN    CNAME node4
 libs    IN    CNAME cameria
 omnix   IN    CNAME cameria
