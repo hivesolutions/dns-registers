@@ -72,5 +72,6 @@ print   IN    CNAME cameria
 *       IN    CNAME proxy
 
 ; spf validation fields
-bemisc.com.   IN    TXT   "v=spf1 a mx a:node4  -all"
+bemisc.com.   IN    TXT   "v=spf1 a mx a:node4 -all"
+webook.pt.    IN    TXT   "v=spf1 a mx a:node4 -all"
         IN    SPF   "v=spf1 a mx a:node4 -all"
