@@ -49,7 +49,7 @@ webook.pt.    IN    SOA    ns1.webook.pt.    hostmaster.webook.pt. (
         IN    NS    ns2.bemisc.com.
 
 ; domain names
-mail    IN    CNAME node4.bemisc.com
+mail    IN    CNAME node4.bemisc.com.
 *       IN    A     146.185.158.169
 
 ; spf validation fields
