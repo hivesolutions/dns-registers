@@ -64,8 +64,6 @@ admin   IN    CNAME node3
 proxy   IN    CNAME node3
 repo    IN    CNAME node3
 sandbox IN    CNAME node3
-mail    IN    CNAME node4
-smtp    IN    CNAME node4
 libs    IN    CNAME cameria
 omnix   IN    CNAME cameria
 crossline     IN    CNAME cameria
