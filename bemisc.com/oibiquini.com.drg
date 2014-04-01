@@ -24,7 +24,7 @@
 $TTL 1h
 
 ; domain general parameters
-bemisc.com.    IN    SOA    ns1.bemisc.com.    hostmaster.bemisc.com. (
+oibiquini.com.    IN    SOA    ns1.oibiquini.com.    hostmaster.oibiquini.com. (
             1          ; serial number
             1h         ; refresh time
             10m        ; transfer retry time
@@ -33,44 +33,11 @@ bemisc.com.    IN    SOA    ns1.bemisc.com.    hostmaster.bemisc.com. (
 )
 
 ; domain main address
-        IN    A     37.139.10.84
+        IN    A     204.93.213.45
 
 ; domain name servers
         IN    NS    ns1.bemisc.com.
         IN    NS    ns2.bemisc.com.
-        IN    NS    ns3.bemisc.com.
-
-; bemisc.com grid nodes
-node1   IN    A     37.139.10.84
-node2   IN    A     192.241.148.12
-node3   IN    A     146.185.138.218
-node4   IN    A     144.76.43.179
 
 ; domain names
-misc    IN    A     37.139.2.116
-db      IN    A     146.185.147.105
-cameria IN    A     146.185.147.110
-consulting    IN    A     146.185.158.169
-amiranda      IN    A     146.185.180.196
-hive    IN    A     95.85.19.64
-ns1     IN    A     37.139.10.84
-ns2     IN    A     192.241.148.12
-ns3     IN    A     146.185.138.218
-
-; domain alias
-www     IN    CNAME node1
-smtp    IN    CNAME node3
-mail    IN    CNAME node3
-admin   IN    CNAME node3
-proxy   IN    CNAME node3
-repo    IN    CNAME node3
-sandbox IN    CNAME node3
-libs    IN    CNAME cameria
-omnix   IN    CNAME cameria
-crossline     IN    CNAME cameria
-print   IN    CNAME cameria
-*       IN    CNAME proxy
-
-; spf validation fields
-bemisc.com.   IN    TXT   "v=spf1 a mx a:node4.bemisc.com -all"
-        IN    SPF   "v=spf1 a mx a:node4.bemisc.com -all"
+*       IN    A     204.93.213.45
