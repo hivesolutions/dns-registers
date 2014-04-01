@@ -41,3 +41,7 @@ oibiquini.com.    IN    SOA    ns1.oibiquini.com.    hostmaster.oibiquini.com. (
 
 ; domain names
 *       IN    A     204.93.213.45
+
+; validation parameters
+oibiquini.com.    IN    TXT   "google-site-verification=WVDGKWoavt_XPj8U6S1sKpUavOWrDXsMmxiwg8oerzU"
+*    IN    TXT   "google-site-verification=WVDGKWoavt_XPj8U6S1sKpUavOWrDXsMmxiwg8oerzU"
