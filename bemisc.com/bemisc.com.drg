@@ -68,6 +68,7 @@ sandbox IN    CNAME node3
 libs    IN    CNAME cameria
 omnix   IN    CNAME cameria
 crossline     IN    CNAME cameria
+campaigner    IN    CNAME cameria
 print   IN    CNAME cameria
 *       IN    CNAME proxy
 
