@@ -54,8 +54,8 @@ mail    IN    A     144.76.43.179
 *       IN    A     146.185.158.169
 
 ; spf validation fields
-webook.pt.    IN    TXT   "v=spf1 a mx include:bemisc.com include:spf.mtasv.net -all"
-        IN    SPF   "v=spf1 a mx include:bemisc.com include:spf.mtasv.net -all"
+webook.pt.    IN    TXT   "v=spf1 a mx include:bemisc.com include:spf.mtasv.net include:_spf.google.com ~all"
+        IN    SPF   "v=spf1 a mx include:bemisc.com include:spf.mtasv.net include:_spf.google.com ~all"
 
 ; dkim validation fields
 20140326153705.pm._domainkey.webook.pt.    IN    TXT    "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC6EcdQ2UM5b7s85EvRN9NhCcnlVlK342yVCvaaViKh3kHdv8H++OOpE7Z+I9Lp3IFKTey9qSz8R3crbNn7Oo90L8N69BmTopYrg8zYeOeXTtrw1/YmZVEoxCUNzrYeNYCaMs85YeFBBn/XkwfHGbPulikDlB9Df0AhkYdIK+bOkwIDAQAB"
