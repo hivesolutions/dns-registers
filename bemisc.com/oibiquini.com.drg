@@ -53,8 +53,8 @@ passatempo    IN    A     146.185.147.110
 *       IN    A     204.93.213.45
 
 ; spf validation fields
-oibiquini.com.      IN    TXT   "v=spf1 a mx include:bemisc.com include:spf.mtasv.net include:_spf.google.com ~all"
-        IN    SPF   "v=spf1 a mx include:bemisc.com include:spf.mtasv.net include:_spf.google.com ~all"
+oibiquini.com.      IN    TXT   "v=spf1 a mx include:bemisc.com include:_spf.google.com ~all"
+        IN    SPF   "v=spf1 a mx include:bemisc.com include:_spf.google.com ~all"
 
 ; dkim validation fields
 20140426102345._domainkey.oibiquini.com. IN TXT "k=rsa; p=MIGeMA0GCSqGSIb3DQEBAQUAA4GMADCBiAKBgKM7ZxQSmcMMustM2eCpHN7ULOJsVBUa/QIBRS6OOp0TFDeNM+pKjSo87zrYm+cbpv0Dg+JVGzdNIcV4aZhkjAJ3SXu3HopOVVpt3BRAzx6tzWBmPZxW1i1hvhyi/jiTD4mc4iU1lp+QVD10foGDqnFnq//bZz98Vmg0RdhnIC0dAgMBAAE="
