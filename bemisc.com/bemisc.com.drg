@@ -71,6 +71,7 @@ crossline     IN    CNAME cameria
 campaigner    IN    CNAME cameria
 shopdesk      IN    CNAME cameria
 print   IN    CNAME cameria
+proyectos     IN    CNAME consulting
 *       IN    CNAME proxy
 
 ; spf validation fields
