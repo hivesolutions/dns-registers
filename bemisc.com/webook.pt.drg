@@ -49,7 +49,7 @@ webook.pt.    IN    SOA    ns1.webook.pt.    hostmaster.webook.pt. (
         IN    NS    ns2.bemisc.com.
 
 ; domain alias
-blog    IN    CNAME ghs.googlehosted.com.
+blog    IN    CNAME webookporto.wordpress.com.
 
 ; domain names
 smtp    IN    A     144.76.43.179
