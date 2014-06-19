@@ -67,6 +67,7 @@ repo    IN    CNAME node3
 sandbox IN    CNAME node3
 libs    IN    CNAME cameria
 omnix   IN    CNAME cameria
+colony  IN    CNAME cameria
 crossline     IN    CNAME cameria
 campaigner    IN    CNAME cameria
 shopdesk      IN    CNAME cameria
