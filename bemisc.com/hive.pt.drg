@@ -73,4 +73,5 @@ test    IN    A     62.48.210.62
 
 ; wildcard redirection
 *.stage IN    A     62.48.210.62
+*.private     IN    A     62.48.210.62
 *       IN    A     146.185.158.169
