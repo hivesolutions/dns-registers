@@ -63,20 +63,9 @@ $TTL 1h
 43.0.16.172.in-addr.arpa.  IN    PTR    rasp4.hive.
 44.0.16.172.in-addr.arpa.  IN    PTR    rasp3.hive.
 
-51.0.16.172.in-addr.arpa.  IN    PTR    sandbox1.hive.
-52.0.16.172.in-addr.arpa.  IN    PTR    sandbox2.hive.
-53.0.16.172.in-addr.arpa.  IN    PTR    sandbox3.hive.
-54.0.16.172.in-addr.arpa.  IN    PTR    sandbox4.hive.
-55.0.16.172.in-addr.arpa.  IN    PTR    sandbox5.hive.
-56.0.16.172.in-addr.arpa.  IN    PTR    sandbox6.hive.
-57.0.16.172.in-addr.arpa.  IN    PTR    sandbox7.hive.
-58.0.16.172.in-addr.arpa.  IN    PTR    sandbox8.hive.
-59.0.16.172.in-addr.arpa.  IN    PTR    sandbox9.hive.
-60.0.16.172.in-addr.arpa.  IN    PTR    sandbox10.hive.
-61.0.16.172.in-addr.arpa.  IN    PTR    sandbox11.hive.
-62.0.16.172.in-addr.arpa.  IN    PTR    sandbox12.hive.
-63.0.16.172.in-addr.arpa.  IN    PTR    sandbox13.hive.
-64.0.16.172.in-addr.arpa.  IN    PTR    sandbox14.hive.
+51.0.16.172.in-addr.arpa.  IN    PTR    ubuntu.hive.
+52.0.16.172.in-addr.arpa.  IN    PTR    freebsd9.hive.
+53.0.16.172.in-addr.arpa.  IN    PTR    gentoo.hive.
 
 71.0.16.172.in-addr.arpa.  IN    PTR    hole1.hive.
 72.0.16.172.in-addr.arpa.  IN    PTR    hole2.hive.

@@ -68,21 +68,9 @@ rasp2         IN    A     172.16.0.42
 rasp3         IN    A     172.16.0.43
 rasp4         IN    A     172.16.0.44
 
-sandbox1      IN    A     172.16.0.51
-sandbox2      IN    A     172.16.0.52
-sandbox3      IN    A     172.16.0.53
-sandbox4      IN    A     172.16.0.54
-sandbox5      IN    A     172.16.0.55
-sandbox6      IN    A     172.16.0.56
-sandbox7      IN    A     172.16.0.57
-sandbox8      IN    A     172.16.0.58
-sandbox9      IN    A     172.16.0.59
-sandbox10     IN    A     172.16.0.60
-sandbox11     IN    A     172.16.0.61
-sandbox12     IN    A     172.16.0.62
-sandbox13     IN    A     172.16.0.63
-sandbox14     IN    A     172.16.0.64
-sandbox15     IN    A     172.16.0.65
+ubuntu        IN    A     172.16.0.51
+freebsd9      IN    A     172.16.0.52
+gentoo        IN    A     172.16.0.53
 
 hole1         IN    A     172.16.0.71
 hole2         IN    A     172.16.0.72
