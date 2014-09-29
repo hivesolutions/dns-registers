@@ -45,8 +45,10 @@ joaomagalhaes.eu.    IN    SOA    ns1.joaomagalhaes.eu.    hostmaster.joaomagalh
         IN    MX    30    ASPMX5.GOOGLEMAIL.COM.
 
 ; domain name servers
-        IN    NS    ns1.bemisc.com.
-        IN    NS    ns2.bemisc.com.
+#        IN    NS    ns1.bemisc.com.
+#        IN    NS    ns2.bemisc.com.
+        IN    NS    isla.ns.cloudflare.com
+        IN    NS    max.ns.cloudflare.com
 
 ; domain names
 www     IN    A     184.73.237.244
