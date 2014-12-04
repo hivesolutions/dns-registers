@@ -49,5 +49,5 @@ ns1     IN    A     172.16.0.11
 ns2     IN    A     172.16.0.12
 
 ; domain alias
-nas     IN    CNAME nas1.hive.
-router  IN    CNAME router1.hive.
+nas     IN    CNAME nas1.home.
+router  IN    CNAME router1.home.
