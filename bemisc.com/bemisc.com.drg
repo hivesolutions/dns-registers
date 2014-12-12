@@ -49,6 +49,7 @@ node4   IN    A     144.76.43.179
 ; domain names
 misc    IN    A     37.139.2.116
 db      IN    A     146.185.147.105
+dbs     IN    A     37.139.11.218
 cameria IN    A     146.185.147.110
 consulting    IN    A     146.185.158.169
 amiranda      IN    A     146.185.180.196
