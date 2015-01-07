@@ -53,6 +53,7 @@ dbs     IN    A     37.139.11.218
 cameria IN    A     146.185.147.110
 consulting    IN    A     146.185.158.169
 amiranda      IN    A     146.185.180.196
+internal      IN    A     146.185.180.162
 hive    IN    A     95.85.19.64
 ns1     IN    A     37.139.10.84
 ns2     IN    A     192.241.148.12

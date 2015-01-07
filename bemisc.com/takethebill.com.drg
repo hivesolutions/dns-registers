@@ -49,5 +49,8 @@ takethebill.com.    IN    SOA    ns1.takethebill.com. hostmaster.takethebill.com
         IN    NS    ns2.bemisc.com.
 
 ; domain names
-www     IN    A    37.139.10.84
+www     IN    A     37.139.10.84
 amiranda      IN    A    146.185.180.196
+
+; alias names
+hive    IN    CNAME internal.bemisc.com.
