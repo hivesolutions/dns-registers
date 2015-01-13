@@ -45,6 +45,7 @@ node1   IN    A     37.139.10.84
 node2   IN    A     192.241.148.12
 node3   IN    A     146.185.138.218
 node4   IN    A     144.76.43.179
+node5   IN    A     5.9.158.46
 
 ; domain names
 misc    IN    A     37.139.2.116
