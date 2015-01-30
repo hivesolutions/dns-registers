@@ -86,7 +86,6 @@ ldap    IN    CNAME servidor1
 nfs     IN    CNAME servidor1
 
 tools   IN    CNAME servidor2
-files   IN    CNAME servidor2
 board   IN    CNAME servidor2
 maven   IN    CNAME servidor2
 trac    IN    CNAME servidor2
@@ -104,6 +103,9 @@ db      IN    CNAME servidor4
 dbs     IN    CNAME servidor5
 stage   IN    CNAME servidor5
 staging IN    CNAME servidor5
+
+nas     IN    CNAME nas1
+files   IN    CNAME nas1
 
 ; domain alias
 agata   IN    CNAME servidor1
