@@ -53,6 +53,7 @@ servidor2     IN    A     172.16.0.12
 servidor3     IN    A     172.16.0.13
 servidor4     IN    A     172.16.0.14
 servidor5     IN    A     172.16.0.15
+servidor6     IN    A     172.16.0.16
 
 joamag  IN    A     172.16.0.21
 lmartinho     IN    A     172.16.0.22

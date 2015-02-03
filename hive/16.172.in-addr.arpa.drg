@@ -48,6 +48,7 @@ $TTL 1h
 13.0.16.172.in-addr.arpa.  IN    PTR    servidor3.hive.
 14.0.16.172.in-addr.arpa.  IN    PTR    servidor4.hive.
 15.0.16.172.in-addr.arpa.  IN    PTR    servidor5.hive.
+16.0.16.172.in-addr.arpa.  IN    PTR    servidor6.hive.
 
 21.0.16.172.in-addr.arpa.  IN    PTR    joamag.hive.
 22.0.16.172.in-addr.arpa.  IN    PTR    lmartinho.hive.
@@ -60,8 +61,8 @@ $TTL 1h
 
 41.0.16.172.in-addr.arpa.  IN    PTR    rasp1.hive.
 42.0.16.172.in-addr.arpa.  IN    PTR    rasp2.hive.
-43.0.16.172.in-addr.arpa.  IN    PTR    rasp4.hive.
-44.0.16.172.in-addr.arpa.  IN    PTR    rasp3.hive.
+43.0.16.172.in-addr.arpa.  IN    PTR    rasp3.hive.
+44.0.16.172.in-addr.arpa.  IN    PTR    rasp4.hive.
 
 51.0.16.172.in-addr.arpa.  IN    PTR    ubuntu.hive.
 52.0.16.172.in-addr.arpa.  IN    PTR    freebsd9.hive.
