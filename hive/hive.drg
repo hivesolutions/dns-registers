@@ -105,6 +105,8 @@ dbs     IN    CNAME servidor5
 stage   IN    CNAME servidor5
 staging IN    CNAME servidor5
 
+armor   in    CNAME nlima
+
 nas     IN    CNAME nas1
 files   IN    CNAME nas1
 
