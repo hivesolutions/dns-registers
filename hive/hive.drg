@@ -108,6 +108,8 @@ staging IN    CNAME servidor5
 nas     IN    CNAME nas1
 files   IN    CNAME nas1
 
+armor   IN    CNAME rasp4
+
 ; domain alias
 agata   IN    CNAME servidor1
 emanuel IN    CNAME servidor2
