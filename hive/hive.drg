@@ -47,6 +47,7 @@ impressora1   IN    A     172.16.0.3
 router-front  IN    A     172.16.0.4
 router-middle IN    A     172.16.0.5
 router-back   IN    A     172.16.0.6
+impressora2   IN    A     172.16.0.7
 
 servidor1     IN    A     172.16.0.11
 servidor2     IN    A     172.16.0.12
