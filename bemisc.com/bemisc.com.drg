@@ -75,7 +75,7 @@ colony  IN    CNAME cameria
 crossline     IN    CNAME haproxy
 campaigner    IN    CNAME haproxy
 shopdesk      IN    CNAME cameria
-instashow     IN    CNAME cameria
+instashow     IN    CNAME haproxy
 print   IN    CNAME cameria
 proyectos     IN    CNAME consulting
 *       IN    CNAME proxy
