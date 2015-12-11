@@ -33,7 +33,7 @@ hive.pt.    IN    SOA    ns1.hive.pt.    hostmaster.hive.pt. (
 )
 
 ; domain main address
-        IN    CNAME haproxy.bemisc.com.
+        IN    A     37.139.10.84
 
 ; google apps email
         IN    MX    10    ASPMX.L.GOOGLE.COM.
