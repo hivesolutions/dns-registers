@@ -51,12 +51,7 @@ hive.pt.    IN    SOA    ns1.hive.pt.    hostmaster.hive.pt. (
 ; domain alias
 www     IN    CNAME haproxy.bemisc.com.
 blog    IN    CNAME haproxy.bemisc.com.
-forum   IN    CNAME haproxy.bemisc.com.
 docs    IN    CNAME haproxy.bemisc.com.
-joomla  IN    CNAME haproxy.bemisc.com.
-reviewboard   IN    CNAME haproxy.bemisc.com.
-reviews IN    CNAME haproxy.bemisc.com.
-prototype     IN    CNAME haproxy.bemisc.com.
 openid  IN    CNAME haproxy.bemisc.com.
 
 ; headquarters domain names
