@@ -69,7 +69,7 @@ admin   IN    CNAME node3
 proxy   IN    CNAME node3
 repo    IN    CNAME node3
 sandbox IN    CNAME node3
-libs    IN    CNAME cameria
+libs    IN    CNAME haproxy
 omnix   IN    CNAME haproxy
 colony  IN    CNAME cameria
 crossline     IN    CNAME haproxy
