@@ -33,7 +33,7 @@ hive.pt.    IN    SOA    ns1.hive.pt.    hostmaster.hive.pt. (
 )
 
 ; domain main address
-        IN    A     37.139.10.84
+        IN    A     128.199.58.6
 
 ; google apps email
         IN    MX    10    ASPMX.L.GOOGLE.COM.
