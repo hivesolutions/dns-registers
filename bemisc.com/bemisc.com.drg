@@ -60,6 +60,8 @@ ns2     IN    A     159.203.136.32
 ns3     IN    A     188.166.90.197
 
 ; domain alias
+haproxy IN    CNAME haproxy-60f4927f.hivesolutions.svc.tutum.io.
+
 www     IN    CNAME node1
 smtp    IN    CNAME node3
 mail    IN    CNAME node3
@@ -68,9 +70,9 @@ proxy   IN    CNAME node3
 repo    IN    CNAME node3
 sandbox IN    CNAME node3
 libs    IN    CNAME cameria
-omnix   IN    CNAME cameria
+omnix   IN    CNAME haproxy
 colony  IN    CNAME cameria
-crossline     IN    CNAME cameria
+crossline     IN    CNAME haproxy
 campaigner    IN    CNAME cameria
 shopdesk      IN    CNAME cameria
 instashow     IN    CNAME cameria
