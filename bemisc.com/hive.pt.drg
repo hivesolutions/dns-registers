@@ -33,7 +33,7 @@ hive.pt.    IN    SOA    ns1.hive.pt.    hostmaster.hive.pt. (
 )
 
 ; domain main address
-        IN    A     37.139.10.84
+        IN    CNAME haproxy.bemisc.com.
 
 ; google apps email
         IN    MX    10    ASPMX.L.GOOGLE.COM.
@@ -48,22 +48,16 @@ hive.pt.    IN    SOA    ns1.hive.pt.    hostmaster.hive.pt. (
         IN    NS    ns1.bemisc.com.
         IN    NS    ns2.bemisc.com.
 
-; domain names
-www     IN    A     37.139.10.84
-mail    IN    A     37.139.10.84
-svn     IN    A     82.102.4.142
-repo    IN    A     82.102.4.142
-hg      IN    A     37.139.10.84
-trac    IN    A     37.139.10.84
-continuum     IN    A     37.139.10.84
-blog    IN    A     37.139.10.84
-forum   IN    A     37.139.10.84
-docs    IN    A     37.139.10.84
-joomla  IN    A     37.139.10.84
-reviewboard   IN    A     37.139.10.84
-reviews IN    A     37.139.10.84
-prototype     IN    A     37.139.10.84
-openid  IN    A     37.139.10.84
+; domain alias
+www     IN    CNAME haproxy.bemisc.com.
+blog    IN    CNAME haproxy.bemisc.com.
+forum   IN    CNAME haproxy.bemisc.com.
+docs    IN    CNAME haproxy.bemisc.com.
+joomla  IN    CNAME haproxy.bemisc.com.
+reviewboard   IN    CNAME haproxy.bemisc.com.
+reviews IN    CNAME haproxy.bemisc.com.
+prototype     IN    CNAME haproxy.bemisc.com.
+openid  IN    CNAME haproxy.bemisc.com.
 
 ; headquarters domain names
 hq      IN    A     62.48.210.62
@@ -74,4 +68,4 @@ test    IN    A     62.48.210.62
 ; wildcard redirection
 *.stage IN    A     62.48.210.62
 *.private     IN    A     62.48.210.62
-*       IN    A     146.185.158.169
+*       IN    CNAME haproxy.bemisc.com.
