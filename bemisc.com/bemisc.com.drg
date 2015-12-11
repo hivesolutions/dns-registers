@@ -78,7 +78,7 @@ shopdesk      IN    CNAME cameria
 instashow     IN    CNAME haproxy
 print   IN    CNAME cameria
 proyectos     IN    CNAME consulting
-*       IN    CNAME proxy
+*       IN    CNAME haproxy
 
 ; spf validation fields
 bemisc.com.   IN    TXT   "v=spf1 a mx a:node5.bemisc.com a:consulting.bemisc.com include:_spf.google.com ~all"
