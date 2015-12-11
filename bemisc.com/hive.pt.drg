@@ -56,11 +56,11 @@ openid  IN    CNAME haproxy.bemisc.com.
 
 ; headquarters domain names
 hq      IN    A     62.48.210.62
-vpn     IN    A     62.48.210.62
-sede    IN    A     62.48.210.62
-test    IN    A     62.48.210.62
+vpn     IN    CNAME hq
+sede    IN    CNAME hq
+test    IN    CNAME hq
 
 ; wildcard redirection
-*.stage IN    A     62.48.210.62
-*.private     IN    A     62.48.210.62
+*.stage IN    CNAME hq
+*.private     IN    CNAME hq
 *       IN    CNAME haproxy.bemisc.com.
