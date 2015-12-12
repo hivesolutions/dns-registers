@@ -50,7 +50,6 @@ node5   IN    A     5.9.158.46
 misc    IN    A     37.139.2.116
 db      IN    A     146.185.147.105
 dbs     IN    A     37.139.11.218
-cameria IN    A     146.185.147.110
 consulting    IN    A     146.185.158.169
 amiranda      IN    A     146.185.180.196
 internal      IN    A     146.185.180.162
@@ -76,6 +75,7 @@ libs    IN    CNAME haproxy
 omnix   IN    CNAME haproxy
 repos   IN    CNAME haproxy
 colony  IN    CNAME haproxy
+cameria IN    CNAME haproxy
 crossline     IN    CNAME haproxy
 campaigner    IN    CNAME haproxy
 shopdesk      IN    CNAME haproxy
