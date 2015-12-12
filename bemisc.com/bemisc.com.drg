@@ -60,8 +60,8 @@ ns2     IN    A     159.203.136.32
 ns3     IN    A     188.166.90.197
 
 ; proxy values
-#haproxy IN    CNAME haproxy-60f4927f.hivesolutions.svc.tutum.io.
-#haproxy IN    CNAME haproxy-60f4927f-1.hivesolutions.cont.tutum.io.
+;haproxy IN    CNAME haproxy-60f4927f.hivesolutions.svc.tutum.io.
+;haproxy IN    CNAME haproxy-60f4927f-1.hivesolutions.cont.tutum.io.
 haproxy IN    A     128.199.58.6
 
 ; domain alias
