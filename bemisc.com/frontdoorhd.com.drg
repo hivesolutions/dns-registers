@@ -53,4 +53,4 @@ amiranda      IN    A     146.185.180.196
 
 ; alias names
 ldj     IN    CNAME node5.bemisc.com.
-hive    IN    CNAME internal.bemisc.com.
+hive    IN    CNAME haproxy.bemisc.com.
