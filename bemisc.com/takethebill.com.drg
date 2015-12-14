@@ -53,4 +53,4 @@ www     IN    A     37.139.10.84
 amiranda      IN    A    146.185.180.196
 
 ; alias names
-hive    IN    CNAME internal.bemisc.com.
+hive    IN    CNAME haproxy.bemisc.com.
