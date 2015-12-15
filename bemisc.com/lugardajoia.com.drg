@@ -32,7 +32,7 @@ lugardajoia.com.    IN    SOA    ns1.lugardajoia.com.    hostmaster.lugardajoia.
             1h         ; negative cache time
 )
 ; domain main address
-        IN     A     146.185.147.110
+        IN     A    128.199.58.6
 
 ; google apps email
         IN    MX    10    ASPMX.L.GOOGLE.COM.
@@ -48,6 +48,8 @@ lugardajoia.com.    IN    SOA    ns1.lugardajoia.com.    hostmaster.lugardajoia.
         IN    NS    ns2.bemisc.com.
 
 ; domain names
-www     IN    A     146.185.147.110
-sede    IN    A     62.48.210.70
 hq      IN    A     62.48.210.70
+
+; domain alias
+www     IN    CNAME haproxy.bemisc.com.
+sede    IN    CNAME hq

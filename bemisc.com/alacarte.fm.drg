@@ -33,7 +33,7 @@ alacarte.fm.    IN    SOA    ns1.alacarte.fm.    hostmaster.alacarte.fm. (
 )
 
 ; domain main address
-        IN    A     37.139.10.84
+        IN    A     128.199.58.6
 
 ; google apps email
         IN    MX    10    ASPMX.L.GOOGLE.COM.
@@ -48,5 +48,5 @@ alacarte.fm.    IN    SOA    ns1.alacarte.fm.    hostmaster.alacarte.fm. (
         IN    NS    ns1.bemisc.com.
         IN    NS    ns2.bemisc.com.
 
-; domain names
-www     IN    A     37.139.10.84
+; domain alias
+www     IN    CNAME haproxy.bemisc.com.
