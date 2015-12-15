@@ -46,6 +46,9 @@ node2   IN    A     192.241.148.12
 node3   IN    A     146.185.138.218
 node5   IN    A     5.9.158.46
 
+ams-proxy-1   IN    A     128.199.58.6
+ams-pushi-1   IN    A     188.166.108.233
+
 ; domain names
 misc    IN    A     37.139.2.116
 db      IN    A     146.185.147.105
@@ -58,11 +61,9 @@ ns1     IN    A     188.166.53.73
 ns2     IN    A     159.203.136.32
 ns3     IN    A     188.166.90.197
 
-; proxy values
-;haproxy IN    CNAME haproxy-60f4927f.hivesolutions.svc.tutum.io.
-;haproxy IN    CNAME haproxy-60f4927f-1.hivesolutions.cont.tutum.io.
-haproxy IN    A     128.199.58.6
-puxiapp IN    A     188.166.108.233
+; feature alias
+haproxy IN    CNAME ams-proxy-1
+pushi   IN    CNAME ams-pushi-1
 
 ; domain alias
 www     IN    CNAME node1
