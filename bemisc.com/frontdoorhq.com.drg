@@ -33,7 +33,7 @@ frontdoorhq.com.    IN    SOA    ns1.frontdoorhq.com.    hostmaster.frontdoorhq.
 )
 
 ; domain main address
-        IN    A     188.138.86.82
+        IN    A     128.199.58.6
 
 ; google apps email
         IN    MX    10    ASPMX.L.GOOGLE.COM.
@@ -48,5 +48,5 @@ frontdoorhq.com.    IN    SOA    ns1.frontdoorhq.com.    hostmaster.frontdoorhq.
         IN    NS    ns1.bemisc.com.
         IN    NS    ns2.bemisc.com.
 
-; domain names
-*       IN    A     188.138.86.82
+; domain alias
+*       IN    CNAME haproxy.bemisc.com.

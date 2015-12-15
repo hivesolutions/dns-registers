@@ -48,5 +48,5 @@ first-day.pt.    IN    SOA    ns1.first-day.pt.    hostmaster.first-day.pt. (
         IN    NS    ns1.bemisc.com.
         IN    NS    ns2.bemisc.com.
 
-; domain names
-www     IN    A     46.252.201.1
+; domain alias
+www     IN    CNAME first-day.pt.
