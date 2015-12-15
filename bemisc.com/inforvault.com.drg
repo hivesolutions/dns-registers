@@ -33,13 +33,13 @@ inforvault.com.    IN    SOA    ns1.inforvault.com.    hostmaster.inforvault.com
 )
 
 ; domain main address
-        IN    A     37.139.10.84
+        IN    A     128.199.58.6
 
 ; domain name servers
         IN    NS    ns1.bemisc.com.
         IN    NS    ns2.bemisc.com.
 
-; domain names
-www     IN    A     37.139.10.84
-horde   IN    A     37.139.10.84
-blog    IN    A     37.139.10.84
+; domain alias
+www     IN    CNAME haproxy.bemisc.com.
+horde   IN    CNAME haproxy.bemisc.com.
+blog    IN    CNAME haproxy.bemisc.com.

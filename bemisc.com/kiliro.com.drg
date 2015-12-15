@@ -33,14 +33,11 @@ kiliro.com.    IN    SOA    ns1.kiliro.com.    hostmaster.kiliro.com. (
 )
 
 ; domain main address
-        IN    A     82.102.4.142
+        IN    A     128.199.58.6
 
 ; domain name servers
         IN    NS    ns1.bemisc.com.
         IN    NS    ns2.bemisc.com.
 
-; kiliro.com grid nodes
-node1   IN    A     82.102.4.142
-
-; domain names
-www     IN    A     82.102.4.142
+; domain alias
+www     IN    CNAME haproxy.bemisc.com.

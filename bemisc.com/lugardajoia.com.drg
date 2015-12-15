@@ -31,6 +31,7 @@ lugardajoia.com.    IN    SOA    ns1.lugardajoia.com.    hostmaster.lugardajoia.
             1d         ; expiry time
             1h         ; negative cache time
 )
+
 ; domain main address
         IN     A    128.199.58.6
 

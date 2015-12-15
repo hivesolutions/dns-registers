@@ -49,5 +49,8 @@ joaomagalhaes.eu.    IN    SOA    ns1.joaomagalhaes.eu.    hostmaster.joaomagalh
         IN    NS    ns2.bemisc.com.
 
 ; domain names
-www     IN    A     184.73.237.244
-blog    IN    A     85.17.132.225
+flavors IN    A     184.73.237.244
+
+; domain alias
+www     IN    CNAME flavors
+blog    IN    CNAME haproxy.bemisc.com.
