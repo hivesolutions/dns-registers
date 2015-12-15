@@ -62,6 +62,7 @@ ns3     IN    A     188.166.90.197
 ;haproxy IN    CNAME haproxy-60f4927f.hivesolutions.svc.tutum.io.
 ;haproxy IN    CNAME haproxy-60f4927f-1.hivesolutions.cont.tutum.io.
 haproxy IN    A     128.199.58.6
+puxiapp IN    A     188.166.108.233
 
 ; domain alias
 www     IN    CNAME node1
