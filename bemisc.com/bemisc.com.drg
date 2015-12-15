@@ -48,6 +48,7 @@ node5   IN    A     5.9.158.46
 
 ams-proxy-1   IN    A     128.199.58.6
 ams-pushi-1   IN    A     188.166.108.233
+ams-mail-1    IN    A     178.62.213.21
 
 ; domain names
 misc    IN    A     37.139.2.116
