@@ -33,7 +33,7 @@ webook.pt.    IN    SOA    ns1.webook.pt.    hostmaster.webook.pt. (
 )
 
 ; domain main address
-        IN    A     146.185.158.169
+        IN    A     128.199.58.6
 
 ; google apps email
         IN    MX    10    ASPMX.L.GOOGLE.COM.
@@ -50,11 +50,7 @@ webook.pt.    IN    SOA    ns1.webook.pt.    hostmaster.webook.pt. (
 
 ; domain alias
 blog    IN    CNAME webookporto.wordpress.com.
-
-; domain names
-smtp    IN    A     144.76.43.179
-mail    IN    A     144.76.43.179
-*       IN    A     146.185.158.169
+*       IN    CNAME haproxy.bemisc.com.
 
 ; spf validation fields
 webook.pt.    IN    TXT   "v=spf1 a mx include:bemisc.com include:_spf.google.com ~all"
