@@ -33,15 +33,11 @@ startomni.com.    IN    SOA    ns1.startomni.com.    hostmaster.startomni.com. (
 )
 
 ; domain main address
-        IN    A     85.25.176.55
+        IN    A     128.199.58.6
 
 ; domain name servers
         IN    NS    ns1.bemisc.com.
         IN    NS    ns2.bemisc.com.
 
-; startomni.com grid nodes
-node1   IN    A     85.25.176.55
-node2   IN    A     188.138.86.82
-
 ; domain alias
-db1     IN    CNAME node1
+www     IN    CNAME haproxy.bemisc.com.

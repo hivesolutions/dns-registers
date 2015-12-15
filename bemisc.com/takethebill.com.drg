@@ -33,7 +33,7 @@ takethebill.com.    IN    SOA    ns1.takethebill.com. hostmaster.takethebill.com
 )
 
 ; domain main address
-        IN    A     37.139.10.84
+        IN    A     128.199.58.6
 
 ; google apps email
         IN    MX    10    ASPMX.L.GOOGLE.COM.
@@ -49,8 +49,8 @@ takethebill.com.    IN    SOA    ns1.takethebill.com. hostmaster.takethebill.com
         IN    NS    ns2.bemisc.com.
 
 ; domain names
-www     IN    A     37.139.10.84
 amiranda      IN    A    146.185.180.196
 
-; alias names
+; domain alias
+www     IN    CNAME haproxy.bemisc.com.
 hive    IN    CNAME haproxy.bemisc.com.

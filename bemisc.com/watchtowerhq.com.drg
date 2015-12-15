@@ -33,11 +33,11 @@ watchtowerhq.com.    IN    SOA    ns1.watchtowerhq.com.    hostmaster.watchtower
 )
 
 ; domain main address
-        IN    A     188.138.86.82
+        IN    A     128.199.58.6
 
 ; domain name servers
         IN    NS    ns1.bemisc.com.
         IN    NS    ns2.bemisc.com.
 
-; domain names
-*       IN    A     188.138.86.82
+; domain alias
+*       IN    CNAME haproxy.bemisc.com.

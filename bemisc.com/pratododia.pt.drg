@@ -33,11 +33,11 @@ pratododia.pt.    IN    SOA    ns1.pratododia.pt.    hostmaster.pratododia.pt. (
 )
 
 ; domain main address
-        IN    A     37.139.10.84
+        IN    A     128.199.58.6
 
 ; domain name servers
         IN    NS    ns1.bemisc.com.
         IN    NS    ns2.bemisc.com.
 
-; domain names
-www     IN    A     37.139.10.84
+; domain alias
+www     IN    CNAME haproxy.bemisc.com.

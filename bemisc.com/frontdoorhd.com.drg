@@ -51,6 +51,6 @@ frontdoorhd.com.    IN    SOA    ns1.frontdoorhd.com.    hostmaster.frontdoorhd.
 ; domain names
 amiranda      IN    A     146.185.180.196
 
-; alias names
+; domain alias
 ldj     IN    CNAME node5.bemisc.com.
 hive    IN    CNAME haproxy.bemisc.com.
