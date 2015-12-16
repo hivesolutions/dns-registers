@@ -48,9 +48,7 @@ takethebill.com.    IN    SOA    ns1.takethebill.com. hostmaster.takethebill.com
         IN    NS    ns1.bemisc.com.
         IN    NS    ns2.bemisc.com.
 
-; domain names
-amiranda      IN    A    146.185.180.196
-
 ; domain alias
 www     IN    CNAME haproxy.bemisc.com.
 hive    IN    CNAME haproxy.bemisc.com.
+amiranda      IN    CNAME haproxy.bemisc.com.
