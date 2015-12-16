@@ -65,6 +65,7 @@ ns3     IN    A     188.166.90.197
 
 ; feature alias
 haproxy IN    CNAME ams-proxy-1
+data    IN    CNAME ams-data-1
 pushi   IN    CNAME ams-pushi-1
 smtp    IN    CNAME ams-mail-1
 
