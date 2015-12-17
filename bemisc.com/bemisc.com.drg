@@ -77,6 +77,7 @@ repos   IN    CNAME haproxy
 colony  IN    CNAME haproxy
 cameria IN    CNAME haproxy
 metrium IN    CNAME haproxy
+internus      IN    CNAME haproxy
 crossline     IN    CNAME haproxy
 campaigner    IN    CNAME haproxy
 shopdesk      IN    CNAME haproxy
