@@ -46,6 +46,7 @@ node2   IN    A     192.241.148.12
 node3   IN    A     146.185.138.218
 node5   IN    A     5.9.158.46
 
+ams-db-1      IN    A     128.199.36.238
 ams-proxy-1   IN    A     128.199.58.6
 ams-data-1    IN    A     188.166.4.156
 ams-pushi-1   IN    A     188.166.108.233
