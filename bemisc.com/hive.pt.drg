@@ -59,6 +59,7 @@ hq      IN    A     62.48.210.62
 vpn     IN    CNAME hq
 sede    IN    CNAME hq
 test    IN    CNAME hq
+archive IN    CNAME hq
 
 ; wildcard redirection
 *.stage IN    CNAME hq
