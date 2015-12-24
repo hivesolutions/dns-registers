@@ -41,9 +41,6 @@ bemisc.com.    IN    SOA    ns1.bemisc.com.    hostmaster.bemisc.com. (
         IN    NS    ns3.bemisc.com.
 
 ; bemisc.com grid nodes
-node1   IN    A     37.139.10.84
-node2   IN    A     192.241.148.12
-node3   IN    A     146.185.138.218
 node5   IN    A     5.9.158.46
 
 ams-db-1      IN    A     128.199.36.238
@@ -53,13 +50,6 @@ ams-pushi-1   IN    A     188.166.108.233
 ams-mail-1    IN    A     178.62.213.21
 
 ; domain names
-misc    IN    A     37.139.2.116
-db      IN    A     146.185.147.105
-dbs     IN    A     37.139.11.218
-consulting    IN    A     146.185.158.169
-amiranda      IN    A     146.185.180.196
-internal      IN    A     146.185.180.162
-hive    IN    A     95.85.19.64
 ns1     IN    A     188.166.53.73
 ns2     IN    A     159.203.136.32
 ns3     IN    A     188.166.90.197
