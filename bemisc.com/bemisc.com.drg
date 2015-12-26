@@ -48,6 +48,7 @@ ams-proxy-1   IN    A     128.199.58.6
 ams-data-1    IN    A     188.166.4.156
 ams-pushi-1   IN    A     188.166.108.233
 ams-mail-1    IN    A     178.62.213.21
+het-logic-1   IN    A     5.9.158.46
 
 ; domain names
 ns1     IN    A     188.166.53.73
