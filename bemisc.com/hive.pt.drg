@@ -60,6 +60,7 @@ vpn     IN    CNAME hq
 sede    IN    CNAME hq
 test    IN    CNAME hq
 archive IN    CNAME hq
+mirrors IN    CNAME hq
 
 ; wildcard redirection
 *.stage IN    CNAME hq

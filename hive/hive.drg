@@ -71,10 +71,6 @@ rasp2         IN    A     172.16.0.42
 rasp3         IN    A     172.16.0.43
 rasp4         IN    A     172.16.0.44
 
-ubuntu        IN    A     172.16.0.51
-freebsd9      IN    A     172.16.0.52
-gentoo        IN    A     172.16.0.53
-
 hole1         IN    A     172.16.0.71
 hole2         IN    A     172.16.0.72
 
@@ -89,12 +85,8 @@ ldap    IN    CNAME servidor1
 nfs     IN    CNAME servidor1
 
 tools   IN    CNAME servidor2
-board   IN    CNAME servidor2
-maven   IN    CNAME servidor2
-trac    IN    CNAME servidor2
 wiki    IN    CNAME servidor2
 repo    IN    CNAME servidor2
-svn     IN    CNAME servidor2
 vpn     IN    CNAME servidor2
 lib     IN    CNAME servidor2
 api     IN    CNAME servidor2
@@ -106,6 +98,10 @@ db      IN    CNAME servidor4
 dbs     IN    CNAME servidor5
 stage   IN    CNAME servidor5
 staging IN    CNAME servidor5
+
+hq      IN    CNAME servidor6
+archive IN    CNAME servidor6
+mirrors IN    CNAME servidor6
 
 nas     IN    CNAME nas1
 files   IN    CNAME nas1
