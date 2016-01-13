@@ -71,6 +71,8 @@ rasp2         IN    A     172.16.0.42
 rasp3         IN    A     172.16.0.43
 rasp4         IN    A     172.16.0.44
 
+joamag-mob    IN    A     172.16.0.61
+
 hole1         IN    A     172.16.0.71
 hole2         IN    A     172.16.0.72
 
