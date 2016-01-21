@@ -33,7 +33,7 @@ joaomagalhaes.eu.    IN    SOA    ns1.joaomagalhaes.eu.    hostmaster.joaomagalh
 )
 
 ; domain main address
-        IN    A     184.73.237.244
+        IN    A     128.199.58.6
 
 ; google apps email
         IN    MX    10    ASPMX.L.GOOGLE.COM.
@@ -48,9 +48,6 @@ joaomagalhaes.eu.    IN    SOA    ns1.joaomagalhaes.eu.    hostmaster.joaomagalh
         IN    NS    ns1.bemisc.com.
         IN    NS    ns2.bemisc.com.
 
-; domain names
-flavors IN    A     184.73.237.244
-
 ; domain alias
-www     IN    CNAME flavors
+www     IN    CNAME haproxy.bemisc.com.
 blog    IN    CNAME haproxy.bemisc.com.
