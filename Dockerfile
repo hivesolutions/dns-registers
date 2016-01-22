@@ -11,4 +11,4 @@ RUN apt-get update && apt-get install -y -q bind9
 RUN echo "include \"/etc/bind/dns_registers/configuration/bemisc.com.conf\";" >> /etc/bind/named.conf
 RUN echo "include \"/etc/bind/dns_registers/configuration/hive.conf\";" >> /etc/bind/named.conf
 
-CMD /usr/sbin/named; sleep infinity
+CMD ["/usr/sbin/named", "-g"]
