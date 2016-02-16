@@ -3,6 +3,7 @@ MAINTAINER Hive Solutions
 
 EXPOSE 53/udp
 
+ADD bind /etc/bind
 ADD bemisc.com /etc/bind/dns_registers/bemisc.com
 ADD configuration /etc/bind/dns_registers/configuration
 ADD hive /etc/bind/dns_registers/hive
