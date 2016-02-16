@@ -1,4 +1,4 @@
-FROM hivesolutions/alpine:latest
+FROM ubuntu:latest
 MAINTAINER Hive Solutions
 
 EXPOSE 53/udp
@@ -7,9 +7,7 @@ ADD bemisc.com /etc/bind/dns_registers/bemisc.com
 ADD configuration /etc/bind/dns_registers/configuration
 ADD hive /etc/bind/dns_registers/hive
 
-RUN apk update && apk add bind
-RUN cp -p /etc/bind/named.conf.authoritative /etc/bind/named.conf
-RUN sed -i 's/listen-on { 127.0.0.1; };/listen-on { 0.0.0.0; };/g' /etc/bind/named.conf
+RUN apt-get update && apt-get install -y -q bind9
 RUN echo "include \"/etc/bind/dns_registers/configuration/bemisc.com.conf\";" >> /etc/bind/named.conf
 RUN echo "include \"/etc/bind/dns_registers/configuration/hive.conf\";" >> /etc/bind/named.conf
 
