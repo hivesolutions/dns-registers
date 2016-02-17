@@ -51,13 +51,10 @@ frontdoorhd.com.    IN    SOA    ns1.frontdoorhd.com.    hostmaster.frontdoorhd.
 ; domain alias
 ldj     IN    CNAME node5.bemisc.com.
 *.ldj   IN    CNAME node5.bemisc.com.
-certldj IN    CNAME node5.bemisc.com.
 passldj IN    CNAME node5.bemisc.com.
 hive    IN    CNAME haproxy.bemisc.com.
 *.hive  IN    CNAME haproxy.bemisc.com.
-certhive      IN    CNAME haproxy.bemisc.com.
 passive       IN    CNAME haproxy.bemisc.com.
 amiranda      IN    CNAME haproxy.bemisc.com.
 *.amiranda    IN    CNAME haproxy.bemisc.com.
-certamiranda  IN    CNAME haproxy.bemisc.com.
 passamiranda  IN    CNAME haproxy.bemisc.com.

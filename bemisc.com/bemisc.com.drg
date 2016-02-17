@@ -42,6 +42,7 @@ bemisc.com.    IN    SOA    ns1.bemisc.com.    hostmaster.bemisc.com. (
 
 ; bemisc.com grid nodes
 node5   IN    A     5.9.158.46
+node5   IN    AAAA  2a01:4f8:190:5137::2
 
 ams-logic-1   IN    A     178.62.246.67
 ams-logic-2   IN    A     188.166.103.165
@@ -51,7 +52,6 @@ ams-data-1    IN    A     188.166.4.156
 ams-pushi-1   IN    A     188.166.108.233
 ams-mail-1    IN    A     178.62.213.21
 het-logic-1   IN    A     5.9.158.46
-
 ams-proxy-1   IN    AAAA  2a03:b0c0:2:d0::a5:3001
 
 ; domain names
