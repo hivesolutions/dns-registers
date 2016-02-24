@@ -1,0 +1,59 @@
+; Hive Infrastructure
+; Copyright (c) 2008-2016 Hive Solutions Lda.
+;
+; This file is part of Hive Infrastructure.
+;
+; Hive Infrastructure is confidential and property of Hive Solutions Lda.,
+; its usage is constrained by the terms of the Hive Solutions
+; Confidential Usage License.
+;
+; Hive Infrastructure should not be distributed under any circumstances,
+; violation of this may imply legal action.
+;
+; If you have any questions regarding the terms of this license please
+; refer to <http://www.hive.pt/licenses/>.
+
+; __author__    = João Magalhães <joamag@hive.pt>
+; __version__   = 1.0.0
+; __revision__  = $LastChangedRevision$
+; __date__      = $LastChangedDate$
+; __copyright__ = Copyright (c) 2008-2016 Hive Solutions Lda.
+; __license__   = Hive Solutions Confidential Usage License (HSCUL)
+
+; domain global parameters
+$TTL 1h
+
+; domain general parameters
+hiveinc.pt.    IN    SOA    ns1.hiveinc.co.    hostmaster.hiveinc.co. (
+            1          ; serial number
+            1h         ; refresh time
+            10m        ; transfer retry time
+            1d         ; expiry time
+            1h         ; negative cache time
+)
+
+; domain main address
+        IN    A     128.199.58.6
+
+; domain name servers
+        IN    NS    ns1.bemisc.com.
+        IN    NS    ns2.bemisc.com.
+
+; domain alias
+www     IN    CNAME haproxy.bemisc.com.
+blog    IN    CNAME haproxy.bemisc.com.
+docs    IN    CNAME haproxy.bemisc.com.
+openid  IN    CNAME haproxy.bemisc.com.
+
+; headquarters domain names
+hq      IN    A     62.48.210.62
+vpn     IN    CNAME hq
+sede    IN    CNAME hq
+test    IN    CNAME hq
+archive IN    CNAME hq
+mirrors IN    CNAME hq
+
+; wildcard redirection
+*.stage IN    CNAME hq
+*.private     IN    CNAME hq
+*       IN    CNAME haproxy.bemisc.com.
