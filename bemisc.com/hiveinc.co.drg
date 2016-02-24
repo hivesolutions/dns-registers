@@ -24,7 +24,7 @@
 $TTL 1h
 
 ; domain general parameters
-hiveinc.pt.    IN    SOA    ns1.hiveinc.co.    hostmaster.hiveinc.co. (
+hiveinc.co.    IN    SOA    ns1.hiveinc.co.    hostmaster.hiveinc.co. (
             1          ; serial number
             1h         ; refresh time
             10m        ; transfer retry time
