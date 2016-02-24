@@ -57,3 +57,5 @@ mirrors IN    CNAME hq
 *.stage IN    CNAME hq
 *.private     IN    CNAME hq
 *       IN    CNAME haproxy.bemisc.com.
+
+hiveinc.co. IN TXT google-site-verification=m9Ql6tOwc_MMbz0Gu0Y7paGsLkVHJMj-F-dRZPEM8ZU
