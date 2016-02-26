@@ -93,8 +93,6 @@ vpn     IN    CNAME servidor2
 lib     IN    CNAME servidor2
 api     IN    CNAME servidor2
 
-dash    IN    CNAME servidor3
-
 db      IN    CNAME servidor4
 
 dbs     IN    CNAME servidor5
@@ -104,6 +102,7 @@ staging IN    CNAME servidor5
 hq      IN    CNAME servidor6
 archive IN    CNAME servidor6
 mirrors IN    CNAME servidor6
+redis   IN    CNAME servidor6
 
 nas     IN    CNAME nas1
 files   IN    CNAME nas1
@@ -116,6 +115,4 @@ emanuel IN    CNAME servidor2
 barreiros     IN    CNAME servidor3
 toy     IN    CNAME servidor4
 carreira      IN    CNAME servidor5
-
-; service alias
-media_dashboard     IN    CNAME servidor3
+cristina      IN    CNAME servidor6
