@@ -81,17 +81,7 @@ ns2     IN    A     172.16.0.12
 ns3     IN    A     172.16.0.41
 
 ; services
-www     IN    CNAME servidor1
-mail    IN    CNAME servidor1
-ldap    IN    CNAME servidor1
-nfs     IN    CNAME servidor1
-
-tools   IN    CNAME servidor2
-wiki    IN    CNAME servidor2
-repo    IN    CNAME servidor2
-vpn     IN    CNAME servidor2
-lib     IN    CNAME servidor2
-api     IN    CNAME servidor2
+dhcp    IN    CNAME servidor1
 
 db      IN    CNAME servidor4
 
