@@ -93,6 +93,7 @@ hq      IN    CNAME servidor6
 archive IN    CNAME servidor6
 mirrors IN    CNAME servidor6
 redis   IN    CNAME servidor6
+rabbit  IN    CNAME servidor6
 
 nas     IN    CNAME nas1
 files   IN    CNAME nas1
