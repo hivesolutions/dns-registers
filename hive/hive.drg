@@ -76,7 +76,9 @@ joamag-mob    IN    A     172.16.0.61
 hole1         IN    A     172.16.0.71
 hole2         IN    A     172.16.0.72
 
-ns1     IN    A     172.16.0.16
+ns1     IN    A     172.16.0.11
+ns2     IN    A     172.16.0.12
+ns3     IN    A     172.16.0.16
 
 ; services
 dhcp    IN    CNAME servidor1
