@@ -36,17 +36,15 @@ home.    IN    SOA    ns1.home.    hostmaster.home. (
         IN    A     172.16.0.11
 
 ; domain name servers
-        IN    NS    ns1.home.
-        IN    NS    ns2.home.
+        IN    NS    ns1.hive.
+        IN    NS    ns2.hive.
+        IN    NS    ns3.hive.
 
 ; domain names
 nas1    IN    A     192.168.1.11
 rasp1   IN    A     192.168.1.21
 rasp2   IN    A     192.168.1.22
 router1 IN    A     192.168.1.254
-
-ns1     IN    A     172.16.0.11
-ns2     IN    A     172.16.0.12
 
 ; domain alias
 nas     IN    CNAME nas1.home.
