@@ -24,7 +24,7 @@
 $TTL 1h
 
 ; domain general parameters
-@    IN    SOA    @    rname.invalid. (
+16.172.in-addr.arpa.drg.    IN    SOA    ns1.16.172.in-addr.arpa.drg.    rname.invalid. (
             2000021660 ; serial number
             1d         ; refresh time
             7200       ; transfer retry time (seconds)
@@ -33,7 +33,9 @@ $TTL 1h
 )
 
 ; domain name servers
-        IN    NS    @
+        IN    NS    ns1.hive.
+        IN    NS    ns2.hive.
+        IN    NS    ns3.hive.
 
 ; domain names
 1.0.16.172.in-addr.arpa.   IN    PTR    router.hive.
