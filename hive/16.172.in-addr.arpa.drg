@@ -24,7 +24,7 @@
 $TTL 1h
 
 ; domain general parameters
-16.172.in-addr.arpa.drg.    IN    SOA    ns1.16.172.in-addr.arpa.drg.    rname.invalid. (
+@    IN    SOA    @    rname.invalid. (
             2000021660 ; serial number
             1d         ; refresh time
             7200       ; transfer retry time (seconds)
