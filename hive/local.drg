@@ -36,9 +36,6 @@ local.    IN    SOA    ns1.local.    hostmaster.local. (
         IN    A     172.16.0.11
 
 ; domain name servers
-        IN    NS    ns1.local.
-        IN    NS    ns2.local.
-
-; domain names
-ns1     IN    A     172.16.0.11
-ns2     IN    A     172.16.0.11
+        IN    NS    ns1.hive.
+        IN    NS    ns2.hive.
+        IN    NS    ns3.hive.
