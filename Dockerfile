@@ -12,5 +12,6 @@ RUN apk update && apk add bind
 RUN ln -s /etc/bind/dns_registers/configuration/named.conf /etc/bind/named.conf
 RUN echo "include \"/etc/bind/dns_registers/configuration/bemisc.com.conf\";" >> /etc/bind/named.conf
 RUN echo "include \"/etc/bind/dns_registers/configuration/hive.conf\";" >> /etc/bind/named.conf
+RUN echo "include \"/etc/bind/dns_registers/configuration/root.conf\";" >> /etc/bind/named.conf
 
 CMD ["/usr/sbin/named", "-g"]
