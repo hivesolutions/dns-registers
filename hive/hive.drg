@@ -80,10 +80,10 @@ hole3   IN    A     172.16.0.73
 
 seed    IN    A     172.16.1.1
 
-ns1     IN    CNAME servidor1
-ns2     IN    CNAME servidor2
-ns3     IN    CNAME servidor6
-ns4     IN    CNAME seed
+ns1     IN    A     172.16.0.11
+ns2     IN    A     172.16.0.12
+ns3     IN    A     172.16.0.16
+ns4     IN    A     172.16.1.1
 
 ; services
 dhcp    IN    CNAME servidor1
