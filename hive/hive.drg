@@ -39,6 +39,7 @@ hive.    IN    SOA    ns1.hive.    hostmaster.hive. (
         IN    NS    ns1.hive.
         IN    NS    ns2.hive.
         IN    NS    ns3.hive.
+        IN    NS    ns4.hive.
 
 ; domain names
 router  IN    A     172.16.0.1
@@ -64,21 +65,25 @@ tsilva  IN    A     172.16.0.24
 srio    IN    A     172.16.0.25
 johndoe IN    A     172.16.0.26
 
-nas1          IN    A     172.16.0.31
+nas1    IN    A     172.16.0.31
 
-rasp1         IN    A     172.16.0.41
-rasp2         IN    A     172.16.0.42
-rasp3         IN    A     172.16.0.43
-rasp4         IN    A     172.16.0.44
+rasp1   IN    A     172.16.0.41
+rasp2   IN    A     172.16.0.42
+rasp3   IN    A     172.16.0.43
+rasp4   IN    A     172.16.0.44
 
 joamag-mob    IN    A     172.16.0.61
 
-hole1         IN    A     172.16.0.71
-hole2         IN    A     172.16.0.72
+hole1   IN    A     172.16.0.71
+hole2   IN    A     172.16.0.72
+hole3   IN    A     172.16.0.73
 
-ns1     IN    A     172.16.0.11
-ns2     IN    A     172.16.0.12
-ns3     IN    A     172.16.0.16
+seed    IN    A     172.16.1.1
+
+ns1     IN    CNAME servidor1
+ns2     IN    CNAME servidor2
+ns3     IN    CNAME servidor6
+ns4     IN    CNAME seed
 
 ; services
 dhcp    IN    CNAME servidor1
