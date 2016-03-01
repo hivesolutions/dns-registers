@@ -59,7 +59,7 @@ het-logic-1   IN    A     5.9.158.46
 
 ; domain names
 ns1     IN    CNAME ams-ns-1
-ns2     IN    CNAME ams-ns-1
+ns2     IN    CNAME ams-ns-2
 ns3     IN    CNAME ny-ns-1
 
 ; feature alias
