@@ -86,8 +86,6 @@ ns3     IN    A     172.16.0.16
 ns4     IN    A     172.16.1.1
 
 ; services
-dhcp    IN    CNAME servidor1
-
 db      IN    CNAME servidor4
 
 dbs     IN    CNAME servidor5
@@ -105,6 +103,8 @@ nas     IN    CNAME nas1
 files   IN    CNAME nas1
 
 armor   IN    CNAME rasp4
+
+dhcp    IN    CNAME seed
 
 ; domain alias
 agata   IN    CNAME servidor1
