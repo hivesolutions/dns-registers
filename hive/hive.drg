@@ -82,22 +82,21 @@ seed    IN    A     172.16.1.1
 
 ns1     IN    A     172.16.0.11
 ns2     IN    A     172.16.0.12
-ns3     IN    A     172.16.0.16
+ns3     IN    A     172.16.0.14
 ns4     IN    A     172.16.1.1
 
 ; services
+stage   IN    CNAME servidor3
+staging IN    CNAME servidor3
+
 db      IN    CNAME servidor4
-
-stage   IN    CNAME servidor5
-staging IN    CNAME servidor5
-
-hq      IN    CNAME servidor6
-dns     IN    CNAME servidor6
-dbs     IN    CNAME servidor6
-archive IN    CNAME servidor6
-mirrors IN    CNAME servidor6
-redis   IN    CNAME servidor6
-rabbit  IN    CNAME servidor6
+hq      IN    CNAME servidor4
+dns     IN    CNAME servidor4
+dbs     IN    CNAME servidor4
+archive IN    CNAME servidor4
+mirrors IN    CNAME servidor4
+redis   IN    CNAME servidor4
+rabbit  IN    CNAME servidor4
 
 nas     IN    CNAME nas1
 files   IN    CNAME nas1
