@@ -50,6 +50,7 @@ router-middle IN    A     172.16.0.5
 router-back   IN    A     172.16.0.6
 impressora2   IN    A     172.16.0.7
 wifi          IN    A     172.16.0.8
+balancer      IN    A     172.16.0.9
 
 servidor1     IN    A     172.16.0.11
 servidor2     IN    A     172.16.0.12
