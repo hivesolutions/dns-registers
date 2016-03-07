@@ -38,15 +38,15 @@ $TTL 1h
         IN    NS    ns3.hive.
 
 ; domain names
-1.0.16.172.in-addr.arpa.   IN    PTR    router.hive.
+1.0.16.172.in-addr.arpa.   IN    PTR    balancer.hive.
 2.0.16.172.in-addr.arpa.   IN    PTR    switch.hive.
 3.0.16.172.in-addr.arpa.   IN    PTR    impressora1.hive.
 4.0.16.172.in-addr.arpa.   IN    PTR    router-front.hive.
 5.0.16.172.in-addr.arpa.   IN    PTR    router-middle.hive.
-6.0.16.172.in-addr.arpa.   IN    PTR    router-back.hive.
+6.0.16.172.in-addr.arpa.   IN    PTR    router-fiber.hive.
 7.0.16.172.in-addr.arpa.   IN    PTR    impressora2.hive.
 8.0.16.172.in-addr.arpa.   IN    PTR    wifi.hive.
-9.0.16.172.in-addr.arpa.   IN    PTR    balancer.hive.
+9.0.16.172.in-addr.arpa.   IN    PTR    router-adsl.hive.
 
 11.0.16.172.in-addr.arpa.  IN    PTR    servidor1.hive.
 12.0.16.172.in-addr.arpa.  IN    PTR    servidor2.hive.

@@ -42,15 +42,15 @@ hive.    IN    SOA    ns1.hive.    hostmaster.hive. (
         IN    NS    ns4.hive.
 
 ; domain names
-router  IN    A     172.16.0.1
+balancer      IN    A     172.16.0.1
 switch  IN    A     172.16.0.2
 impressora1   IN    A     172.16.0.3
 router-front  IN    A     172.16.0.4
 router-middle IN    A     172.16.0.5
-router-back   IN    A     172.16.0.6
+router-fiber  IN    A     172.16.0.6
 impressora2   IN    A     172.16.0.7
 wifi          IN    A     172.16.0.8
-balancer      IN    A     172.16.0.9
+router-adsl   IN    A     172.16.0.9
 
 servidor1     IN    A     172.16.0.11
 servidor2     IN    A     172.16.0.12
