@@ -87,6 +87,8 @@ ns3     IN    A     172.16.0.14
 ns4     IN    A     172.16.1.1
 
 ; services
+gateway IN    CNAME balancer
+
 stage   IN    CNAME servidor3
 staging IN    CNAME servidor3
 
