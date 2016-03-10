@@ -73,6 +73,7 @@ mail    IN    CNAME smtp
 libs    IN    CNAME haproxy
 omnix   IN    CNAME haproxy
 repos   IN    CNAME haproxy
+print   IN    CNAME haproxy
 colony  IN    CNAME haproxy
 cameria IN    CNAME haproxy
 metrium IN    CNAME haproxy
@@ -82,7 +83,6 @@ crossline     IN    CNAME haproxy
 campaigner    IN    CNAME haproxy
 shopdesk      IN    CNAME haproxy
 instashow     IN    CNAME haproxy
-print   IN    CNAME haproxy
 proyectos     IN    CNAME haproxy
 *       IN    CNAME haproxy
 
