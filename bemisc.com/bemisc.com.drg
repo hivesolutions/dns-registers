@@ -93,3 +93,4 @@ mailme  IN    SPF   "v=spf1 a mx a:ams-mail-1.bemisc.com include:_spf.google.com
 
 ; dkim validation fields
 20151228172536._domainkey.bemisc.com. IN TXT "k=rsa; p=MIGeMA0GCSqGSIb3DQEBAQUAA4GMADCBiAKBgKJdzttELwRhDjsttCKAMMwevn/9RL3ueXpNjM8SC7zrCXEoCE8bUAo6Z3bCd3RfIUEH1smImbNnUepQ/x8jumWhynj9gVoGNvUzMHWylrJ0N2b0EtXd07CPMknZNUNL5X5FWcyAGRC/aB7af4MdJOrC6+76vCbomcgc+6C0qoYrAgMBAAE="
+20160310111254._domainkey.mailme.bemisc.com. IN TXT "k=rsa; p=MIGeMA0GCSqGSIb3DQEBAQUAA4GMADCBiAKBgNPQfGtRA275QqXITW28hO4rDwcsXt/e32iZtMoYIQmRetZkIsB+zNUL+WY88E4Bw6CWGjUa7HBgvOBDrHAgT3OSgaZCrbNNBt7Y9uiH7km3MDQSO7dyWdmXIeMs2NiYfLuCqpNy5W69rBxGn6UZ6TpmDrJpLM8r6WMBz/mHKhWJAgMBAAE="
