@@ -88,7 +88,6 @@ proyectos     IN    CNAME haproxy
 
 ; spf validation fields
 bemisc.com.   IN    TXT   "v=spf1 a mx a:ams-mail-1.bemisc.com include:_spf.google.com ~all"
-mailme.bemisc.com.  IN    TXT   "v=spf1 a mx a:ams-mail-1.bemisc.com include:_spf.google.com ~all"
         IN    SPF   "v=spf1 a mx a:ams-mail-1.bemisc.com include:_spf.google.com ~all"
 
 ; dkim validation fields
