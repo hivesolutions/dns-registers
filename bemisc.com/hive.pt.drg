@@ -55,7 +55,10 @@ docs    IN    CNAME haproxy.bemisc.com.
 openid  IN    CNAME haproxy.bemisc.com.
 
 ; headquarters domain names
-hq      IN    A     62.48.210.62
+hq-pt   IN    A     62.48.210.62
+hq-vodafone   IN    A     94.60.12.77
+
+hq      IN    CNAME hq-vodafone
 vpn     IN    CNAME hq
 sede    IN    CNAME hq
 test    IN    CNAME hq
