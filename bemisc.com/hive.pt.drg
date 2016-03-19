@@ -65,6 +65,9 @@ test    IN    CNAME hq
 archive IN    CNAME hq
 mirrors IN    CNAME hq
 
+vpn-pt  IN    CNAME hq-pt
+vpn-vodafone  IN    CNAME hq-vodafone
+
 ; wildcard redirection
 *.stage IN    CNAME hq
 *.private     IN    CNAME hq
