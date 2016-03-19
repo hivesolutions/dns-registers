@@ -47,7 +47,7 @@ $TTL 1h
 7.0.16.172.in-addr.arpa.   IN    PTR    impressora2.hive.
 8.0.16.172.in-addr.arpa.   IN    PTR    wifi.hive.
 9.0.16.172.in-addr.arpa.   IN    PTR    router-adsl.hive.
-10.0.16.172.in-addr.arpa.  IN   PTR   router-extra.hive.
+10.0.16.172.in-addr.arpa.  IN    PTR    router-extra.hive.
 
 11.0.16.172.in-addr.arpa.  IN    PTR    servidor1.hive.
 12.0.16.172.in-addr.arpa.  IN    PTR    servidor2.hive.
