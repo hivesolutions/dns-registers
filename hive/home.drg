@@ -47,5 +47,6 @@ rasp2   IN    A     192.168.1.22
 router1 IN    A     192.168.1.254
 
 ; domain alias
-nas     IN    CNAME nas1.home.
-router  IN    CNAME router1.home.
+nas     IN    CNAME nas1
+router  IN    CNAME router1
+files   IN    CNAME nas
