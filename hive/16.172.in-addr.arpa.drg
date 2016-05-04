@@ -70,9 +70,7 @@ $TTL 1h
 43.0.16.172.in-addr.arpa.  IN    PTR    rasp3.hive.
 44.0.16.172.in-addr.arpa.  IN    PTR    rasp4.hive.
 
-51.0.16.172.in-addr.arpa.  IN    PTR    ubuntu.hive.
-52.0.16.172.in-addr.arpa.  IN    PTR    freebsd9.hive.
-53.0.16.172.in-addr.arpa.  IN    PTR    gentoo.hive.
+51.0.16.172.in-addr.arpa.  IN    PTR    router-mega.hive.
 
 61.0.16.172.in-addr.arpa.  IN    PTR    joamag-mob.hive.
 
