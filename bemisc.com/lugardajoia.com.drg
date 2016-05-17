@@ -53,6 +53,8 @@ hq      IN    A     62.48.210.70
 
 ; domain alias
 www     IN    CNAME haproxy.bemisc.com.
+budy    IN    CNAME node5.bemisc.com.
+ustore  IN    CNAME node5.bemisc.com.
 sede    IN    CNAME hq
 
 ; spf validation fields
