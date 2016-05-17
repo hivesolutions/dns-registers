@@ -41,7 +41,9 @@ bemisc.com.    IN    SOA    ns1.bemisc.com.    hostmaster.bemisc.com. (
         IN    NS    ns3.bemisc.com.
 
 ; bemisc.com grid nodes
+node4   IN    A     138.201.62.42
 node5   IN    A     5.9.158.46
+node4   IN    AAAA  2a01:4f8:172:171e::2
 node5   IN    AAAA  2a01:4f8:190:5137::2
 
 ams-logic-1   IN    A     178.62.246.67
