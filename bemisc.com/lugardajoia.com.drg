@@ -57,6 +57,7 @@ budy    IN    CNAME node4.bemisc.com.
 ustore  IN    CNAME node4.bemisc.com.
 mongo   IN    CNAME node4.bemisc.com.
 redis   IN    CNAME node4.bemisc.com.
+omnix   IN    CNAME node4.bemisc.com.
 sede    IN    CNAME hq
 
 ; spf validation fields
