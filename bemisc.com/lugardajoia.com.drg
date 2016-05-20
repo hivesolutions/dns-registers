@@ -65,4 +65,4 @@ lugardajoia.com.    IN    TXT   "v=spf1 a:ams-mail-1.bemisc.com include:_spf.goo
         IN    SPF   "v=spf1 a:ams-mail-1.bemisc.com include:_spf.google.com ~all"
 
 ; dkim validation fields
-20160520100439._domainkey.lugardajoia.com. IN TXT "k=rsa; p=MIGeMA0GCSqGSIb3DQEBAQUAA4GMADCBiAKBgKe2t/OFRA3lWEpDIHb2CrLdscrU1Y4W38fB56Yw2FwZ7qN3M1hLKTiI1BLEryM8cswREMshE7NpGQ5c/FsUZpnS+zP4c8k5YdL7vz6/gApWR/G5ZKxWNnsqJD98HtIeoh3T2VojEbmPqwLbpGJyLvFxGFTsTBNyZIxQwUdF/MNVAgMBAAE="
+20160520103508._domainkey.lugardajoia.com. IN TXT "k=rsa; p=MIGeMA0GCSqGSIb3DQEBAQUAA4GMADCBiAKBgLxr2mznTxo+H3s8Fz52FK7RBlYJ+QYVYMExbvfcev5/bxfWRIgrPcARDO4Iz4TO1sIveYH+E0klDkr8RhooP2SJm+SLOUbLAFqj8u35a6w6xU/Xg7GdQhtpHiF0DXAP5pwStcZ8ydArkpuW34h5vmatfzDTPil4BWMDB/wigBHxAgMBAAE="
