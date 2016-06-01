@@ -91,6 +91,7 @@ proyectos     IN    CNAME haproxy
 ; tutum legacy
 tutum-redis   CNAME ams-db-1
 tutum-mongo   CNAME ams-db-1
+tutum-mongodb CNAME ams-db-1
 tutum-mariadb CNAME ams-db-1
 tutum-rabbitmq      CNAME ams-db-1
 
