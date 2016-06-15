@@ -66,6 +66,7 @@ nlima   IN    A     172.16.0.23
 tsilva  IN    A     172.16.0.24
 srio    IN    A     172.16.0.25
 johndoe IN    A     172.16.0.26
+gcandal IN    A     172.16.0.27
 
 nas1    IN    A     172.16.0.31
 
