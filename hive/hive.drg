@@ -105,6 +105,7 @@ mysql   IN    CNAME servidor4
 maria   IN    CNAME servidor4
 redis   IN    CNAME servidor4
 mongo   IN    CNAME servidor4
+proxy   IN    CNAME servidor4
 rabbit  IN    CNAME servidor4
 archive IN    CNAME servidor4
 mirrors IN    CNAME servidor4
@@ -123,3 +124,6 @@ barreiros     IN    CNAME servidor3
 toy     IN    CNAME servidor4
 carreira      IN    CNAME servidor5
 cristina      IN    CNAME servidor6
+
+; wildcard redirection
+*.stage IN    CNAME proxy
