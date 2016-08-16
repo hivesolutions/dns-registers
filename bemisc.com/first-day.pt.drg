@@ -36,13 +36,11 @@ first-day.pt.    IN    SOA    ns1.first-day.pt.    hostmaster.first-day.pt. (
         IN    A     46.252.201.1
 
 ; google apps email
-        IN    MX    10    ASPMX.L.GOOGLE.COM.
-        IN    MX    20    ALT1.ASPMX.L.GOOGLE.COM.
-        IN    MX    20    ALT2.ASPMX.L.GOOGLE.COM.
-        IN    MX    30    ASPMX2.GOOGLEMAIL.COM.
-        IN    MX    30    ASPMX3.GOOGLEMAIL.COM.
-        IN    MX    30    ASPMX4.GOOGLEMAIL.COM.
-        IN    MX    30    ASPMX5.GOOGLEMAIL.COM.
+        IN    MX    1     ASPMX.L.GOOGLE.COM.
+        IN    MX    5     ALT1.ASPMX.L.GOOGLE.COM.
+        IN    MX    5     ALT2.ASPMX.L.GOOGLE.COM.
+        IN    MX    10    ALT3.ASPMX.L.GOOGLE.COM.
+        IN    MX    10    ALT4.ASPMX.L.GOOGLE.COM.
 
 ; domain name servers
         IN    NS    ns1.bemisc.com.

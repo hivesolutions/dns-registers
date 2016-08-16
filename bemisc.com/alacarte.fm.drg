@@ -36,13 +36,11 @@ alacarte.fm.    IN    SOA    ns1.alacarte.fm.    hostmaster.alacarte.fm. (
         IN    A     128.199.58.6
 
 ; google apps email
-        IN    MX    10    ASPMX.L.GOOGLE.COM.
-        IN    MX    20    ALT1.ASPMX.L.GOOGLE.COM.
-        IN    MX    20    ALT2.ASPMX.L.GOOGLE.COM.
-        IN    MX    30    ASPMX2.GOOGLEMAIL.COM.
-        IN    MX    30    ASPMX3.GOOGLEMAIL.COM.
-        IN    MX    30    ASPMX4.GOOGLEMAIL.COM.
-        IN    MX    30    ASPMX5.GOOGLEMAIL.COM.
+        IN    MX    1     ASPMX.L.GOOGLE.COM.
+        IN    MX    5     ALT1.ASPMX.L.GOOGLE.COM.
+        IN    MX    5     ALT2.ASPMX.L.GOOGLE.COM.
+        IN    MX    10    ALT3.ASPMX.L.GOOGLE.COM.
+        IN    MX    10    ALT4.ASPMX.L.GOOGLE.COM.
 
 ; domain name servers
         IN    NS    ns1.bemisc.com.
