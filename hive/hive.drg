@@ -109,6 +109,7 @@ proxy   IN    CNAME servidor4
 rabbit  IN    CNAME servidor4
 archive IN    CNAME servidor4
 mirrors IN    CNAME servidor4
+rancher IN    CNAME servidor4
 
 nas     IN    CNAME nas1
 files   IN    CNAME nas1
