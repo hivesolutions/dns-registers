@@ -62,6 +62,9 @@ het-logic-2   IN    A     138.201.62.42
 
 fr-rancher-1  IN    A     139.59.129.152
 
+fr-logic-1    IN    A     5.9.158.46
+fr-logic-2    IN    A     138.201.62.42
+
 ; domain names
 ns1     IN    A     188.166.53.73
 ns2     IN    A     159.203.136.32
