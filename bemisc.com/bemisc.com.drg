@@ -74,6 +74,7 @@ ns2     IN    A     159.203.136.32
 ns3     IN    A     188.166.90.197
 
 ; feature alias
+proxy   IN    CNAME fr-logic-2
 haproxy IN    CNAME ams-proxy-1
 data    IN    CNAME ams-data-1
 pushi   IN    CNAME ams-pushi-1
