@@ -101,6 +101,7 @@ proyectos     IN    CNAME haproxy
 hello-appier  IN    CNAME proxy
 rabbitmq      IN    CNAME proxy
 budy-ldj      IN    CNAME proxy
+colony_print  IN    CNAME proxy
 *       IN    CNAME haproxy
 
 ; tutum legacy
