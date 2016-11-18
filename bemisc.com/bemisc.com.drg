@@ -90,7 +90,7 @@ colony  IN    CNAME haproxy
 cameria IN    CNAME haproxy
 metrium IN    CNAME haproxy
 mailme  IN    CNAME haproxy
-omnix   IN    CNAME proxy
+omnix   IN    CNAME haproxy
 internus      IN    CNAME haproxy
 crossline     IN    CNAME haproxy
 campaigner    IN    CNAME haproxy
