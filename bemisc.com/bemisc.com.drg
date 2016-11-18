@@ -98,6 +98,7 @@ shopdesk      IN    CNAME haproxy
 instashow     IN    CNAME haproxy
 proyectos     IN    CNAME haproxy
 hello-appier  IN    CNAME proxy
+rabbitmq      IN    CNAME proxy
 *       IN    CNAME haproxy
 
 ; tutum legacy
