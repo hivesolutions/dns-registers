@@ -50,12 +50,12 @@ lugardajoia.com.    IN    SOA    ns1.lugardajoia.com.    hostmaster.lugardajoia.
 hq      IN    A     62.48.210.70
 
 ; domain alias
-www     IN    CNAME node4.bemisc.com.
-budy    IN    CNAME node4.bemisc.com.
-ustore  IN    CNAME node4.bemisc.com.
-mongo   IN    CNAME node4.bemisc.com.
-redis   IN    CNAME node4.bemisc.com.
-omnix   IN    CNAME node4.bemisc.com.
+www     IN    CNAME proxy.bemisc.com.
+budy    IN    CNAME proxy.bemisc.com.
+ustore  IN    CNAME proxy.bemisc.com.
+mongo   IN    CNAME proxy.bemisc.com.
+redis   IN    CNAME proxy.bemisc.com.
+omnix   IN    CNAME proxy.bemisc.com.
 sede    IN    CNAME hq
 
 ; spf validation fields
