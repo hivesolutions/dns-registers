@@ -98,6 +98,7 @@ campaigner    IN    CNAME haproxy
 shopdesk      IN    CNAME haproxy
 instashow     IN    CNAME haproxy
 proyectos     IN    CNAME haproxy
+joamag-neo    IN    CNAME proxy
 hello-appier  IN    CNAME proxy
 rabbitmq      IN    CNAME proxy
 budy-ldj      IN    CNAME proxy
