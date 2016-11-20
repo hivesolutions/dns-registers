@@ -92,13 +92,13 @@ mail    IN    CNAME smtp
 repos   IN    CNAME haproxy
 print   IN    CNAME haproxy
 colony  IN    CNAME haproxy
-cameria IN    CNAME haproxy
 metrium IN    CNAME haproxy
 mailme  IN    CNAME haproxy
 ldj     IN    CNAME proxy
 libs    IN    CNAME proxy
 omnix   IN    CNAME proxy
 files   IN    CNAME proxy
+cameria IN    CNAME proxy
 internus      IN    CNAME haproxy
 crossline     IN    CNAME haproxy
 campaigner    IN    CNAME haproxy
