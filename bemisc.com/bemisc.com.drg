@@ -112,6 +112,7 @@ rabbitmq      IN    CNAME proxy
 budy-ldj      IN    CNAME proxy
 colony-print  IN    CNAME proxy
 websites-ldj  IN    CNAME proxy
+websites-oibiquini  IN    CNAME proxy
 *       IN    CNAME haproxy
 
 ; tutum legacy
