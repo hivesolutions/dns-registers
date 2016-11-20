@@ -107,6 +107,7 @@ crossline     IN    CNAME proxy
 instashow     IN    CNAME proxy
 joamag-neo    IN    CNAME proxy
 hello-appier  IN    CNAME proxy
+hello-quorum  IN    CNAME proxy
 rabbitmq      IN    CNAME proxy
 budy-ldj      IN    CNAME proxy
 colony-print  IN    CNAME proxy
