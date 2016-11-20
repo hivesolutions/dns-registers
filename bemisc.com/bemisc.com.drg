@@ -103,7 +103,6 @@ internus      IN    CNAME haproxy
 crossline     IN    CNAME haproxy
 campaigner    IN    CNAME haproxy
 shopdesk      IN    CNAME haproxy
-instashow     IN    CNAME haproxy
 proyectos     IN    CNAME haproxy
 instashow     IN    CNAME proxy
 joamag-neo    IN    CNAME proxy
