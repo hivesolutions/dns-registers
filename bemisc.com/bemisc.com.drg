@@ -75,9 +75,9 @@ fr-logic-1    IN    AAAA  2a01:4f8:190:5137::2
 fr-logic-2    IN    AAAA  2a01:4f8:172:171e::2
 
 ; domain names
-ns1     IN    A     188.166.53.73
-ns2     IN    A     159.203.136.32
-ns3     IN    A     188.166.90.197
+ns1     IN    A     138.68.98.137
+ns2     IN    A     104.236.254.235
+ns3     IN    A     178.62.120.14
 
 ; feature alias
 proxy   IN    CNAME fr-logic-2
