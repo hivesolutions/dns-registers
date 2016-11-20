@@ -33,11 +33,11 @@ lugardasjoias.com.    IN    SOA    ns1.lugardasjoias.com.    hostmaster.lugardas
 )
 
 ; domain main address
-        IN    A     128.199.58.6
+        IN    A     138.201.62.42
 
 ; domain name servers
         IN    NS    ns1.bemisc.com.
         IN    NS    ns2.bemisc.com.
 
 ; domain alias
-www     IN    CNAME haproxy.bemisc.com.
+www     IN    CNAME proxy.bemisc.com.
