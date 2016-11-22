@@ -53,12 +53,6 @@ ams-proxy-1   IN    A     128.199.58.6
 ams-data-1    IN    A     188.166.4.156
 ams-pushi-1   IN    A     188.166.108.233
 ams-mail-1    IN    A     178.62.213.21
-ams-ns-1      IN    A     188.166.53.73
-ams-ns-2      IN    A     188.166.90.197
-ny-ns-1       IN    A     159.203.136.32
-het-logic-1   IN    A     5.9.158.46
-het-logic-2   IN    A     138.201.62.42
-;ams-proxy-1   IN    AAAA  2a03:b0c0:2:d0::a5:3001
 
 fr-ns-1 IN    A     138.68.98.137
 fr-ns-2 IN    A     104.236.254.235
