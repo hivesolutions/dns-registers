@@ -89,7 +89,7 @@ mail    IN    CNAME smtp
 repos   IN    CNAME haproxy
 print   IN    CNAME haproxy
 colony  IN    CNAME haproxy
-mailme  IN    CNAME haproxy
+mailme  IN    CNAME proxy
 ldj     IN    CNAME proxy
 libs    IN    CNAME proxy
 omnix   IN    CNAME proxy
