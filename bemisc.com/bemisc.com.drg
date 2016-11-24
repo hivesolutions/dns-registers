@@ -94,6 +94,7 @@ ldj     IN    CNAME proxy
 libs    IN    CNAME proxy
 omnix   IN    CNAME proxy
 files   IN    CNAME proxy
+webook  IN    CNAME proxy
 cameria IN    CNAME proxy
 metrium IN    CNAME proxy
 campaigner    IN    CNAME haproxy
