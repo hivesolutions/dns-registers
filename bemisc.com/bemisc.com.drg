@@ -97,6 +97,7 @@ files   IN    CNAME proxy
 webook  IN    CNAME proxy
 cameria IN    CNAME proxy
 metrium IN    CNAME proxy
+story   IN    CNAME proxy
 campaigner    IN    CNAME haproxy
 shopdesk      IN    CNAME haproxy
 proyectos     IN    CNAME haproxy
