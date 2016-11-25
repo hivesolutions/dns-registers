@@ -86,9 +86,9 @@ rancher IN    CNAME fr-rancher-1
 
 ; domain alias
 mail    IN    CNAME smtp
-repos   IN    CNAME haproxy
 print   IN    CNAME haproxy
 colony  IN    CNAME haproxy
+repos   IN    CNAME proxy
 mailme  IN    CNAME proxy
 ldj     IN    CNAME proxy
 libs    IN    CNAME proxy
