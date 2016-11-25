@@ -48,9 +48,9 @@ hiveinc.co.    IN    SOA    ns1.hiveinc.co.    hostmaster.hiveinc.co. (
 
 ; domain alias
 www     IN    CNAME proxy.bemisc.com.
-blog    IN    CNAME haproxy.bemisc.com.
-docs    IN    CNAME haproxy.bemisc.com.
-openid  IN    CNAME haproxy.bemisc.com.
+blog    IN    CNAME proxy.bemisc.com.
+docs    IN    CNAME proxy.bemisc.com.
+openid  IN    CNAME proxy.bemisc.com.
 
 ; headquarters domain names
 hq      IN    A     62.48.210.62
