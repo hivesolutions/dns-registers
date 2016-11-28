@@ -97,6 +97,7 @@ webook  IN    CNAME proxy
 cameria IN    CNAME proxy
 metrium IN    CNAME proxy
 story   IN    CNAME proxy
+phpmyadmin    IN    CNAME proxy
 shopdesk      IN    CNAME proxy
 proyectos     IN    CNAME haproxy
 campaigner    IN    CNAME proxy
