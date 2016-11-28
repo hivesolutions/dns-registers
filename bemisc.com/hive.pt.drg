@@ -72,5 +72,5 @@ vpn-vodafone  IN    CNAME hq-vodafone
 *       IN    CNAME haproxy.bemisc.com.
 
 ; spf validation fields
-hive.pt.      IN    TXT   "v=spf1 a:ams-logic-2.bemisc.com include:_spf.google.com ~all"
-        IN    SPF   "v=spf1 a:ams-logic-2.bemisc.com include:_spf.google.com ~all"
+hive.pt.      IN    TXT   "v=spf1 a:fr-logic-2.bemisc.com include:_spf.google.com ~all"
+        IN    SPF   "v=spf1 a:fr-logic-2.bemisc.com include:_spf.google.com ~all"
