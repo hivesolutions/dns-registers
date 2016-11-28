@@ -98,9 +98,9 @@ webook  IN    CNAME proxy
 cameria IN    CNAME proxy
 metrium IN    CNAME proxy
 story   IN    CNAME proxy
-campaigner    IN    CNAME haproxy
 shopdesk      IN    CNAME haproxy
 proyectos     IN    CNAME haproxy
+campaigner    IN    CNAME proxy
 internus      IN    CNAME proxy
 crossline     IN    CNAME proxy
 instashow     IN    CNAME proxy
