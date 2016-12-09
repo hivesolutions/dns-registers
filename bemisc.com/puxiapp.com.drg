@@ -33,7 +33,7 @@ puxiapp.com.    IN    SOA    ns1.puxiapp.com.    hostmaster.puxiapp.com. (
 )
 
 ; domain main address
-        IN    A     188.166.108.233
+        IN    A     138.201.62.42
 
 ; domain name servers
         IN    NS    ns1.bemisc.com.
