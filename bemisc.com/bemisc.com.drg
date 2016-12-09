@@ -81,6 +81,7 @@ rancher IN    CNAME fr-rancher-1
 haproxy IN    CNAME ams-proxy-1
 data    IN    CNAME ams-data-1
 pushi   IN    CNAME fr-logic-3
+rancher-fast  IN    CNAME fr-logic-3
 
 ; domain alias
 mail    IN    CNAME smtp
