@@ -51,7 +51,6 @@ ams-pushi-1   IN    A     188.166.108.233
 fr-ns-1 IN    A     138.68.98.137
 fr-ns-2 IN    A     104.236.254.235
 ld-ns-1 IN    A     178.62.120.14
-fr-rancher-1  IN    A     139.59.129.152
 fr-logic-1    IN    A     5.9.158.46
 fr-logic-2    IN    A     138.201.62.42
 fr-logic-3    IN    A     88.99.62.22
@@ -60,7 +59,6 @@ fr-sandbox-1  IN    A     138.68.76.193
 fr-ns-1 IN    AAAA  2a03:b0c0:3:d0::2227:6001
 fr-ns-2 IN    AAAA  2604:a880:800:10::1e21:a001
 ld-ns-1 IN    AAAA  2a03:b0c0:1:d0::7e6:7001
-fr-rancher-1  IN    AAAA  2a03:b0c0:3:d0::21c9:8001
 fr-logic-1    IN    AAAA  2a01:4f8:190:5137::2
 fr-logic-2    IN    AAAA  2a01:4f8:172:171e::2
 fr-logic-3    IN    AAAA  2a01:4f8:10a:e55::2
@@ -77,7 +75,7 @@ ns3     IN    AAAA  2a03:b0c0:1:d0::7e6:7001
 ; feature alias
 proxy   IN    CNAME fr-logic-2
 smtp    IN    CNAME fr-logic-2
-rancher IN    CNAME fr-rancher-1
+rancher IN    CNAME fr-logic-3
 haproxy IN    CNAME ams-proxy-1
 data    IN    CNAME ams-data-1
 pushi   IN    CNAME fr-logic-3
