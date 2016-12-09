@@ -83,7 +83,7 @@ smtp    IN    CNAME fr-logic-2
 rancher IN    CNAME fr-rancher-1
 haproxy IN    CNAME ams-proxy-1
 data    IN    CNAME ams-data-1
-pushi   IN    CNAME fr-logic-2
+pushi   IN    CNAME fr-logic-1
 
 ; domain alias
 mail    IN    CNAME smtp
