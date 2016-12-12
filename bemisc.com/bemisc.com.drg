@@ -112,8 +112,13 @@ budy-ldj      IN    CNAME proxy
 colony-print  IN    CNAME proxy
 websites-ldj  IN    CNAME proxy
 mongo-express IN    CNAME proxy
+frontdoor-hive      IN    CNAME proxy
+frontdoor-armiranda IN    CNAME proxy
 oibiquini-extras    IN    CNAME proxy
 websites-oibiquini  IN    CNAME proxy
+takethebill-hive    IN    CNAME proxy
+takethebill-amiranda      IN    CNAME proxy
+
 *       IN    CNAME haproxy
 
 ; tutum legacy
