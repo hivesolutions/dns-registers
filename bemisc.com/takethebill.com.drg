@@ -34,6 +34,7 @@ takethebill.com.    IN    SOA    ns1.takethebill.com. hostmaster.takethebill.com
 
 ; domain main address
         IN    A     138.201.62.42
+        IN    AAAA  2a01:4f8:172:171e::2
 
 ; google apps email
         IN    MX    1     ASPMX.L.GOOGLE.COM.

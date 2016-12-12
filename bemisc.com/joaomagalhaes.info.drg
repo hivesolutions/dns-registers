@@ -34,6 +34,7 @@ joaomagalhaes.info.    IN    SOA    ns1.joaomagalhaes.info.    hostmaster.joaoma
 
 ; domain main address
         IN    A     138.201.62.42
+        IN    AAAA  2a01:4f8:172:171e::2
 
 ; domain name servers
         IN    NS    ns1.bemisc.com.
