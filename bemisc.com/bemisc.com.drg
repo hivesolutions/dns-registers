@@ -44,7 +44,7 @@ bemisc.com.    IN    SOA    ns1.bemisc.com.    hostmaster.bemisc.com. (
 ams-logic-1   IN    A     178.62.246.67
 ams-logic-2   IN    A     188.166.103.165
 ams-db-1      IN    A     128.199.36.238
-ams-proxy-1   IN    A     128.199.58.6
+ams-proxy-1   IN    A     138.201.62.42
 ams-data-1    IN    A     188.166.4.156
 ams-pushi-1   IN    A     188.166.108.233
 

@@ -33,7 +33,7 @@ grandub.com.    IN    SOA    ns1.grandub.com.    hostmaster.grandub.com. (
 )
 
 ; domain main address
-        IN    A     128.199.58.6
+        IN    A     138.201.62.42
 
 ; domain name servers
         IN    NS    ns1.bemisc.com.

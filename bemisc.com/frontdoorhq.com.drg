@@ -33,7 +33,7 @@ frontdoorhq.com.    IN    SOA    ns1.frontdoorhq.com.    hostmaster.frontdoorhq.
 )
 
 ; domain main address
-        IN    A     128.199.58.6
+        IN    A     138.201.62.42
 
 ; google apps email
         IN    MX    1     ASPMX.L.GOOGLE.COM.
