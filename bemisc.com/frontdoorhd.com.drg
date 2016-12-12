@@ -50,9 +50,9 @@ frontdoorhd.com.    IN    SOA    ns1.frontdoorhd.com.    hostmaster.frontdoorhd.
 ldj     IN    CNAME fr-logic-1.bemisc.com.
 *.ldj   IN    CNAME fr-logic-1.bemisc.com.
 passldj IN    CNAME fr-logic-1.bemisc.com.
-hive    IN    CNAME haproxy.bemisc.com.
-*.hive  IN    CNAME haproxy.bemisc.com.
-passive       IN    CNAME haproxy.bemisc.com.
-amiranda      IN    CNAME haproxy.bemisc.com.
-*.amiranda    IN    CNAME haproxy.bemisc.com.
-passamiranda  IN    CNAME haproxy.bemisc.com.
+hive    IN    CNAME proxy.bemisc.com.
+*.hive  IN    CNAME proxy.bemisc.com.
+passive       IN    CNAME proxy.bemisc.com.
+amiranda      IN    CNAME proxy.bemisc.com.
+*.amiranda    IN    CNAME proxy.bemisc.com.
+passamiranda  IN    CNAME proxy.bemisc.com.
