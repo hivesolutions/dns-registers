@@ -76,16 +76,14 @@ ns3     IN    AAAA  2a03:b0c0:1:d0::7e6:7001
 proxy   IN    CNAME fr-logic-2
 smtp    IN    CNAME fr-logic-2
 rancher IN    CNAME fr-logic-3
-haproxy IN    CNAME ams-proxy-1
 ssh     IN    CNAME fr-logic-2
-data    IN    CNAME ams-data-1
 pushi   IN    CNAME fr-logic-3
 rancher-fast  IN    CNAME fr-logic-3
 
 ; domain alias
 mail    IN    CNAME smtp
-print   IN    CNAME haproxy
-colony  IN    CNAME haproxy
+print   IN    CNAME proxy
+colony  IN    CNAME proxy
 repos   IN    CNAME proxy
 mailme  IN    CNAME proxy
 ldj     IN    CNAME proxy
@@ -99,7 +97,7 @@ story   IN    CNAME proxy
 rockmongo     IN    CNAME proxy
 phpmyadmin    IN    CNAME proxy
 shopdesk      IN    CNAME proxy
-proyectos     IN    CNAME haproxy
+proyectos     IN    CNAME proxy
 campaigner    IN    CNAME proxy
 internus      IN    CNAME proxy
 crossline     IN    CNAME proxy
@@ -119,47 +117,7 @@ websites-oibiquini  IN    CNAME proxy
 takethebill-hive    IN    CNAME proxy
 takethebill-amiranda      IN    CNAME proxy
 
-*       IN    CNAME haproxy
-
-; tutum legacy
-tutum-redis   CNAME ams-db-1
-tutum-mongo   CNAME ams-db-1
-tutum-mongodb CNAME ams-db-1
-tutum-mariadb CNAME ams-db-1
-tutum-rabbitmq      CNAME ams-db-1
-
-tutum-cameria CNAME ams-logic-2
-tutum-ams-logic     CNAME ams-proxy-1
-tutum-haproxy-ssl   CNAME ams-proxy-1
-tutum-crossline     CNAME ams-logic-2
-tutum-omnix   CNAME ams-logic-1
-tutum-campaigner    CNAME ams-logic-1
-tutum-instashow     CNAME ams-logic-2
-tutum-libs    CNAME ams-logic-2
-tutum-repos   CNAME ams-data-1
-tutum-proyectos     CNAME ams-data-1
-tutum-colony-print  CNAME ams-logic-1
-tutum-shopdesk      CNAME ams-data-1
-tutum-hello-quorum  CNAME ams-logic-1
-tutum-omni-hive     CNAME ams-data-1
-tutum-take-the-bill-hive  CNAME ams-logic-2
-tutum-metrium CNAME ams-logic-2
-tutum-pushi   CNAME ams-pushi-1
-tutum-webook  CNAME ams-logic-2
-tutum-smtp_r  CNAME ams-mail-1
-tutum-omni-amiranda CNAME ams-data-1
-tutum-take-the-bill-amiranda    CNAME ams-logic-1
-tutum-haproxy-plain CNAME ams-proxy-1
-tutum-hive-legacy   CNAME ams-data-1
-tutum-internus      CNAME ams-logic-1
-tutum-hive-neo      CNAME ams-logic-1
-tutum-joamag-neo    CNAME ams-logic-1
-tutum-mailme  CNAME ams-logic-2
-tutum-oibiquini-extras    CNAME ams-logic-2
-tutum-websites-ldj  CNAME ams-logic-2
-tutum-websites-oibiquini  CNAME ams-logic-2
-tutum-hello-appier  CNAME ams-logic-1
-tutum-story   CNAME ams-logic-1
+*       IN    CNAME proxy
 
 ; spf validation fields
 bemisc.com.   IN    TXT   "v=spf1 a mx a:fr-logic-2.bemisc.com include:_spf.google.com ~all"

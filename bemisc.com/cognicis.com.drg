@@ -40,4 +40,4 @@ cognicis.com.    IN    SOA    ns1.cognicis.com.    hostmaster.cognicis.com. (
         IN    NS    ns2.bemisc.com.
 
 ; domain alias
-www     IN    CNAME haproxy.bemisc.com.
+www     IN    CNAME proxy.bemisc.com.

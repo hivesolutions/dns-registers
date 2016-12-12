@@ -40,6 +40,6 @@ inforvault.com.    IN    SOA    ns1.inforvault.com.    hostmaster.inforvault.com
         IN    NS    ns2.bemisc.com.
 
 ; domain alias
-www     IN    CNAME haproxy.bemisc.com.
-horde   IN    CNAME haproxy.bemisc.com.
-blog    IN    CNAME haproxy.bemisc.com.
+www     IN    CNAME proxy.bemisc.com.
+horde   IN    CNAME proxy.bemisc.com.
+blog    IN    CNAME proxy.bemisc.com.

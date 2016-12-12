@@ -40,4 +40,4 @@ lasbestas.com.    IN    SOA    ns1.lasbestas.com.    hostmaster.lasbestas.com. (
         IN    NS    ns2.bemisc.com.
 
 ; domain names
-www     IN    CNAME haproxy.bemisc.com.
+www     IN    CNAME proxy.bemisc.com.

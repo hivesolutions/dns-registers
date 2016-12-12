@@ -40,4 +40,4 @@ kiliro.com.    IN    SOA    ns1.kiliro.com.    hostmaster.kiliro.com. (
         IN    NS    ns2.bemisc.com.
 
 ; domain alias
-www     IN    CNAME haproxy.bemisc.com.
+www     IN    CNAME proxy.bemisc.com.

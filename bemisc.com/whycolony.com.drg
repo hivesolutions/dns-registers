@@ -40,4 +40,4 @@ whycolony.com.    IN    SOA    ns1.whycolony.com.    hostmaster.whycolony.com. (
         IN    NS    ns2.bemisc.com.
 
 ; domain alias
-www     IN    CNAME haproxy.bemisc.com.
+www     IN    CNAME proxy.bemisc.com.

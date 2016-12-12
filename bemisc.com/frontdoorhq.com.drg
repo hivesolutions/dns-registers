@@ -47,4 +47,4 @@ frontdoorhq.com.    IN    SOA    ns1.frontdoorhq.com.    hostmaster.frontdoorhq.
         IN    NS    ns2.bemisc.com.
 
 ; domain alias
-*       IN    CNAME haproxy.bemisc.com.
+*       IN    CNAME proxy.bemisc.com.

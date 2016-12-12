@@ -63,7 +63,7 @@ mirrors IN    CNAME hq
 ; wildcard redirection
 *.stage IN    CNAME hq
 *.private     IN    CNAME hq
-*       IN    CNAME haproxy.bemisc.com.
+*       IN    CNAME proxy.bemisc.com.
 
 ; spf validation fields
 hiveinc.co.   IN    TXT   "v=spf1 include:_spf.google.com ~all"

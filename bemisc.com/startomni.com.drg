@@ -40,4 +40,4 @@ startomni.com.    IN    SOA    ns1.startomni.com.    hostmaster.startomni.com. (
         IN    NS    ns2.bemisc.com.
 
 ; domain alias
-www     IN    CNAME haproxy.bemisc.com.
+www     IN    CNAME proxy.bemisc.com.

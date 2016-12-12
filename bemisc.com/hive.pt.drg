@@ -69,7 +69,7 @@ vpn-vodafone  IN    CNAME hq-vodafone
 ; wildcard redirection
 *.stage IN    CNAME hq
 *.private     IN    CNAME hq
-*       IN    CNAME haproxy.bemisc.com.
+*       IN    CNAME proxy.bemisc.com.
 
 ; spf validation fields
 hive.pt.      IN    TXT   "v=spf1 a:fr-logic-2.bemisc.com include:_spf.google.com ~all"

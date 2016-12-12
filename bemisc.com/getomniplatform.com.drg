@@ -40,4 +40,4 @@ getomniplatform.com.    IN    SOA    ns1.getomniplatform.com.    hostmaster.geto
         IN    NS    ns2.bemisc.com.
 
 ; domain alias
-www     IN    CNAME haproxy.bemisc.com.
+www     IN    CNAME proxy.bemisc.com.

@@ -47,4 +47,4 @@ alacarte.fm.    IN    SOA    ns1.alacarte.fm.    hostmaster.alacarte.fm. (
         IN    NS    ns2.bemisc.com.
 
 ; domain alias
-www     IN    CNAME haproxy.bemisc.com.
+www     IN    CNAME proxy.bemisc.com.

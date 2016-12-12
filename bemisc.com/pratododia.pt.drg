@@ -40,4 +40,4 @@ pratododia.pt.    IN    SOA    ns1.pratododia.pt.    hostmaster.pratododia.pt. (
         IN    NS    ns2.bemisc.com.
 
 ; domain alias
-www     IN    CNAME haproxy.bemisc.com.
+www     IN    CNAME proxy.bemisc.com.

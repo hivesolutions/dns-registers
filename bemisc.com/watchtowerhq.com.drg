@@ -40,4 +40,4 @@ watchtowerhq.com.    IN    SOA    ns1.watchtowerhq.com.    hostmaster.watchtower
         IN    NS    ns2.bemisc.com.
 
 ; domain alias
-*       IN    CNAME haproxy.bemisc.com.
+*       IN    CNAME proxy.bemisc.com.

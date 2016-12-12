@@ -48,7 +48,7 @@ webook.pt.    IN    SOA    ns1.webook.pt.    hostmaster.webook.pt. (
 
 ; domain alias
 blog    IN    CNAME webookporto.wordpress.com.
-*       IN    CNAME haproxy.bemisc.com.
+*       IN    CNAME proxy.bemisc.com.
 
 ; spf validation fields
 webook.pt.    IN    TXT   "v=spf1 a mx include:bemisc.com include:_spf.google.com ~all"
