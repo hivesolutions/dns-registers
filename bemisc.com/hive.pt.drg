@@ -56,6 +56,7 @@ openid  IN    CNAME proxy.bemisc.com.
 ; headquarters domain names
 hq-pt   IN    A     62.48.210.62
 hq-vodafone   IN    A     93.108.246.53
+hq-vodafone   IN    AAAA  2001:818:de21:5700:3a2c:4aff:feb1:cd3d
 
 hq      IN    CNAME hq-vodafone
 vpn     IN    CNAME hq
