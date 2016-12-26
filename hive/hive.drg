@@ -60,6 +60,12 @@ servidor4     IN    A     172.16.0.14
 servidor5     IN    A     172.16.0.15
 servidor6     IN    A     172.16.0.16
 
+servidor3      IN    AAAA  fe80::8e89:a5ff:fedf:3631
+servidor4      IN    AAAA  fe80::3a2c:4aff:feb1:cd3d
+
+ipv6.servidor3      IN    AAAA  2001:818:de21:5700:8e89:a5ff:fedf:3631
+ipv6.servidor4      IN    AAAA  2001:818:de21:5700:3a2c:4aff:feb1:cd3d
+
 joamag  IN    A     172.16.0.21
 lmartinho     IN    A     172.16.0.22
 nlima   IN    A     172.16.0.23
