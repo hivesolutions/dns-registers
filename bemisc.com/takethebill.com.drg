@@ -24,7 +24,7 @@
 $TTL 1h
 
 ; domain general parameters
-takethebill.com.    IN    SOA    ns1.takethebill.com. hostmaster.takethebill.com. (
+takethebill.com.    IN    SOA   ns1.bemisc.com.    hostmaster.takethebill.com. (
             1          ; serial number
             4h         ; refresh time
             1h         ; transfer retry time

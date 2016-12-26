@@ -24,7 +24,7 @@
 $TTL 1h
 
 ; domain general parameters
-cognicis.com.    IN    SOA    ns1.cognicis.com.    hostmaster.cognicis.com. (
+cognicis.com.    IN    SOA    ns1.bemisc.com.    hostmaster.cognicis.com. (
             1          ; serial number
             4h         ; refresh time
             1h         ; transfer retry time

@@ -24,7 +24,7 @@
 $TTL 1h
 
 ; domain general parameters
-joaomagalhaes.eu.    IN    SOA    ns1.joaomagalhaes.eu.    hostmaster.joaomagalhaes.eu. (
+joaomagalhaes.eu.    IN    SOA    ns1.bemisc.com.    hostmaster.joaomagalhaes.eu. (
             1          ; serial number
             4h         ; refresh time
             1h         ; transfer retry time

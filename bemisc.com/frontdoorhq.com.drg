@@ -24,7 +24,7 @@
 $TTL 1h
 
 ; domain general parameters
-frontdoorhq.com.    IN    SOA    ns1.frontdoorhq.com.    hostmaster.frontdoorhq.com. (
+frontdoorhq.com.    IN    SOA    ns1.bemisc.com.    hostmaster.frontdoorhq.com. (
             1          ; serial number
             4h         ; refresh time
             1h         ; transfer retry time

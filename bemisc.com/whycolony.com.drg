@@ -24,7 +24,7 @@
 $TTL 1h
 
 ; domain general parameters
-whycolony.com.    IN    SOA    ns1.whycolony.com.    hostmaster.whycolony.com. (
+whycolony.com.    IN    SOA    ns1.bemisc.com.    hostmaster.whycolony.com. (
             1          ; serial number
             4h         ; refresh time
             1h         ; transfer retry time

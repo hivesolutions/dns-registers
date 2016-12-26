@@ -24,7 +24,7 @@
 $TTL 1h
 
 ; domain general parameters
-hive.pt.    IN    SOA    ns1.hive.pt.    hostmaster.hive.pt. (
+hive.pt.    IN    SOA    ns1.bemisc.com.    hostmaster.hive.pt. (
             1          ; serial number
             4h         ; refresh time
             1h         ; transfer retry time

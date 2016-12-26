@@ -24,7 +24,7 @@
 $TTL 1h
 
 ; domain general parameters
-alacarte.fm.    IN    SOA    ns1.alacarte.fm.    hostmaster.alacarte.fm. (
+alacarte.fm.    IN    SOA    ns1.bemisc.com.    hostmaster.alacarte.fm. (
             1          ; serial number
             4h         ; refresh time
             1h         ; transfer retry time

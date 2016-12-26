@@ -24,7 +24,7 @@
 $TTL 1h
 
 ; domain general parameters
-puxiapp.com.    IN    SOA    ns1.puxiapp.com.    hostmaster.puxiapp.com. (
+puxiapp.com.    IN    SOA    ns1.bemisc.com.    hostmaster.puxiapp.com. (
             1          ; serial number
             4h         ; refresh time
             1h         ; transfer retry time

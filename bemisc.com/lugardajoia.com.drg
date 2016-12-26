@@ -24,7 +24,7 @@
 $TTL 1h
 
 ; domain general parameters
-lugardajoia.com.    IN    SOA    ns1.lugardajoia.com.    hostmaster.lugardajoia.com. (
+lugardajoia.com.    IN    SOA    ns1.bemisc.com.    hostmaster.lugardajoia.com. (
             1          ; serial number
             4h         ; refresh time
             1h         ; transfer retry time

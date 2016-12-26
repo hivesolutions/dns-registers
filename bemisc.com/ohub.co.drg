@@ -24,7 +24,7 @@
 $TTL 1h
 
 ; domain general parameters
-ohub.co.    IN    SOA    ns1.ohub.co.    hostmaster.ohub.co. (
+ohub.co.    IN    SOA    ns1.bemisc.com.    hostmaster.ohub.co. (
             1          ; serial number
             4h         ; refresh time
             1h         ; transfer retry time

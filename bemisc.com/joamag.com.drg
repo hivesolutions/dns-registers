@@ -24,7 +24,7 @@
 $TTL 1h
 
 ; domain general parameters
-joamag.com.    IN    SOA    ns1.joamag.com.    hostmaster.joamag.com. (
+joamag.com.    IN    SOA    ns1.bemisc.com.    hostmaster.joamag.com. (
             1          ; serial number
             4h         ; refresh time
             1h         ; transfer retry time

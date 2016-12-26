@@ -24,7 +24,7 @@
 $TTL 1h
 
 ; domain general parameters
-lasbestas.com.    IN    SOA    ns1.lasbestas.com.    hostmaster.lasbestas.com. (
+lasbestas.com.    IN    SOA    ns1.bemisc.com.    hostmaster.lasbestas.com. (
             1          ; serial number
             4h         ; refresh time
             1h         ; transfer retry time

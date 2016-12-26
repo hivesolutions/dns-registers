@@ -24,7 +24,7 @@
 $TTL 1h
 
 ; domain general parameters
-startomni.com.    IN    SOA    ns1.startomni.com.    hostmaster.startomni.com. (
+startomni.com.    IN    SOA    ns1.bemisc.com.    hostmaster.startomni.com. (
             1          ; serial number
             4h         ; refresh time
             1h         ; transfer retry time

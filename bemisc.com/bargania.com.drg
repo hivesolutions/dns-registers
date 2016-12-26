@@ -24,7 +24,7 @@
 $TTL 1h
 
 ; domain general parameters
-bargania.com.    IN    SOA    ns1.bargania.com.    hostmaster.bargania.com. (
+bargania.com.    IN    SOA    ns1.bemisc.com.    hostmaster.bargania.com. (
             1          ; serial number
             4h         ; refresh time
             1h         ; transfer retry time

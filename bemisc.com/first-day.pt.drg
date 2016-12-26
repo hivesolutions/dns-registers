@@ -24,7 +24,7 @@
 $TTL 1h
 
 ; domain general parameters
-first-day.pt.    IN    SOA    ns1.first-day.pt.    hostmaster.first-day.pt. (
+first-day.pt.    IN    SOA    ns1.bemisc.com.    hostmaster.first-day.pt. (
             1          ; serial number
             4h         ; refresh time
             1h         ; transfer retry time

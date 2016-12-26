@@ -24,7 +24,7 @@
 $TTL 1h
 
 ; domain general parameters
-ostore.co.    IN    SOA    ns1.ostore.co.    hostmaster.ostore.co. (
+ostore.co.    IN    SOA    ns1.bemisc.com.    hostmaster.ostore.co. (
             1          ; serial number
             4h         ; refresh time
             1h         ; transfer retry time

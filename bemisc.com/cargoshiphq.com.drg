@@ -24,7 +24,7 @@
 $TTL 1h
 
 ; domain general parameters
-cargoshiphq.com.    IN    SOA    ns1.cargoshiphq.com.    hostmaster.cargoshiphq.com. (
+cargoshiphq.com.    IN    SOA    ns1.bemisc.com.    hostmaster.cargoshiphq.com. (
             1          ; serial number
             4h         ; refresh time
             1h         ; transfer retry time

@@ -24,7 +24,7 @@
 $TTL 1h
 
 ; domain general parameters
-joao.me.    IN    SOA    ns1.joao.me.    hostmaster.joao.me. (
+joao.me.    IN    SOA    ns1.bemisc.com.    hostmaster.joao.me. (
             1          ; serial number
             4h         ; refresh time
             1h         ; transfer retry time
