@@ -121,7 +121,6 @@ gateway IN    CNAME balancer
 
 stage   IN    CNAME servidor3
 staging IN    CNAME servidor3
-kubernetes    IN    CNAME servidor3
 
 db      IN    CNAME servidor4
 hq      IN    CNAME servidor4
