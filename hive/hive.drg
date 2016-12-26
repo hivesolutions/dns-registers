@@ -90,16 +90,22 @@ rasp1   IN    A     172.16.0.41
 rasp2   IN    A     172.16.0.42
 rasp3   IN    A     172.16.0.43
 rasp4   IN    A     172.16.0.44
+rasp1   IN    AAAA  fe80::ba27:ebff:feb5:e4f2
+rasp2   IN    AAAA  fe80::ba27:ebff:fef9:ad5d
+rasp3   IN    AAAA  fe80::ba27:ebff:fe01:bd36
+rasp4   IN    AAAA  fe80::ba27:ebff:fe59:2a76
+ipv6.rasp1    IN    AAAA  2001:818:de21:5700:ba27:ebff:feb5:e4f2
+ipv6.rasp2    IN    AAAA  2001:818:de21:5700:ba27:ebff:fef9:ad5d
+ipv6.rasp3    IN    AAAA  2001:818:de21:5700:ba27:ebff:fe01:bd36
+ipv6.rasp4    IN    AAAA  2001:818:de21:5700:ba27:ebff:fe59:2a76
 
 router-mega   IN    A     172.16.0.51
 
 joamag-mob    IN    A     172.16.0.61
 
-hole1   IN    A     172.16.0.71
-hole2   IN    A     172.16.0.72
-hole3   IN    A     172.16.0.73
-
 seed    IN    A     172.16.1.1
+seed    IN    AAAA  fe80::ba27:ebff:fe67:ac1f
+ipv6.seed     IN    AAAA  2001:818:de21:5700:ba27:ebff:fe67:ac1f
 
 ns1     IN    A     172.16.0.11
 ns2     IN    A     172.16.0.12
