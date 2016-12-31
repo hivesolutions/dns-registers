@@ -126,6 +126,7 @@ db      IN    CNAME servidor4
 hq      IN    CNAME servidor4
 dns     IN    CNAME servidor4
 dbs     IN    CNAME servidor4
+amqp    IN    CNAME servidor4
 mysql   IN    CNAME servidor4
 maria   IN    CNAME servidor4
 redis   IN    CNAME servidor4
