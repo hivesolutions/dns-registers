@@ -81,6 +81,8 @@ tsilva  IN    A     172.16.0.24
 srio    IN    A     172.16.0.25
 johndoe IN    A     172.16.0.26
 acaldas IN    A     172.16.0.27
+acaldas IN    AAAA  fe80::a5ef:5b32:e35d:b3f
+ipv6.acaldas  IN    AAAA  2001:818:de21:5700:a5ef:5b32:e35d:b3ff
 
 nas1    IN    A     172.16.0.31
 nas1    IN    AAAA  fe80::211:32ff:fe38:cf43
