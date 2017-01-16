@@ -57,6 +57,8 @@ openid  IN    CNAME proxy.bemisc.com.
 hq-pt   IN    A     62.48.210.62
 hq-vodafone   IN    A     93.108.246.53
 hq-vodafone   IN    AAAA  2001:818:de21:5700:3a2c:4aff:feb1:cd3d
+ipv4.hq-vodafone    IN    A     93.108.246.53
+ipv6.hq-vodafone    IN    AAAA  2001:818:de21:5700:3a2c:4aff:feb1:cd3d
 
 hq      IN    CNAME hq-vodafone
 vpn     IN    CNAME hq
@@ -64,6 +66,10 @@ sede    IN    CNAME hq
 test    IN    CNAME hq
 archive IN    CNAME hq
 mirrors IN    CNAME hq
+ipv4.hq IN    CNAME ipv4.hq-vodafone
+ipv4.vpn      IN    CNAME ipv4.hq
+ipv6.hq IN    CNAME ipv6.hq-vodafone
+ipv6.vpn      IN    CNAME ipv6.hq
 
 vpn-pt  IN    CNAME hq-pt
 vpn-vodafone  IN    CNAME hq-vodafone
