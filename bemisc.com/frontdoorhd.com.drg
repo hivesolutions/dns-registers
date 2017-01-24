@@ -49,11 +49,14 @@ frontdoorhd.com.    IN    SOA    ns1.bemisc.com.    hostmaster.frontdoorhd.com. 
 
 ; domain alias
 ldj     IN    CNAME fr-logic-1.bemisc.com.
+ipv6.ldj      IN    CNAME ipv6.fr-logic-1.bemisc.com.
 *.ldj   IN    CNAME fr-logic-1.bemisc.com.
 passldj IN    CNAME fr-logic-1.bemisc.com.
 hive    IN    CNAME proxy.bemisc.com.
+ipv6.hive     IN    CNAME ipv6.proxy.bemisc.com.
 *.hive  IN    CNAME proxy.bemisc.com.
 passive       IN    CNAME proxy.bemisc.com.
 amiranda      IN    CNAME proxy.bemisc.com.
+ipv6.amiranda       IN    CNAME ipv6.proxy.bemisc.com.
 *.amiranda    IN    CNAME proxy.bemisc.com.
 passamiranda  IN    CNAME proxy.bemisc.com.
