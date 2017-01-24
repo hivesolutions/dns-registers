@@ -52,12 +52,15 @@ impressora2   IN    A     172.16.0.7
 wifi          IN    A     172.16.0.8
 router-adsl   IN    A     172.16.0.9
 router-extra  IN    A     172.16.0.10
-impressora1   IN    AAAA  fe80::a2d3:c1ff:fe82:f2e4
-impressora2   IN    AAAA  fe80::fa0d:60ff:fe0a:519f
-router-extra  IN    AAAA  fe80::1e87:2cff:fe6d:aa50
+impressora1   IN    AAAA  2001:818:de21:5700:a2d3:c1ff:fe82:f2e4
+impressora2   IN    AAAA  2001:818:de21:5700:fa0d:60ff:fe0a:519f
+router-extra  IN    AAAA  2001:818:de21:5700::1
 ipv6.impressora1    IN    AAAA  2001:818:de21:5700:a2d3:c1ff:fe82:f2e4
 ipv6.impressora2    IN    AAAA  2001:818:de21:5700:fa0d:60ff:fe0a:519f
 ipv6.router-extra   IN    AAAA  2001:818:de21:5700::1
+local.impressora1   IN    AAAA  fe80::a2d3:c1ff:fe82:f2e4
+local.impressora2   IN    AAAA  fe80::fa0d:60ff:fe0a:519f
+local.router-extra  IN    AAAA  fe80::1e87:2cff:fe6d:aa50
 
 servidor1     IN    A     172.16.0.11
 servidor2     IN    A     172.16.0.12
@@ -65,14 +68,18 @@ servidor3     IN    A     172.16.0.13
 servidor4     IN    A     172.16.0.14
 servidor5     IN    A     172.16.0.15
 servidor6     IN    A     172.16.0.16
-servidor1     IN    AAAA  fe80::beae:c5ff:fe33:9e46
-servidor2     IN    AAAA  fe80::be5f:f4ff:fe7f:c328
-servidor3     IN    AAAA  fe80::8e89:a5ff:fedf:3631
-servidor4     IN    AAAA  fe80::3a2c:4aff:feb1:cd3d
+servidor1     IN    AAAA  2001:818:de21:5700:beae:c5ff:fe33:9e46
+servidor2     IN    AAAA  2001:818:de21:5700:be5f:f4ff:fe7f:c328
+servidor3     IN    AAAA  2001:818:de21:5700:8e89:a5ff:fedf:3631
+servidor4     IN    AAAA  2001:818:de21:5700:3a2c:4aff:feb1:cd3d
 ipv6.servidor1      IN    AAAA  2001:818:de21:5700:beae:c5ff:fe33:9e46
 ipv6.servidor2      IN    AAAA  2001:818:de21:5700:be5f:f4ff:fe7f:c328
 ipv6.servidor3      IN    AAAA  2001:818:de21:5700:8e89:a5ff:fedf:3631
 ipv6.servidor4      IN    AAAA  2001:818:de21:5700:3a2c:4aff:feb1:cd3d
+local.servidor1     IN    AAAA  fe80::beae:c5ff:fe33:9e46
+local.servidor2     IN    AAAA  fe80::be5f:f4ff:fe7f:c328
+local.servidor3     IN    AAAA  fe80::8e89:a5ff:fedf:3631
+local.servidor4     IN    AAAA  fe80::3a2c:4aff:feb1:cd3d
 
 joamag  IN    A     172.16.0.21
 lmartinho     IN    A     172.16.0.22
@@ -81,8 +88,9 @@ tsilva  IN    A     172.16.0.24
 srio    IN    A     172.16.0.25
 johndoe IN    A     172.16.0.26
 acaldas IN    A     172.16.0.27
-acaldas IN    AAAA  fe80::a5ef:5b32:e35d:b3f
+acaldas IN    AAAA  2001:818:de21:5700:a5ef:5b32:e35d:b3ff
 ipv6.acaldas  IN    AAAA  2001:818:de21:5700:a5ef:5b32:e35d:b3ff
+local.acaldas IN    AAAA  fe80::a5ef:5b32:e35d:b3f
 
 nas1    IN    A     172.16.0.31
 nas1    IN    AAAA  fe80::211:32ff:fe38:cf43
@@ -92,31 +100,44 @@ rasp1   IN    A     172.16.0.41
 rasp2   IN    A     172.16.0.42
 rasp3   IN    A     172.16.0.43
 rasp4   IN    A     172.16.0.44
-rasp1   IN    AAAA  fe80::ba27:ebff:feb5:e4f2
-rasp2   IN    AAAA  fe80::ba27:ebff:fef9:ad5d
-rasp3   IN    AAAA  fe80::ba27:ebff:fe01:bd36
-rasp4   IN    AAAA  fe80::ba27:ebff:fe59:2a76
+rasp1   IN    AAAA  2001:818:de21:5700:ba27:ebff:feb5:e4f2
+rasp2   IN    AAAA  2001:818:de21:5700:ba27:ebff:fef9:ad5d
+rasp3   IN    AAAA  2001:818:de21:5700:ba27:ebff:fe01:bd36
+rasp4   IN    AAAA  2001:818:de21:5700:ba27:ebff:fe59:2a76
 ipv6.rasp1    IN    AAAA  2001:818:de21:5700:ba27:ebff:feb5:e4f2
 ipv6.rasp2    IN    AAAA  2001:818:de21:5700:ba27:ebff:fef9:ad5d
 ipv6.rasp3    IN    AAAA  2001:818:de21:5700:ba27:ebff:fe01:bd36
 ipv6.rasp4    IN    AAAA  2001:818:de21:5700:ba27:ebff:fe59:2a76
+local.rasp1   IN    AAAA  fe80::ba27:ebff:feb5:e4f2
+local.rasp2   IN    AAAA  fe80::ba27:ebff:fef9:ad5d
+local.rasp3   IN    AAAA  fe80::ba27:ebff:fe01:bd36
+local.rasp4   IN    AAAA  fe80::ba27:ebff:fe59:2a76
 
 router-mega   IN    A     172.16.0.51
 
 joamag-mob    IN    A     172.16.0.61
 
 seed    IN    A     172.16.1.1
-seed    IN    AAAA  fe80::ba27:ebff:fe67:ac1f
+seed    IN    AAAA  2001:818:de21:5700:ba27:ebff:fe67:ac1f
 ipv6.seed     IN    AAAA  2001:818:de21:5700:ba27:ebff:fe67:ac1f
+local.seed    IN    AAAA  fe80::ba27:ebff:fe67:ac1f
 
 ns1     IN    A     172.16.0.11
 ns2     IN    A     172.16.0.12
 ns3     IN    A     172.16.0.14
 ns4     IN    A     172.16.1.1
-ns1     IN    AAAA  fe80::beae:c5ff:fe33:9e46
-ns2     IN    AAAA  fe80::be5f:f4ff:fe7f:c328
-ns3     IN    AAAA  fe80::3a2c:4aff:feb1:cd3d
-ns4     IN    AAAA  fe80::ba27:ebff:fe67:ac1f
+ns1     IN    AAAA  2001:818:de21:5700:beae:c5ff:fe33:9e46
+ns2     IN    AAAA  2001:818:de21:5700:be5f:f4ff:fe7f:c328
+ns3     IN    AAAA  2001:818:de21:5700:3a2c:4aff:feb1:cd3d
+ns4     IN    AAAA  2001:818:de21:5700:ba27:ebff:fe67:ac1f
+ipv6.ns1      IN    AAAA  2001:818:de21:5700:beae:c5ff:fe33:9e46
+ipv6.ns2      IN    AAAA  2001:818:de21:5700:be5f:f4ff:fe7f:c328
+ipv6.ns3      IN    AAAA  2001:818:de21:5700:3a2c:4aff:feb1:cd3d
+ipv6.ns4      IN    AAAA  2001:818:de21:5700:ba27:ebff:fe67:ac1f
+local.ns1     IN    AAAA  fe80::beae:c5ff:fe33:9e46
+local.ns2     IN    AAAA  fe80::be5f:f4ff:fe7f:c328
+local.ns3     IN    AAAA  fe80::3a2c:4aff:feb1:cd3d
+local.ns4     IN    AAAA  fe80::ba27:ebff:fe67:ac1f
 
 ; services
 gateway IN    CNAME balancer
