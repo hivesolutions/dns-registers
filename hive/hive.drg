@@ -66,8 +66,6 @@ servidor1     IN    A     172.16.0.11
 servidor2     IN    A     172.16.0.12
 servidor3     IN    A     172.16.0.13
 servidor4     IN    A     172.16.0.14
-servidor5     IN    A     172.16.0.15
-servidor6     IN    A     172.16.0.16
 servidor1     IN    AAAA  2001:818:de21:5700:beae:c5ff:fe33:9e46
 servidor2     IN    AAAA  2001:818:de21:5700:be5f:f4ff:fe7f:c328
 servidor3     IN    AAAA  2001:818:de21:5700:8e89:a5ff:fedf:3631
