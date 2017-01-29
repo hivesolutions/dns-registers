@@ -68,9 +68,9 @@ ipv6.fr-sandbox-1   IN    AAAA  2a03:b0c0:3:d0::23d4:5001
 ns1     IN    A     138.68.98.137
 ns2     IN    A     104.236.254.235
 ns3     IN    A     178.62.120.14
-;ns1     IN    AAAA  2a03:b0c0:3:d0::2227:6001
-;ns2     IN    AAAA  2604:a880:800:10::1e21:a001
-;ns3     IN    AAAA  2a03:b0c0:1:d0::7e6:7001
+ns1     IN    AAAA  2a03:b0c0:3:d0::2227:6001
+ns2     IN    AAAA  2604:a880:800:10::1e21:a001
+ns3     IN    AAAA  2a03:b0c0:1:d0::7e6:7001
 ipv6.ns1      IN    AAAA  2a03:b0c0:3:d0::2227:6001
 ipv6.ns2      IN    AAAA  2604:a880:800:10::1e21:a001
 ipv6.ns3      IN    AAAA  2a03:b0c0:1:d0::7e6:7001
