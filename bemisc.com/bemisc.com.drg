@@ -119,8 +119,10 @@ budy-ldj      IN    CNAME proxy
 colony-print  IN    CNAME proxy
 websites-ldj  IN    CNAME proxy
 mongo-express IN    CNAME proxy
+omnix-hive    IN    CNAME proxy
 omni-hive     IN    CNAME proxy
 omni-amiranda IN    CNAME proxy
+omnix-amiranda      IN    CNAME proxy
 oibiquini-extras    IN    CNAME proxy
 websites-oibiquini  IN    CNAME proxy
 takethebill-hive    IN    CNAME proxy
