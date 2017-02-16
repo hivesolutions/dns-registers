@@ -47,9 +47,13 @@ rasp1   IN    A     192.168.1.21
 rasp2   IN    A     192.168.1.22
 rasp3   IN    A     192.168.1.23
 personal      IN    A     192.168.1.51
+nas1    IN    AAAA  d1b:ec54:ba26:1:211:32ff:fe23:4fb
 personal      IN    AAAA  2001:818:df09:1400:d63d:7eff:fef5:4b1f
+ipv4.nas1     IN    A     192.168.1.11
 ipv4.personal IN    A     192.168.1.51
+ipv6.nas1     IN    AAAA  d1b:ec54:ba26:1:211:32ff:fe23:4fb
 ipv6.personal IN    AAAA  2001:818:df09:1400:d63d:7eff:fef5:4b1f
+local.nas1    IN    AAAA  fe80::211:32ff:fe23:4fb
 local.personal      IN    AAAA  fe80::d63d:7eff:fef5:4b1f
 
 ; domain alias
