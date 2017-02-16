@@ -52,6 +52,7 @@ personal      IN    A     192.168.1.51
 nas     IN    CNAME nas1
 router  IN    CNAME router1
 files   IN    CNAME nas
+
 rasp    IN    CNAME rasp1
 xbmc1   IN    CNAME rasp1
 xbmc2   IN    CNAME rasp2
@@ -59,4 +60,5 @@ olec1   IN    CNAME xbmc1
 olec2   IN    CNAME xbmc2
 kodi1   IN    CNAME xbmc1
 kodi2   IN    CNAME xbmc2
+desktop IN    CNAME personal
 retropie      IN    CNAME rasp3
