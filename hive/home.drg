@@ -41,12 +41,22 @@ home.    IN    SOA    ns1.home.    hostmaster.home. (
         IN    NS    ns3.hive.
 
 ; domain names
+router1 IN    A     192.168.1.1
 nas1    IN    A     192.168.1.11
 rasp1   IN    A     192.168.1.21
 rasp2   IN    A     192.168.1.22
-router1 IN    A     192.168.1.254
+rasp3   IN    A     192.168.1.23
+personal      IN    A     192.168.1.51
 
 ; domain alias
 nas     IN    CNAME nas1
 router  IN    CNAME router1
 files   IN    CNAME nas
+rasp    IN    CNAME rasp1
+xbmc1   IN    CNAME rasp1
+xbmc2   IN    CNAME rasp2
+olec1   IN    CNAME xbmc1
+olec2   IN    CNAME xbmc2
+kodi1   IN    CNAME xbmc1
+kodi2   IN    CNAME xbmc2
+retropie      IN    CNAME rasp3
