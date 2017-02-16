@@ -47,6 +47,10 @@ rasp1   IN    A     192.168.1.21
 rasp2   IN    A     192.168.1.22
 rasp3   IN    A     192.168.1.23
 personal      IN    A     192.168.1.51
+personal      IN    AAAA  2001:818:df09:1400:d63d:7eff:fef5:4b1f
+ipv4.personal IN    A     192.168.1.51
+ipv6.personal IN    AAAA  2001:818:df09:1400:d63d:7eff:fef5:4b1f
+local.personal      IN    AAAA  fe80::d63d:7eff:fef5:4b1f
 
 ; domain alias
 nas     IN    CNAME nas1
