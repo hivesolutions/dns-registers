@@ -56,6 +56,13 @@ fr-logic-1    IN    AAAA  2a01:4f8:190:5137::2
 fr-logic-2    IN    AAAA  2a01:4f8:172:171e::2
 fr-logic-3    IN    AAAA  2a01:4f8:10a:e55::2
 fr-sandbox-1  IN    AAAA  2a03:b0c0:3:d0::23d4:5001
+ipv4.fr-ns-1  IN    A     138.68.98.137
+ipv4.fr-ns-2  IN    A     104.236.254.235
+ipv4.ld-ns-1  IN    A     178.62.120.14
+ipv4.fr-logic-1     IN    A     5.9.158.46
+ipv4.fr-logic-2     IN    A     138.201.62.42
+ipv4.fr-logic-3     IN    A     88.99.62.22
+ipv4.fr-sandbox-1   IN    A     138.68.76.193
 ipv6.fr-ns-1  IN    AAAA  2a03:b0c0:3:d0::2227:6001
 ipv6.fr-ns-2  IN    AAAA  2604:a880:800:10::1e21:a001
 ipv6.ld-ns-1  IN    AAAA  2a03:b0c0:1:d0::7e6:7001
@@ -71,6 +78,9 @@ ns3     IN    A     178.62.120.14
 ns1     IN    AAAA  2a03:b0c0:3:d0::2227:6001
 ns2     IN    AAAA  2604:a880:800:10::1e21:a001
 ns3     IN    AAAA  2a03:b0c0:1:d0::7e6:7001
+ipv4.ns1      IN    A     138.68.98.137
+ipv4.ns2      IN    A     104.236.254.235
+ipv4.ns3      IN    A     178.62.120.14
 ipv6.ns1      IN    AAAA  2a03:b0c0:3:d0::2227:6001
 ipv6.ns2      IN    AAAA  2604:a880:800:10::1e21:a001
 ipv6.ns3      IN    AAAA  2a03:b0c0:1:d0::7e6:7001
@@ -82,6 +92,12 @@ ssh     IN    CNAME fr-logic-3
 pushi   IN    CNAME fr-logic-3
 rancher IN    CNAME fr-logic-3
 rancher-fast  IN    CNAME fr-logic-3
+ipv4.ssh      IN    CNAME ipv4.fr-logic-2
+ipv4.smtp     IN    CNAME ipv4.fr-logic-2
+ipv4.proxy    IN    CNAME ipv4.fr-logic-2
+ipv4.pushi    IN    CNAME ipv4.fr-logic-3
+ipv4.rancher  IN    CNAME ipv4.fr-logic-3
+ipv4.rancher-fast   IN    CNAME ipv4.fr-logic-3
 ipv6.ssh      IN    CNAME ipv6.fr-logic-2
 ipv6.smtp     IN    CNAME ipv6.fr-logic-2
 ipv6.proxy    IN    CNAME ipv6.fr-logic-2
