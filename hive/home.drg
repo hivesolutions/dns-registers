@@ -47,7 +47,7 @@ rasp1   IN    A     192.168.1.21
 rasp2   IN    A     192.168.1.22
 rasp3   IN    A     192.168.1.23
 personal      IN    A     192.168.1.51
-#router1 IN    AAAA  2001:818:df09:1400::1
+;router1 IN    AAAA  2001:818:df09:1400::1
 nas1    IN    AAAA  2001:818:df09:1400:211:32ff:fe23:4fb
 rasp1   IN    AAAA  2001:818:df09:1400:ba27:ebff:fe16:55ae
 rasp2   IN    AAAA  2001:818:df09:1400:ba27:ebff:fe55:6192
