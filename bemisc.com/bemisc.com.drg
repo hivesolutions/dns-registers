@@ -87,6 +87,7 @@ ipv6.ns3      IN    AAAA  2a03:b0c0:1:d0::7e6:7001
 
 ; feature alias
 smtp    IN    CNAME fr-logic-2
+cifs    IN    CNAME fr-logic-2
 proxy   IN    CNAME fr-logic-2
 ssh     IN    CNAME fr-logic-3
 pushi   IN    CNAME fr-logic-3
