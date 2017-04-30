@@ -25,7 +25,11 @@ options {
     listen-on { any; };
     listen-on-v6 { any; };
     pid-file "/var/run/named/named.pid";
-    auth-nxdomain no;
+    version "unknown";
     recursion no;
     allow-recursion { none; };
+    auth-nxdomain no;
+    dnssec-enable no;
+    dnssec-validation no;
+    dnssec-lookaside auto;
 };
