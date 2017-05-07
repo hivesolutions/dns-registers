@@ -49,3 +49,5 @@ cobeacon.com.    IN    SOA    ns1.bemisc.com.    hostmaster.cobeacon.com. (
 
 ; domain alias
 www     IN    CNAME proxy.bemisc.com.
+
+cobeacon.com. IN TXT google-site-verification=5xbUKAUu5dXqTEjrzdtSrqktgvsnnqgQVC1MO8YRb7w
