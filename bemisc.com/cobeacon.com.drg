@@ -54,3 +54,7 @@ drive   IN    CNAME ghs.googlehosted.com.
 sites   IN    CNAME ghs.googlehosted.com.
 groups  IN    CNAME ghs.googlehosted.com.
 calendar      IN    CNAME ghs.googlehosted.com.
+
+; spf validation fields
+cobeacon.com. IN    TXT   "v=spf1 include:_spf.google.com ~all"
+        IN    SPF   "v=spf1 include:_spf.google.com ~all"
