@@ -166,6 +166,7 @@ db      IN    CNAME servidor4
 hq      IN    CNAME servidor4
 dns     IN    CNAME servidor4
 dbs     IN    CNAME servidor4
+ssh     IN    CNAME servidor4
 amqp    IN    CNAME servidor4
 ldap    IN    CNAME servidor4
 mysql   IN    CNAME servidor4
