@@ -54,7 +54,7 @@ docs    IN    CNAME proxy.bemisc.com.
 openid  IN    CNAME proxy.bemisc.com.
 
 ; headquarters domain names
-hq      IN    A     62.48.210.62
+hq      IN    A     93.108.246.53
 vpn     IN    CNAME hq
 sede    IN    CNAME hq
 test    IN    CNAME hq
