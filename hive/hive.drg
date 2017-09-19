@@ -42,7 +42,7 @@ hive.    IN    SOA    ns1.hive.    hostmaster.hive. (
         IN    NS    ns4.hive.
 
 ; domain names
-balancer      IN    A     172.16.0.1
+router-extra  IN    A     172.16.0.1
 switch  IN    A     172.16.0.2
 impressora1   IN    A     172.16.0.3
 router-front  IN    A     172.16.0.4
@@ -51,7 +51,7 @@ router-fiber  IN    A     172.16.0.6
 impressora2   IN    A     172.16.0.7
 wifi          IN    A     172.16.0.8
 router-adsl   IN    A     172.16.0.9
-router-extra  IN    A     172.16.0.10
+power-pdu     IN    A     172.16.0.10
 impressora1   IN    AAAA  2001:818:de21:5700:a2d3:c1ff:fe82:f2e4
 impressora2   IN    AAAA  2001:818:de21:5700:fa0d:60ff:fe0a:519f
 router-extra  IN    AAAA  2001:818:de21:5700::1
@@ -157,6 +157,8 @@ local.ns3     IN    AAAA  fe80::3a2c:4aff:feb1:cd3d
 local.ns4     IN    AAAA  fe80::ba27:ebff:fe67:ac1f
 
 ; services
+router  IN    CNAME router-extra
+balancer      IN    CNAME router
 gateway IN    CNAME balancer
 
 stage   IN    CNAME servidor3
