@@ -52,18 +52,18 @@ impressora2   IN    A     172.16.0.7
 wifi          IN    A     172.16.0.8
 router-adsl   IN    A     172.16.0.9
 power-pdu     IN    A     172.16.0.10
+router-extra  IN    AAAA  2001:818:de21:5700::1
 impressora1   IN    AAAA  2001:818:de21:5700:a2d3:c1ff:fe82:f2e4
 impressora2   IN    AAAA  2001:818:de21:5700:fa0d:60ff:fe0a:519f
-router-extra  IN    AAAA  2001:818:de21:5700::1
+ipv4.router-extra   IN    A     172.16.0.1
 ipv4.impressora1    IN    A     172.16.0.3
 ipv4.impressora2    IN    A     172.16.0.7
-ipv4.router-extra   IN    A     172.16.0.10
+ipv6.router-extra   IN    AAAA  2001:818:de21:5700::1
 ipv6.impressora1    IN    AAAA  2001:818:de21:5700:a2d3:c1ff:fe82:f2e4
 ipv6.impressora2    IN    AAAA  2001:818:de21:5700:fa0d:60ff:fe0a:519f
-ipv6.router-extra   IN    AAAA  2001:818:de21:5700::1
+local.router-extra  IN    AAAA  fe80::1e87:2cff:fe6d:aa50
 local.impressora1   IN    AAAA  fe80::a2d3:c1ff:fe82:f2e4
 local.impressora2   IN    AAAA  fe80::fa0d:60ff:fe0a:519f
-local.router-extra  IN    AAAA  fe80::1e87:2cff:fe6d:aa50
 
 servidor1     IN    A     172.16.0.11
 servidor2     IN    A     172.16.0.12
