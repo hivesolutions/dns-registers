@@ -159,7 +159,7 @@ local.ns4     IN    AAAA  fe80::ba27:ebff:fe67:ac1f
 ; services
 router  IN    CNAME router-extra
 balancer      IN    CNAME router
-gateway IN    CNAME balancer
+gateway IN    CNAME router
 
 stage   IN    CNAME servidor3
 staging IN    CNAME servidor3
