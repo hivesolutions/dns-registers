@@ -161,6 +161,9 @@ router  IN    CNAME router-extra
 balancer      IN    CNAME router
 gateway IN    CNAME router
 
+apc     IN    CNAME power-pdu
+power   IN    CNAME power-pdu
+
 stage   IN    CNAME servidor3
 staging IN    CNAME servidor3
 
