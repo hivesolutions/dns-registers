@@ -42,6 +42,7 @@ home.    IN    SOA    ns1.home.    hostmaster.home. (
 
 ; domain names
 router1 IN    A     192.168.1.1
+router2 IN    A     192.168.1.2
 nas1    IN    A     192.168.1.11
 rasp1   IN    A     192.168.1.21
 rasp2   IN    A     192.168.1.22
@@ -54,6 +55,7 @@ rasp2   IN    AAAA  2001:818:df09:1400:ba27:ebff:fe55:6192
 rasp3   IN    AAAA  2001:818:df09:1400:ba27:ebff:fec8:c629
 personal      IN    AAAA  2001:818:df09:1400:d63d:7eff:fef5:4b1f
 ipv4.router1  IN    A     192.168.1.1
+ipv4.router2  IN    A     192.168.1.2
 ipv4.nas1     IN    A     192.168.1.11
 ipv4.rasp1    IN    A     192.168.1.21
 ipv4.rasp2    IN    A     192.168.1.22
