@@ -39,7 +39,7 @@ $TTL 1h
 
 ; domain names
 1.0.16.172.in-addr.arpa.   IN    PTR    router-extra.hive.
-2.0.16.172.in-addr.arpa.   IN    PTR    switch.hive.
+2.0.16.172.in-addr.arpa.   IN    PTR    switch-extra.hive.
 3.0.16.172.in-addr.arpa.   IN    PTR    impressora1.hive.
 4.0.16.172.in-addr.arpa.   IN    PTR    router-front.hive.
 5.0.16.172.in-addr.arpa.   IN    PTR    router-middle.hive.

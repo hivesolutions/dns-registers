@@ -43,7 +43,7 @@ hive.    IN    SOA    ns1.hive.    hostmaster.hive. (
 
 ; domain names
 router-extra  IN    A     172.16.0.1
-switch  IN    A     172.16.0.2
+switch-extra  IN    A     172.16.0.2
 impressora1   IN    A     172.16.0.3
 router-front  IN    A     172.16.0.4
 router-middle IN    A     172.16.0.5
@@ -158,6 +158,7 @@ local.ns4     IN    AAAA  fe80::ba27:ebff:fe67:ac1f
 
 ; services
 router  IN    CNAME router-extra
+switch  IN    CNAME switch-extra
 balancer      IN    CNAME router
 gateway IN    CNAME router
 
