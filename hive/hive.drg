@@ -103,10 +103,15 @@ ipv6.acaldas  IN    AAAA  2001:818:de21:5700:baae:edff:fe7e:1778
 local.acaldas IN    AAAA  fe80::baae:edff:fe7e:1778
 
 nas1    IN    A     172.16.0.31
+nas2    IN    A     172.16.0.32
 nas1    IN    AAAA  2001:818:de21:5700:211:32ff:fe38:cf43
+nas2    IN    AAAA  2001:818:de21:5700:211:32ff:fe7f:5bbb
 ipv4.nas1     IN    A     172.16.0.31
+ipv4.nas2     IN    A     172.16.0.32
 ipv6.nas1     IN    AAAA  2001:818:de21:5700:211:32ff:fe38:cf43
+ipv6.nas1     IN    AAAA  2001:818:de21:5700:211:32ff:fe7f:5bbb
 local.nas1    IN    AAAA  fe80::211:32ff:fe38:cf43
+local.nas2    IN    AAAA  fe80::211:32ff:fe7f:5bbb
 
 rasp1   IN    A     172.16.0.41
 rasp2   IN    A     172.16.0.42
