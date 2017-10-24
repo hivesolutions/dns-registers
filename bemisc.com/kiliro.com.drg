@@ -48,3 +48,8 @@ pa-logic-1    IN    A     51.15.137.188
 pa-logic-1    IN    AAAA  2001:bc8:4400:2500::f:b0d
 ipv4.pa-logic-1     IN    A     51.15.137.188
 ipv6.pa-logic-1     IN    AAAA  2001:bc8:4400:2500::f:b0d
+
+; feature alias
+rancher IN    CNAME pa-logic-1
+ipv4.rancher  IN    CNAME ipv4.pa-logic-1
+ipv6.rancher  IN    CNAME ipv6.pa-logic-1
