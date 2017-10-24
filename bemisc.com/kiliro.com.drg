@@ -42,3 +42,9 @@ kiliro.com.    IN    SOA    ns1.bemisc.com.    hostmaster.kiliro.com. (
 
 ; domain alias
 www     IN    CNAME proxy.bemisc.com.
+
+; kiliro.com grid nodes
+pa-logic-1    IN    A     51.15.137.188
+pa-logic-1    IN    AAAA  2001:bc8:4400:2500::f:b0d
+ipv4.pa-logic-1     IN    A     51.15.137.188
+ipv6.pa-logic-1     IN    AAAA  2001:bc8:4400:2500::f:b0d
