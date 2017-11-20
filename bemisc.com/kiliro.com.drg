@@ -45,9 +45,13 @@ www     IN    CNAME proxy.bemisc.com.
 
 ; kiliro.com grid nodes
 pa-logic-1    IN    A     51.15.137.188
+pa-logic-2    IN    A     51.15.190.146
 pa-logic-1    IN    AAAA  2001:bc8:4400:2500::f:b0d
+pa-logic-2    IN    AAAA  2001:0bc8:6005:0121:208:a2ff:fe0c:2cc2
 ipv4.pa-logic-1     IN    A     51.15.137.188
+ipv4.pa-logic-2     IN    A     51.15.190.146
 ipv6.pa-logic-1     IN    AAAA  2001:bc8:4400:2500::f:b0d
+ipv6.pa-logic-2     IN    AAAA  2001:0bc8:6005:0121:208:a2ff:fe0c:2cc2
 
 ; feature alias
 rancher IN    CNAME pa-logic-1
