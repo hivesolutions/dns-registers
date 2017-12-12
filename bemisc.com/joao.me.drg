@@ -44,4 +44,4 @@ joao.me.    IN    SOA    ns1.bemisc.com.    hostmaster.joao.me. (
 www     IN    CNAME proxy.bemisc.com.
 
 ; keybase validation fields
-        IN    TXT   "keybase-site-verification=k-tS7Xoj_XaVV3wlEFoDhmkeEzU2XsNyJhLPVLR0HIg"
+joao.me IN    TXT   "keybase-site-verification=k-tS7Xoj_XaVV3wlEFoDhmkeEzU2XsNyJhLPVLR0HIg"
