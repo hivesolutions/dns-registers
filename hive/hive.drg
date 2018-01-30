@@ -97,10 +97,15 @@ tsilva  IN    A     172.16.0.24
 srio    IN    A     172.16.0.25
 johndoe IN    A     172.16.0.26
 acaldas IN    A     172.16.0.27
+tmagalhaes    IN    A     172.16.0.28
 acaldas IN    AAAA  2001:818:de21:5700:baae:edff:fe7e:1778
+tmagalhaes    IN    AAAA  2001:818:de21:5700:b00f:3ff2:8418:e448
 ipv4.acaldas  IN    A     172.16.0.27
+ipv4.tmagalhaes     IN    A     172.16.0.28
 ipv6.acaldas  IN    AAAA  2001:818:de21:5700:baae:edff:fe7e:1778
+ipv6.tmagalhaes     IN    AAAA  2001:818:de21:5700:b00f:3ff2:8418:e448
 local.acaldas IN    AAAA  fe80::baae:edff:fe7e:1778
+local.tmagalhaes    IN    AAAA  fe80::1e87:2cff:fe6d:aa50
 
 nas1    IN    A     172.16.0.31
 nas2    IN    A     172.16.0.32
