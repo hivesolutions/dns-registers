@@ -203,6 +203,9 @@ rancher IN    CNAME servidor4
 
 nas     IN    CNAME nas1
 files   IN    CNAME nas1
+ipv4.files    IN    CNAME ipv4.nas1
+ipv6.files    IN    CNAME ipv6.nas1
+local.files   IN    AAAA  local.nas1
 
 armor   IN    CNAME rasp4
 
