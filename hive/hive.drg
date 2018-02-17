@@ -211,8 +211,14 @@ local.nas     IN    CNAME local.nas1
 local.files   IN    CNAME local.nas1
 
 armor   IN    CNAME rasp4
+ipv4.armor    IN    CNAME ipv4.rasp4
+ipv6.armor    IN    CNAME ipv6.rasp4
+local.armor   IN    CNAME local.rasp4
 
 dhcp    IN    CNAME seed
+ipv4.dhcp     IN    CNAME ipv4.seed
+ipv6.dhcp     IN    CNAME ipv6.seed
+local.dhcp    IN    CNAME local.seed
 
 ; domain alias
 agata   IN    CNAME servidor1
