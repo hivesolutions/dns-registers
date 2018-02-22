@@ -149,6 +149,12 @@ ipv4.seed     IN    A     172.16.1.1
 ipv6.seed     IN    AAAA  2001:818:de21:5700:ba27:ebff:fe67:ac1f
 local.seed    IN    AAAA  fe80::ba27:ebff:fe67:ac1f
 
+pie1    IN    A     172.16.2.1
+pie1    IN    AAAA  2001:818:de21:5700:ba27:ebff:fe32:a12b
+ipv4.pie1     IN    A     172.16.2.1
+ipv6.pie1     IN    AAAA  2001:818:de21:5700:ba27:ebff:fe32:a12b
+local.pie1    IN    AAAA  fe80::ba27:ebff:fe32:a12b
+
 ns1     IN    A     172.16.0.11
 ns2     IN    A     172.16.0.12
 ns3     IN    A     172.16.0.14
