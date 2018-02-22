@@ -196,6 +196,7 @@ log     IN    CNAME servidor4
 ssh     IN    CNAME servidor4
 amqp    IN    CNAME servidor4
 ldap    IN    CNAME servidor4
+mqtt    IN    CNAME servidor4
 mysql   IN    CNAME servidor4
 maria   IN    CNAME servidor4
 redis   IN    CNAME servidor4
@@ -206,6 +207,7 @@ rabbit  IN    CNAME servidor4
 archive IN    CNAME servidor4
 mirrors IN    CNAME servidor4
 rancher IN    CNAME servidor4
+mosquito      IN    CNAME servidor4
 
 nas     IN    CNAME nas1
 files   IN    CNAME nas1
