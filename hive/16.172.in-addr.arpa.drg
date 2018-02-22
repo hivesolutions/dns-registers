@@ -77,3 +77,5 @@ $TTL 1h
 61.0.16.172.in-addr.arpa.  IN    PTR    joamag-mob.hive.
 
 1.1.16.172.in-addr.arpa.   IN    PTR    seed.hive.
+
+1.2.16.172.in-addr.arpa.   IN    PTR    pie1.hive.
