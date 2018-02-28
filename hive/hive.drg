@@ -64,6 +64,7 @@ ipv6.router-main    IN    AAAA  2001:818:de21:5700::1
 ipv6.switch-extra   IN    AAAA  2001:818:de21:5700:861b:5eff:fe95:b565
 ipv6.impressora1    IN    AAAA  2001:818:de21:5700:a2d3:c1ff:fe82:f2e4
 ipv6.impressora2    IN    AAAA  2001:818:de21:5700:fa0d:60ff:fe0a:519f
+local.router-main   IN    AAAA  fe80::b26e:bfff:fe63:bde8
 local.switch-extra  IN    AAAA  fe80::861b:5eff:fe95:b565
 local.impressora1   IN    AAAA  fe80::a2d3:c1ff:fe82:f2e4
 local.impressora2   IN    AAAA  fe80::fa0d:60ff:fe0a:519f
@@ -141,7 +142,6 @@ local.rasp4   IN    AAAA  fe80::ba27:ebff:fe59:2a76
 router-mega   IN    A     172.16.0.51
 router-extra  IN    A     172.16.0.52
 ipv4.router-extra   IN    A     172.16.0.1
-ipv6.router-extra   IN    AAAA  2001:818:de21:5700::12
 local.router-extra  IN    AAAA  fe80::1e87:2cff:fe6d:aa50
 
 joamag-mob    IN    A     172.16.0.61
