@@ -42,7 +42,7 @@ hive.    IN    SOA    ns1.hive.    hostmaster.hive. (
         IN    NS    ns4.hive.
 
 ; domain names
-router-extra  IN    A     172.16.0.1
+router-main   IN    A     172.16.0.1
 switch-extra  IN    A     172.16.0.2
 impressora1   IN    A     172.16.0.3
 router-front  IN    A     172.16.0.4
@@ -52,19 +52,18 @@ impressora2   IN    A     172.16.0.7
 wifi          IN    A     172.16.0.8
 router-adsl   IN    A     172.16.0.9
 power-pdu     IN    A     172.16.0.10
-router-extra  IN    AAAA  2001:818:de21:5700::1
+router-main   IN    AAAA  2001:818:de21:5700::1
 switch-extra  IN    AAAA  2001:818:de21:5700:861b:5eff:fe95:b565
 impressora1   IN    AAAA  2001:818:de21:5700:a2d3:c1ff:fe82:f2e4
 impressora2   IN    AAAA  2001:818:de21:5700:fa0d:60ff:fe0a:519f
-ipv4.router-extra   IN    A     172.16.0.1
+ipv4.router-main    IN    A     172.16.0.1
 ipv4.switch-extra   IN    A     172.16.0.2
 ipv4.impressora1    IN    A     172.16.0.3
 ipv4.impressora2    IN    A     172.16.0.7
-ipv6.router-extra   IN    AAAA  2001:818:de21:5700::1
+ipv6.router-main    IN    AAAA  2001:818:de21:5700::1
 ipv6.switch-extra   IN    AAAA  2001:818:de21:5700:861b:5eff:fe95:b565
 ipv6.impressora1    IN    AAAA  2001:818:de21:5700:a2d3:c1ff:fe82:f2e4
 ipv6.impressora2    IN    AAAA  2001:818:de21:5700:fa0d:60ff:fe0a:519f
-local.router-extra  IN    AAAA  fe80::1e87:2cff:fe6d:aa50
 local.switch-extra  IN    AAAA  fe80::861b:5eff:fe95:b565
 local.impressora1   IN    AAAA  fe80::a2d3:c1ff:fe82:f2e4
 local.impressora2   IN    AAAA  fe80::fa0d:60ff:fe0a:519f
@@ -140,6 +139,10 @@ local.rasp3   IN    AAAA  fe80::ba27:ebff:fe01:bd36
 local.rasp4   IN    AAAA  fe80::ba27:ebff:fe59:2a76
 
 router-mega   IN    A     172.16.0.51
+router-extra  IN    A     172.16.0.52
+ipv4.router-extra   IN    A     172.16.0.1
+ipv6.router-extra   IN    AAAA  2001:818:de21:5700::12
+local.router-extra  IN    AAAA  fe80::1e87:2cff:fe6d:aa50
 
 joamag-mob    IN    A     172.16.0.61
 
@@ -177,7 +180,7 @@ local.ns3     IN    AAAA  fe80::3a2c:4aff:feb1:cd3d
 local.ns4     IN    AAAA  fe80::ba27:ebff:fe67:ac1f
 
 ; services
-router  IN    CNAME router-extra
+router  IN    CNAME router-main
 switch  IN    CNAME switch-extra
 balancer      IN    CNAME router
 gateway IN    CNAME router
