@@ -141,8 +141,8 @@ local.rasp4   IN    AAAA  fe80::ba27:ebff:fe59:2a76
 
 router-mega   IN    A     172.16.0.51
 router-extra  IN    A     172.16.0.52
-ipv4.router-extra   IN    A     172.16.0.1
-local.router-extra  IN    AAAA  fe80::1e87:2cff:fe6d:aa50
+ipv4.router-extra   IN    A     172.16.0.51
+ipv4.router-extra   IN    A     172.16.0.52
 
 joamag-mob    IN    A     172.16.0.61
 
