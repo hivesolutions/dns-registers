@@ -54,7 +54,7 @@ docs    IN    CNAME proxy.bemisc.com.
 openid  IN    CNAME proxy.bemisc.com.
 
 ; cdn alias
-cdn     IN    hive-static.netlify.com.
+cdn     IN    CNAME hive-static.netlify.com.
 
 ; headquarters domain names
 hq-vodafone   IN    A     93.108.246.53

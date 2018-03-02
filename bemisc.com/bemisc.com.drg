@@ -154,7 +154,7 @@ takethebill-hive    IN    CNAME proxy
 takethebill-amiranda      IN    CNAME proxy
 
 ; cdn alias
-cdn     IN    hive-static.netlify.com.
+cdn     IN    CNAME hive-static.netlify.com.
 
 *       IN    CNAME proxy
 
