@@ -153,6 +153,9 @@ websites-oibiquini  IN    CNAME proxy
 takethebill-hive    IN    CNAME proxy
 takethebill-amiranda      IN    CNAME proxy
 
+; cdn alias
+cdn     IN    hive-static.netlify.com.
+
 *       IN    CNAME proxy
 
 ; spf validation fields
