@@ -80,3 +80,5 @@ $TTL 1h
 1.1.16.172.in-addr.arpa.   IN    PTR    seed.hive.
 
 1.2.16.172.in-addr.arpa.   IN    PTR    pie1.hive.
+
+1.3.16.172.in-addr.arpa.   IN    PTR    sonoff1.hive.
