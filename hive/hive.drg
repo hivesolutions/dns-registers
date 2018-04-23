@@ -238,7 +238,7 @@ local.dhcp    IN    CNAME local.seed
 
 wemos   IN    CNAME wemos1
 esp8266 IN    CNAME wemos
-micropython   IN    CNAME esp8266 
+micropython   IN    CNAME esp8266
 
 ; domain alias
 agata   IN    CNAME servidor1
