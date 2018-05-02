@@ -49,5 +49,6 @@ takethebill.com.    IN    SOA   ns1.bemisc.com.    hostmaster.takethebill.com. (
 
 ; domain alias
 www     IN    CNAME proxy.bemisc.com.
+ldj     IN    CNAME proxy.bemisc.com.
 hive    IN    CNAME proxy.bemisc.com.
 amiranda      IN    CNAME proxy.bemisc.com.
