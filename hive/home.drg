@@ -49,6 +49,7 @@ rasp2   IN    A     192.168.1.22
 rasp3   IN    A     192.168.1.23
 personal      IN    A     192.168.1.51
 ;router1 IN    AAAA  2001:818:df09:1400::1
+router2 IN    AAAA  2001:818:df09:1400:1ad6:c7ff:fe52:e94a
 nas1    IN    AAAA  2001:818:df09:1400:211:32ff:fe23:4fb
 rasp1   IN    AAAA  2001:818:df09:1400:ba27:ebff:fe16:55ae
 rasp2   IN    AAAA  2001:818:df09:1400:ba27:ebff:fe55:6192
@@ -62,12 +63,14 @@ ipv4.rasp2    IN    A     192.168.1.22
 ipv4.rasp3    IN    A     192.168.1.23
 ipv4.personal IN    A     192.168.1.51
 ipv6.router1  IN    AAAA  2001:818:df09:1400::1
+ipv6.router2  IN    AAAA  2001:818:df09:1400:1ad6:c7ff:fe52:e94a
 ipv6.nas1     IN    AAAA  2001:818:df09:1400:211:32ff:fe23:4fb
 ipv6.rasp1    IN    AAAA  2001:818:df09:1400:ba27:ebff:fe16:55ae
 ipv6.rasp2    IN    AAAA  2001:818:df09:1400:ba27:ebff:fe55:6192
 ipv6.rasp3    IN    AAAA  2001:818:df09:1400:ba27:ebff:fec8:c629
 ipv6.personal IN    AAAA  2001:818:df09:1400:d63d:7eff:fef5:4b1f
 local.router1 IN    AAAA  fe80::fa98:b9ff:fe6c:5e9d
+local.router2 IN    AAAA  fe80::1ad6:c7ff:fe52:e94a
 local.nas1    IN    AAAA  fe80::211:32ff:fe23:4fb
 local.rasp1   IN    AAAA  fe80::ba27:ebff:fe16:55ae
 local.rasp2   IN    AAAA  fe80::ba27:ebff:fe55:6192
