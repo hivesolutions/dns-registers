@@ -218,6 +218,7 @@ redis   IN    CNAME servidor4
 mongo   IN    CNAME servidor4
 proxy   IN    CNAME servidor4
 socks   IN    CNAME servidor4
+docker  IN    CNAME servidor4
 rabbit  IN    CNAME servidor4
 archive IN    CNAME servidor4
 mirrors IN    CNAME servidor4
