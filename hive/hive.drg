@@ -208,6 +208,7 @@ hq      IN    CNAME servidor4
 dns     IN    CNAME servidor4
 dbs     IN    CNAME servidor4
 log     IN    CNAME servidor4
+git     IN    CNAME servidor4
 ssh     IN    CNAME servidor4
 amqp    IN    CNAME servidor4
 ldap    IN    CNAME servidor4
@@ -220,6 +221,7 @@ proxy   IN    CNAME servidor4
 socks   IN    CNAME servidor4
 docker  IN    CNAME servidor4
 rabbit  IN    CNAME servidor4
+gitlab  IN    CNAME servidor4
 archive IN    CNAME servidor4
 mirrors IN    CNAME servidor4
 rancher IN    CNAME servidor4
