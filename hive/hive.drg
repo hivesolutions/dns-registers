@@ -78,7 +78,7 @@ servidor1     IN    AAAA  2001:818:de21:5700:beae:c5ff:fe33:9e46
 servidor2     IN    AAAA  2001:818:de21:5700:be5f:f4ff:fe7f:c328
 servidor3     IN    AAAA  2001:818:de21:5700:8e89:a5ff:fedf:3631
 servidor4     IN    AAAA  2001:818:de21:5700:3a2c:4aff:feb1:cd3d
-servidor5     IN    AAAA  2001:818:de21:5700:213:efff:fe86:1526
+servidor5     IN    AAAA  2001:818:de21:5700:329c:23ff:fee1:72b7
 ipv4.servidor1      IN    A     172.16.0.11
 ipv4.servidor2      IN    A     172.16.0.12
 ipv4.servidor3      IN    A     172.16.0.13
@@ -88,12 +88,12 @@ ipv6.servidor1      IN    AAAA  2001:818:de21:5700:beae:c5ff:fe33:9e46
 ipv6.servidor2      IN    AAAA  2001:818:de21:5700:be5f:f4ff:fe7f:c328
 ipv6.servidor3      IN    AAAA  2001:818:de21:5700:8e89:a5ff:fedf:3631
 ipv6.servidor4      IN    AAAA  2001:818:de21:5700:3a2c:4aff:feb1:cd3d
-ipv6.servidor5      IN    AAAA  2001:818:de21:5700:213:efff:fe86:1526
+ipv6.servidor5      IN    AAAA  2001:818:de21:5700:329c:23ff:fee1:72b7
 local.servidor1     IN    AAAA  fe80::beae:c5ff:fe33:9e46
 local.servidor2     IN    AAAA  fe80::be5f:f4ff:fe7f:c328
 local.servidor3     IN    AAAA  fe80::8e89:a5ff:fedf:3631
 local.servidor4     IN    AAAA  fe80::3a2c:4aff:feb1:cd3d
-local.servidor5     IN    AAAA  fe80::213:efff:fe86:1526
+local.servidor5     IN    AAAA  fe80::329c:23ff:fee1:72b7
 
 joamag  IN    A     172.16.0.21
 lmartinho     IN    A     172.16.0.22
