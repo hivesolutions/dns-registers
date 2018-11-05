@@ -225,7 +225,9 @@ gitlab  IN    CNAME servidor4
 archive IN    CNAME servidor4
 mirrors IN    CNAME servidor4
 rancher IN    CNAME servidor4
+logstash      IN    CNAME servidor4
 mosquito      IN    CNAME servidor4
+elasticsearch IN    CNAME servidor4
 
 nas     IN    CNAME nas1
 files   IN    CNAME nas1
