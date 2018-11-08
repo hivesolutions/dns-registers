@@ -179,14 +179,19 @@ ipv4.wemos1   IN    A     172.16.3.2
 
 vbox1   IN    A     172.16.4.1
 vbox2   IN    A     172.16.4.2
+vbox3   IN    A     172.16.4.3
 vbox1   IN    AAAA  2001:818:de21:5700:a00:27ff:fed3:f855
 vbox2   IN    AAAA  2001:818:de21:5700:a00:27ff:fe79:bb93
+vbox3   IN    AAAA  2001:818:de21:5700:a00:27ff:fedc:b0f
 ipv4.vbox1    IN    A     172.16.4.1
 ipv4.vbox2    IN    A     172.16.4.2
+ipv4.vbox3    IN    A     172.16.4.3
 ipv6.vbox1    IN    AAAA  2001:818:de21:5700:a00:27ff:fed3:f855
 ipv6.vbox2    IN    AAAA  2001:818:de21:5700:a00:27ff:fe79:bb93
+ipv6.vbox3    IN    AAAA  2001:818:de21:5700:a00:27ff:fedc:b0f
 local.vbox1   IN    AAAA  fe80::a00:27ff:fed3:f855
 local.vbox2   IN    AAAA  fe80::a00:27ff:fe79:bb93
+local.vbox3   IN    AAAA  fe80::a00:27ff:fedc:b0f
 
 ns1     IN    A     172.16.0.11
 ns2     IN    A     172.16.0.12
@@ -277,6 +282,11 @@ barreiros     IN    CNAME servidor3
 toy     IN    CNAME servidor4
 carreira      IN    CNAME servidor5
 cristina      IN    CNAME servidor6
+
+; os alias
+ubuntu  IN    CNAME vbox1
+scudum  IN    CNAME vbox2
+coreos  IN    CNAME vbox3
 
 ; wildcard redirection
 *.stage IN    CNAME proxy
