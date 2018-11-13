@@ -304,5 +304,9 @@ scudum  IN    CNAME vbox2
 coreos  IN    CNAME vbox3
 freebsd IN    CNAME vbox6
 
+; environment alias
+linux   IN    CNAME ubuntu
+bsd     IN    CNAME freebsd
+
 ; wildcard redirection
 *.stage IN    CNAME proxy
