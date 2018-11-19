@@ -173,9 +173,13 @@ ipv6.pie1     IN    AAAA  2001:818:de21:5700:ba27:ebff:fe32:a12b
 local.pie1    IN    AAAA  fe80::ba27:ebff:fe32:a12b
 
 sonoff1 IN    A     172.16.3.1
-wemos1  IN    A     172.16.3.2
+sonoff2 IN    A     172.16.3.2
+sonoff3 IN    A     172.16.3.3
+wemos1  IN    A     172.16.3.11
 ipv4.sonoff1  IN    A     172.16.3.1
-ipv4.wemos1   IN    A     172.16.3.2
+ipv4.sonoff2  IN    A     172.16.3.2
+ipv4.sonoff3  IN    A     172.16.3.3
+ipv4.wemos1   IN    A     172.16.3.11
 
 vbox1   IN    A     172.16.4.1
 vbox2   IN    A     172.16.4.2
