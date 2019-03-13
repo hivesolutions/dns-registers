@@ -66,6 +66,7 @@ $TTL 1h
 
 31.0.16.172.in-addr.arpa.  IN    PTR    nas1.hive.
 32.0.16.172.in-addr.arpa.  IN    PTR    nas2.hive.
+33.0.16.172.in-addr.arpa.  IN    PTR    nas3.hive.
 
 41.0.16.172.in-addr.arpa.  IN    PTR    rasp1.hive.
 42.0.16.172.in-addr.arpa.  IN    PTR    rasp2.hive.
