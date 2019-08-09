@@ -310,6 +310,21 @@ wemos   IN    CNAME wemos1
 esp8266 IN    CNAME wemos
 micropython   IN    CNAME esp8266
 
+; shortcut alias
+s1      IN    CNAME servidor1
+s2      IN    CNAME servidor2
+s3      IN    CNAME servidor3
+s4      IN    CNAME servidor4
+s5      IN    CNAME servidor5
+s6      IN    CNAME servidor6
+v1      IN    CNAME vbox1
+v2      IN    CNAME vbox2
+v3      IN    CNAME vbox3
+v4      IN    CNAME vbox4
+v5      IN    CNAME vbox5
+v6      IN    CNAME vbox6
+v7      IN    CNAME vbox7
+
 ; domain alias
 agata   IN    CNAME servidor1
 emanuel IN    CNAME servidor2
