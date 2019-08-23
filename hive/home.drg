@@ -43,6 +43,7 @@ home.    IN    SOA    ns1.home.    hostmaster.home. (
 ; domain names
 router1 IN    A     192.168.1.1
 router2 IN    A     192.168.1.2
+seed    IN    A     192.168.1.3
 nas1    IN    A     192.168.1.11
 rasp1   IN    A     192.168.1.21
 rasp2   IN    A     192.168.1.22
