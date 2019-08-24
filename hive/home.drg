@@ -82,6 +82,12 @@ local.rasp2   IN    AAAA  fe80::ba27:ebff:fe55:6192
 local.rasp3   IN    AAAA  fe80::ba27:ebff:fec8:c629
 local.personal      IN    AAAA  fe80::d63d:7eff:fef5:4b1f
 
+ns1     IN    A     172.16.0.3
+ns1     IN    AAAA  2001:818:df09:1400:ba27:ebff:fe43:5a9f
+ipv4.ns1      IN    A     172.16.0.13
+ipv6.ns1      IN    AAAA  2001:818:df09:1400:ba27:ebff:fe43:5a9f
+local.ns1     IN    AAAA  fe80::ba27:ebff:fe43:5a9f
+
 ; domain alias
 nas     IN    CNAME nas1
 router  IN    CNAME router1
