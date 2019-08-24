@@ -33,7 +33,7 @@ home.    IN    SOA    ns1.home.    hostmaster.home. (
 )
 
 ; domain main address
-        IN    A     172.16.0.11
+        IN    A     172.16.0.3
 
 ; domain name servers
         IN    NS    ns1.hive.
