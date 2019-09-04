@@ -75,7 +75,7 @@ servidor3     IN    A     172.16.0.13
 servidor4     IN    A     172.16.0.14
 servidor5     IN    A     172.16.0.15
 servidor1     IN    AAAA  2001:818:e64c:8100:6d4:c4ff:fead:ce26
-servidor2     IN    AAAA  2001:818:e64c:8100:be5f:f4ff:fe7f:c328
+servidor2     IN    AAAA  2001:818:e64c:8100:6d4:c4ff:fead:f74d
 servidor3     IN    AAAA  2001:818:e64c:8100:8e89:a5ff:fedf:3631
 servidor4     IN    AAAA  2001:818:e64c:8100:3a2c:4aff:feb1:cd3d
 servidor5     IN    AAAA  2001:818:e64c:8100:329c:23ff:fee1:72b7
@@ -85,12 +85,12 @@ ipv4.servidor3      IN    A     172.16.0.13
 ipv4.servidor4      IN    A     172.16.0.14
 ipv4.servidor5      IN    A     172.16.0.15
 ipv6.servidor1      IN    AAAA  2001:818:e64c:8100:6d4:c4ff:fead:ce26
-ipv6.servidor2      IN    AAAA  2001:818:e64c:8100:be5f:f4ff:fe7f:c328
+ipv6.servidor2      IN    AAAA  2001:818:e64c:8100:6d4:c4ff:fead:f74d
 ipv6.servidor3      IN    AAAA  2001:818:e64c:8100:8e89:a5ff:fedf:3631
 ipv6.servidor4      IN    AAAA  2001:818:e64c:8100:3a2c:4aff:feb1:cd3d
 ipv6.servidor5      IN    AAAA  2001:818:e64c:8100:329c:23ff:fee1:72b7
 local.servidor1     IN    AAAA  fe80::6d4:c4ff:fead:ce26 
-local.servidor2     IN    AAAA  fe80::be5f:f4ff:fe7f:c328
+local.servidor2     IN    AAAA  fe80::6d4:c4ff:fead:f74d
 local.servidor3     IN    AAAA  fe80::8e89:a5ff:fedf:3631
 local.servidor4     IN    AAAA  fe80::3a2c:4aff:feb1:cd3d
 local.servidor5     IN    AAAA  fe80::329c:23ff:fee1:72b7
@@ -237,7 +237,7 @@ ns2     IN    A     172.16.0.12
 ns3     IN    A     172.16.0.14
 ns4     IN    A     172.16.1.1
 ns1     IN    AAAA  2001:818:e64c:8100:6d4:c4ff:fead:ce26
-ns2     IN    AAAA  2001:818:e64c:8100:be5f:f4ff:fe7f:c328
+ns2     IN    AAAA  2001:818:e64c:8100:6d4:c4ff:fead:f74d
 ns3     IN    AAAA  2001:818:e64c:8100:3a2c:4aff:feb1:cd3d
 ns4     IN    AAAA  2001:818:e64c:8100:ba27:ebff:fe67:ac1f
 ipv4.ns1      IN    A     172.16.0.11
@@ -245,11 +245,11 @@ ipv4.ns2      IN    A     172.16.0.12
 ipv4.ns3      IN    A     172.16.0.14
 ipv4.ns4      IN    A     172.16.1.1
 ipv6.ns1      IN    AAAA  2001:818:e64c:8100:6d4:c4ff:fead:ce26
-ipv6.ns2      IN    AAAA  2001:818:e64c:8100:be5f:f4ff:fe7f:c328
+ipv6.ns2      IN    AAAA  2001:818:e64c:8100:6d4:c4ff:fead:f74d
 ipv6.ns3      IN    AAAA  2001:818:e64c:8100:3a2c:4aff:feb1:cd3d
 ipv6.ns4      IN    AAAA  2001:818:e64c:8100:ba27:ebff:fe67:ac1f
 local.ns1     IN    AAAA  fe80::6d4:c4ff:fead:ce26 
-local.ns2     IN    AAAA  fe80::be5f:f4ff:fe7f:c328
+local.ns2     IN    AAAA  fe80::6d4:c4ff:fead:f74d
 local.ns3     IN    AAAA  fe80::3a2c:4aff:feb1:cd3d
 local.ns4     IN    AAAA  fe80::ba27:ebff:fe67:ac1f
 
