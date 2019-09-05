@@ -31,5 +31,5 @@ options {
     auth-nxdomain no;
     dnssec-enable no;
     dnssec-validation no;
-    dnssec-lookaside auto;
+    dnssec-lookaside no;
 };
