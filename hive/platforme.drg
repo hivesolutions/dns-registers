@@ -1,0 +1,60 @@
+; Hive Infrastructure
+; Copyright (c) 2008-2019 Hive Solutions Lda.
+;
+; This file is part of Hive Infrastructure.
+;
+; Hive Infrastructure is confidential and property of Hive Solutions Lda.,
+; its usage is constrained by the terms of the Hive Solutions
+; Confidential Usage License.
+;
+; Hive Infrastructure should not be distributed under any circumstances,
+; violation of this may imply legal action.
+;
+; If you have any questions regarding the terms of this license please
+; refer to <http://www.hive.pt/licenses/>.
+
+; __author__    = João Magalhães <joamag@hive.pt>
+; __version__   = 1.0.0
+; __revision__  = $LastChangedRevision$
+; __date__      = $LastChangedDate$
+; __copyright__ = Copyright (c) 2008-2019 Hive Solutions Lda.
+; __license__   = Hive Solutions Confidential Usage License (HSCUL)
+
+; domain global parameters
+$TTL 1h
+
+; domain general parameters
+platforme.    IN    SOA    ns1.platforme.    hostmaster.platforme. (
+            1          ; serial number
+            4h         ; refresh time
+            1h         ; transfer retry time
+            7d         ; expiry time
+            1h         ; negative cache time
+)
+
+; domain main address
+        IN    A     172.16.0.31
+
+; domain name servers
+        IN    NS    ns1.hive.
+        IN    NS    ns2.hive.
+        IN    NS    ns3.hive.
+
+; nas names
+nas1    IN    A     10.0.0.0.11
+
+; server names
+server1 IN    A     10.0.0.0.21
+
+; pie names
+pie1    IN    A     10.0.0.0.31
+
+; pie wifi names
+pie1-wifi     IN    A     10.0.0.0.41
+
+; ns names
+ns1     IN    A     10.0.0.0.41
+
+; alias
+dns    IN     CNAME pie1
+seed   IN     CNAME pie1
