@@ -41,19 +41,19 @@ platforme.    IN    SOA    ns1.platforme.    hostmaster.platforme. (
         IN    NS    ns3.hive.
 
 ; nas names
-nas1    IN    A     10.1.0.0.11
+nas1    IN    A     10.1.0.11
 
 ; server names
-server1 IN    A     10.1.0.0.21
+server1 IN    A     10.1.0.21
 
 ; pie names
-pie1    IN    A     10.1.0.0.31
+pie1    IN    A     10.1.0.31
 
 ; pie wifi names
-pie1-wifi     IN    A     10.1.0.0.41
+pie1-wifi     IN    A     10.1.0.41
 
 ; ns names
-ns1     IN    A     10.1.0.0.41
+ns1     IN    A     10.1.0.41
 
 ; alias
 dns    IN     CNAME pie1
