@@ -33,28 +33,32 @@ platforme.    IN    SOA    ns1.platforme.    hostmaster.platforme. (
 )
 
 ; domain main address
-        IN    A     10.1.0.31
+        IN    A     192.168.1.31
 
 ; domain name servers
         IN    NS    ns1.hive.
         IN    NS    ns2.hive.
         IN    NS    ns3.hive.
 
+; router names
+router  IN    A     192.168.1.1
+
 ; nas names
-nas1    IN    A     10.1.0.11
+nas1    IN    A     192.168.1.11
 
 ; server names
-server1 IN    A     10.1.0.21
+server1 IN    A     192.168.1.21
 
 ; pie names
-pie1    IN    A     10.1.0.31
+pie1    IN    A     192.168.1.31
 
 ; pie wifi names
-pie1-wifi     IN    A     10.1.0.41
+pie1-wifi     IN    A     192.168.1.41
 
 ; ns names
-ns1     IN    A     10.1.0.41
+ns1     IN    A     192.168.1.41
 
 ; alias
 dns    IN     CNAME pie1
 seed   IN     CNAME pie1
+ripe-nas-1    IN    CNAME nas1
