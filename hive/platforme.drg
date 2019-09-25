@@ -67,6 +67,9 @@ ns1     IN    A     192.168.1.31
 ; alias
 dns    IN     CNAME pie1
 seed   IN     CNAME pie1
+farm1  IN     CNAME server1
+farm   IN     CNAME farm1
+printer       IN    CNAME printer1
 ripe-nas-1    IN    CNAME nas1
 
 ; name alias
