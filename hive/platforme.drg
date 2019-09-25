@@ -55,8 +55,14 @@ pie1    IN    A     192.168.1.31
 ; printer names
 printer1      IN    A     192.168.1.41
 
+; desktop names
+jm      IN    A     192.168.1.51
+hg      IN    A     192.168.1.52
+gcc     IN    A     192.168.1.53
+da      IN    A     192.168.1.54
+
 ; ns names
-ns1     IN    A     192.168.1.41
+ns1     IN    A     192.168.1.31
 
 ; alias
 dns    IN     CNAME pie1
