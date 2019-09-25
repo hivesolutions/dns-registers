@@ -68,3 +68,9 @@ ns1     IN    A     192.168.1.31
 dns    IN     CNAME pie1
 seed   IN     CNAME pie1
 ripe-nas-1    IN    CNAME nas1
+
+; name alias
+joao   IN     CNAME jm
+joamag IN     CNAME jm
+hugo   IN     CNAME hg
+candal IN     CNAME gcc
