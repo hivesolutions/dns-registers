@@ -55,11 +55,17 @@ pie1    IN    A     192.168.1.31
 ; printer names
 printer1      IN    A     192.168.1.41
 
-; desktop names
+; tech names
 jm      IN    A     192.168.1.51
 hg      IN    A     192.168.1.52
 gcc     IN    A     192.168.1.53
 da      IN    A     192.168.1.54
+
+; other names
+sc      IN    A     192.168.1.61
+mp      IN    A     192.168.1.62
+gf      IN    A     192.168.1.63
+fg      IN    A     192.168.1.64
 
 ; ns names
 ns1     IN    A     192.168.1.31
