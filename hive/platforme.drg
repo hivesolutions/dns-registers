@@ -60,6 +60,9 @@ jm      IN    A     192.168.1.51
 hg      IN    A     192.168.1.52
 gcc     IN    A     192.168.1.53
 da      IN    A     192.168.1.54
+v-mb    IN    A     192.168.1.55
+v-da    IN    A     192.168.1.56
+t-mb    IN    A     192.168.1.57
 
 ; other names
 sc      IN    A     192.168.1.61
@@ -83,7 +86,11 @@ joao    IN    CNAME jm
 joamag  IN    CNAME jm
 hugo    IN    CNAME hg
 candal  IN    CNAME gcc
+david   IN    CNAME da
+mauro   IN    CNAME v-mb
+daniel  IN    CNAME v-da
 gabriel       IN    CNAME gcc
+margarida     IN    CNAME t-mb
 sergio  IN    CNAME sc
 
 ; title alias
