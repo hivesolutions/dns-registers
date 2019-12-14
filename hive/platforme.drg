@@ -50,8 +50,9 @@ nas1    IN    A     192.168.1.11
 ; server names
 server1 IN    A     192.168.1.21
 
-; pie names
+; small names
 pie1    IN    A     192.168.1.31
+nuc1    IN    A     192.168.1.32
 
 ; printer names
 printer1      IN    A     192.168.1.41
@@ -76,8 +77,10 @@ ns1     IN    A     192.168.1.31
 
 ; alias
 router  IN    CNAME router1
+pie     IN    CNAME pie1
 dns     IN    CNAME pie1
 seed    IN    CNAME pie1
+nuc     IN    CNAME nuc1
 farm1   IN    CNAME server1
 farm    IN    CNAME farm1
 printer       IN    CNAME printer1
