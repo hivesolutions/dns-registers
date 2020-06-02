@@ -107,6 +107,7 @@ rancher IN    CNAME fr-logic-3
 rancher-fast  IN    CNAME fr-logic-3
 ipv4.ssh      IN    CNAME ipv4.fr-logic-2
 ipv4.smtp     IN    CNAME ipv4.fr-logic-2
+ipv4.cifs     IN    CNAME ipv4.fr-logic-2
 ipv4.proxy    IN    CNAME ipv4.fr-logic-2
 ipv4.pushi    IN    CNAME ipv4.fr-logic-3
 ipv4.rancher  IN    CNAME ipv4.fr-logic-3
