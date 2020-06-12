@@ -106,6 +106,7 @@ tmagalhaes    IN    A     172.16.0.28
 gcandal IN    A     172.16.0.29
 acaldas IN    AAAA  2001:818:e64c:8100:baae:edff:fe7e:1778
 tmagalhaes    IN    AAAA  2001:818:e64c:8100:2e4d:54ff:feeb:bdf7
+gcandal IN    AAAA  2001:818:e64c:8100:e7a:15ff:fe93:365e
 ipv4.acaldas  IN    A     172.16.0.27
 ipv4.tmagalhaes     IN    A     172.16.0.28
 ipv4.gcandal  IN    A     172.16.0.29
