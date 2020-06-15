@@ -92,3 +92,6 @@ hive.pt.      IN    TXT   "v=spf1 a:fr-logic-2.bemisc.com a:hq-vodafone.hive.pt 
 
 ; return path alias
 pm-bounces    IN     CNAME pm.mtasv.net.
+
+; github validation
+_github-challenge-hivesolutions.hive.pt. IN TXT "5250f3962d"
