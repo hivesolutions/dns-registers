@@ -45,3 +45,6 @@ www     IN    CNAME proxy.bemisc.com.
 
 ; keybase validation fields
 joao.me.      IN    TXT   "keybase-site-verification=k-tS7Xoj_XaVV3wlEFoDhmkeEzU2XsNyJhLPVLR0HIg"
+
+; google verification
+joao.me.      IN    TXT   "google-site-verification=1Pajl9ytaPa0vs69M5-R5AdpY7vw-WZI76_KqK9aNqU"
