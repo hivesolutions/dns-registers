@@ -68,6 +68,12 @@ ap2     IN    A     10.0.0.52
 ap3     IN    A     10.0.0.53
 ap4     IN    A     10.0.0.54
 ap5     IN    A     10.0.0.55
+ap-manager    IN    A     10.0.0.56
+
+; random hardware
+doorbell1     IN    A     10.0.0.61
+doorbell-admin-1    IN    A     10.0.0.62
+fingerprint1  IN    A     10.0.0.63
 
 ; tech names
 jm      IN    A     10.0.1.11
