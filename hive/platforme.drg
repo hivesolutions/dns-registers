@@ -60,7 +60,7 @@ pie1    IN    A     10.0.0.31
 nuc1    IN    A     10.0.0.32
 
 ; printer names
-printer1      IN    A     192.168.1.41
+printer1      IN    A     10.0.0.41
 
 ; tech names
 jm      IN    A     10.0.1.11
