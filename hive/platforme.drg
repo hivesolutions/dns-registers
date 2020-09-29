@@ -74,9 +74,9 @@ ap5     IN    A     10.0.0.55
 ap-manager    IN    A     10.0.0.56
 
 ; random hardware
-doorbell1     IN    A     10.0.0.61
-doorbell-admin-1    IN    A     10.0.0.62
-fingerprint1  IN    A     10.0.0.63
+door    IN    A     10.0.0.61
+door-admin-1  IN    A     10.0.0.62
+finger1 IN    A     10.0.0.63
 
 ; tech names
 jm      IN    A     10.0.1.11
@@ -105,6 +105,7 @@ seed    IN    CNAME pie1
 welcome-chill IN    CNAME pie2
 welcome IN    CNAME welcome-chill
 today-left-front    IN    CNAME pie3
+today   IN    CNAME today-left-front
 nuc     IN    CNAME nuc1
 
 printer       IN    CNAME printer1
