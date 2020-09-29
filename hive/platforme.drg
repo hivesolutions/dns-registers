@@ -103,6 +103,7 @@ pie     IN    CNAME pie1
 dns     IN    CNAME pie1
 seed    IN    CNAME pie1
 welcome-chill IN    pie2
+welcome IN    welcome-chill
 today-left-front    IN    pie3
 nuc     IN    CNAME nuc1
 
