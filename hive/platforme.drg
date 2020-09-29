@@ -33,7 +33,7 @@ platforme.    IN    SOA    ns1.platforme.    hostmaster.platforme. (
 )
 
 ; domain main address
-        IN    A     192.168.1.31
+        IN    A     10.0.0.31
 
 ; domain name servers
         IN    NS    ns1.hive.
@@ -63,23 +63,23 @@ nuc1    IN    A     10.0.0.32
 printer1      IN    A     192.168.1.41
 
 ; tech names
-jm      IN    A     192.168.1.51
-hg      IN    A     192.168.1.52
-gcc     IN    A     192.168.1.53
-da      IN    A     192.168.1.54
-v-mb    IN    A     192.168.1.55
-v-da    IN    A     192.168.1.56
-t-ms    IN    A     192.168.1.57
-jf      IN    A     192.168.1.58
+jm      IN    A     10.0.1.11
+hg      IN    A     10.0.1.12
+gcc     IN    A     10.0.1.13
+da      IN    A     10.0.1.14
+v-mb    IN    A     10.0.1.15
+v-da    IN    A     10.0.1.16
+t-ms    IN    A     10.0.1.17
+jf      IN    A     10.0.1.18
 
 ; other names
-sc      IN    A     192.168.1.61
-mp      IN    A     192.168.1.62
-gf      IN    A     192.168.1.63
-fg      IN    A     192.168.1.64
+sc      IN    A     10.0.1.31
+mp      IN    A     10.0.1.32
+gf      IN    A     10.0.1.33
+fg      IN    A     10.0.1.34
 
 ; ns names
-ns1     IN    A     192.168.1.31
+ns1     IN    A     10.0.0.31
 
 ; alias
 router  IN    CNAME router1
@@ -87,10 +87,22 @@ pie     IN    CNAME pie1
 dns     IN    CNAME pie1
 seed    IN    CNAME pie1
 nuc     IN    CNAME nuc1
-farm1   IN    CNAME server1
-farm    IN    CNAME farm1
+
 printer       IN    CNAME printer1
 ripe-nas-1    IN    CNAME nas1
+
+; render farm alias
+rfarm1  IN    CNAME server1
+rfarm2  IN    CNAME server2
+rfarm3  IN    CNAME server3
+rfarm4  IN    CNAME server4
+rfarm5  IN    CNAME server5
+farm1   IN    CNAME rfarm1
+farm2   IN    CNAME rfarm2
+farm3   IN    CNAME rfarm3
+farm4   IN    CNAME rfarm4
+farm5   IN    CNAME rfarm5
+farm    IN    CNAME farm1
 
 ; name alias
 joao    IN    CNAME jm
@@ -102,6 +114,7 @@ mauro   IN    CNAME v-mb
 daniel  IN    CNAME v-da
 gabriel       IN    CNAME gcc
 margarida     IN    CNAME t-ms
+jorge   IN    CNAME jf
 sergio  IN    CNAME sc
 
 ; title alias
