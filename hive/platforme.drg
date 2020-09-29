@@ -59,6 +59,8 @@ server5 IN    A     10.0.0.25
 ; small names
 pie1    IN    A     10.0.0.31
 nuc1    IN    A     10.0.0.32
+pie2    IN    A     10.0.0.33
+pie3    IN    A     10.0.0.34
 
 ; printer names
 printer1      IN    A     10.0.0.41
@@ -100,6 +102,8 @@ router  IN    CNAME router1
 pie     IN    CNAME pie1
 dns     IN    CNAME pie1
 seed    IN    CNAME pie1
+welcome-chill IN    pie2
+today-left-front    IN    pie3
 nuc     IN    CNAME nuc1
 
 printer       IN    CNAME printer1
