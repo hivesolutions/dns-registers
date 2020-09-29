@@ -42,6 +42,7 @@ platforme.    IN    SOA    ns1.platforme.    hostmaster.platforme. (
 
 ; router names
 router1 IN    A     10.0.0.1
+router2 IN    A     10.0.0.2
 
 ; nas names
 nas1    IN    A     10.0.0.11
