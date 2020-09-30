@@ -75,7 +75,7 @@ ap-manager    IN    A     10.0.0.56
 
 ; random hardware
 door1   IN    A     10.0.0.61
-door2   IN    A     10.0.0.62
+controller-1  IN    A     10.0.0.62
 finger1 IN    A     10.0.0.63
 
 ; dummy in case servers
@@ -112,6 +112,7 @@ today-left-front    IN    CNAME pie3
 today   IN    CNAME today-left-front
 nuc     IN    CNAME nuc1
 door    IN    CNAME door1
+controller    IN    CNAME controller1
 door-admin-1  IN    CNAME driver1
 door-admin    IN    CNAME door-admin-1
 
