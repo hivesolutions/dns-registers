@@ -117,11 +117,13 @@ finger  IN    CNAME finger1
 door-admin-1  IN    CNAME driver1
 door-admin    IN    CNAME door-admin-1
 maya    IN    CNAME driver2
-
 printer       IN    CNAME printer1
+
+; legacy alias
 ripe-nas-1    IN    CNAME nas1
 
 ; nas alias
+ripe     IN    CNAME nas1
 renders  IN    CNAME nas2
 textures IN    CNAME nas3
 
