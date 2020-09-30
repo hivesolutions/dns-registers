@@ -78,6 +78,10 @@ door    IN    A     10.0.0.61
 door-admin-1  IN    A     10.0.0.62
 finger1 IN    A     10.0.0.63
 
+; dummy in case servers
+driver1 IN    A     10.0.0.71
+driver2 IN    A     10.0.0.72
+
 ; tech names
 jm      IN    A     10.0.1.11
 hg      IN    A     10.0.1.12
