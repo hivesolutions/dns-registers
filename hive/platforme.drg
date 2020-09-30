@@ -74,8 +74,8 @@ ap5     IN    A     10.0.0.55
 ap-manager    IN    A     10.0.0.56
 
 ; random hardware
-door    IN    A     10.0.0.61
-door-admin-1  IN    A     10.0.0.62
+door1   IN    A     10.0.0.61
+door2   IN    A     10.0.0.62
 finger1 IN    A     10.0.0.63
 
 ; dummy in case servers
@@ -111,6 +111,9 @@ welcome IN    CNAME welcome-chill
 today-left-front    IN    CNAME pie3
 today   IN    CNAME today-left-front
 nuc     IN    CNAME nuc1
+door    IN    CNAME door1
+door-admin-1  IN    CNAME driver1
+door-admin    IN    CNAME door-admin-1
 
 printer       IN    CNAME printer1
 ripe-nas-1    IN    CNAME nas1
