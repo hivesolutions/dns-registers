@@ -121,6 +121,10 @@ maya    IN    CNAME driver2
 printer       IN    CNAME printer1
 ripe-nas-1    IN    CNAME nas1
 
+; nas alias
+renders  IN    CNAME nas2
+textures IN    CNAME nas3
+
 ; render farm alias
 rfarm1  IN    CNAME server1
 rfarm2  IN    CNAME server2
