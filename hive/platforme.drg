@@ -113,6 +113,7 @@ today   IN    CNAME today-left-front
 nuc     IN    CNAME nuc1
 door    IN    CNAME door1
 controller    IN    CNAME controller1
+finger  IN    CNAME finger1
 door-admin-1  IN    CNAME driver1
 door-admin    IN    CNAME door-admin-1
 maya    IN    CNAME driver2
