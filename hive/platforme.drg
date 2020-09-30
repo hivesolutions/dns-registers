@@ -75,7 +75,7 @@ ap-manager    IN    A     10.0.0.56
 
 ; random hardware
 door1   IN    A     10.0.0.61
-controller-1  IN    A     10.0.0.62
+controller1   IN    A     10.0.0.62
 finger1 IN    A     10.0.0.63
 
 ; dummy in case servers
