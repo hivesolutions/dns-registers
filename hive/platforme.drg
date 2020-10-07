@@ -71,7 +71,6 @@ ap2     IN    A     10.0.0.52
 ap3     IN    A     10.0.0.53
 ap4     IN    A     10.0.0.54
 ap5     IN    A     10.0.0.55
-ap-manager    IN    A     10.0.0.56
 
 ; random hardware
 door1   IN    A     10.0.0.61
