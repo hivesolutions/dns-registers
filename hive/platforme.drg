@@ -118,6 +118,13 @@ door-admin    IN    CNAME door-admin-1
 maya    IN    CNAME driver2
 printer       IN    CNAME printer1
 
+; server alias
+s1      IN    CNAME server1
+s2      IN    CNAME server2
+s3      IN    CNAME server3
+s4      IN    CNAME server4
+s5      IN    CNAME server5
+
 ; legacy alias
 ripe-nas-1    IN    CNAME nas1
 
