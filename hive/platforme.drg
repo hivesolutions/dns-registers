@@ -104,7 +104,7 @@ ns1     IN    A     10.0.0.31
 router  IN    CNAME router1
 pie     IN    CNAME pie1
 dns     IN    CNAME pie1
-dhcp     IN    CNAME pie1
+dhcp    IN    CNAME pie1
 seed    IN    CNAME pie1
 welcome-chill IN    CNAME pie2
 welcome IN    CNAME welcome-chill
