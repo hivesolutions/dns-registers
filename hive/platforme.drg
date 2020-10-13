@@ -122,8 +122,8 @@ maya    IN    CNAME driver2
 printer       IN    CNAME printer1
 
 ; pie alias
-wall-left     IN    pie3
-tech-soft     IN    pie4
+wall-left     IN    CNAME pie3
+tech-soft     IN    CNAME pie4
 
 ; server alias
 s1      IN    CNAME server1
