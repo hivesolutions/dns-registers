@@ -121,6 +121,10 @@ door-admin    IN    CNAME door-admin-1
 maya    IN    CNAME driver2
 printer       IN    CNAME printer1
 
+; pie alias
+wall-left     IN    pie3
+tech-soft     IN    pie4
+
 ; server alias
 s1      IN    CNAME server1
 s2      IN    CNAME server2
