@@ -62,6 +62,7 @@ pie1    IN    A     10.0.0.31
 nuc1    IN    A     10.0.0.32
 pie2    IN    A     10.0.0.33
 pie3    IN    A     10.0.0.34
+pie4    IN    A     10.0.0.35
 
 ; printer names
 printer1      IN    A     10.0.0.41
