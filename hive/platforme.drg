@@ -125,8 +125,11 @@ door-admin-1  IN    CNAME driver1
 door-admin    IN    CNAME door-admin-1
 maya    IN    CNAME driver2
 printer       IN    CNAME printer1
-rabbit  IN    CNAME pie2
+
+; rabbitmq alias
 rabbitmq      IN    CNAME pie2
+rabbit  IN    CNAME rabbitmq
+mq      IN    CNAME rabbitmq
 
 ; pie alias
 wall-left     IN    CNAME pie3
