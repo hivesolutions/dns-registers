@@ -130,6 +130,7 @@ unifi   IN    CNAME driver1
 ; rabbitmq alias
 rabbitmq      IN    CNAME pie2
 rabbit  IN    CNAME rabbitmq
+amqp    IN    CNAME rabbitmq
 mq      IN    CNAME rabbitmq
 
 ; pie alias
