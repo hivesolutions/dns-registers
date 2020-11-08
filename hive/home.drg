@@ -49,7 +49,8 @@ nas1    IN    A     192.168.1.11
 rasp1   IN    A     192.168.1.21
 rasp2   IN    A     192.168.1.22
 rasp3   IN    A     192.168.1.23
-personal      IN    A     192.168.1.51
+personal1     IN    A     192.168.1.51
+personal2     IN    A     192.168.1.52
 ;router1 IN    AAAA  2001:818:df09:1400::1
 router2 IN    AAAA  2001:818:df09:1400:1ad6:c7ff:fe52:e94a
 seed    IN    AAAA  2001:818:df09:1400:ba27:ebff:fe43:5a9f
@@ -57,7 +58,8 @@ nas1    IN    AAAA  2001:818:df09:1400:211:32ff:fe23:4fb
 rasp1   IN    AAAA  2001:818:df09:1400:ba27:ebff:fe16:55ae
 rasp2   IN    AAAA  2001:818:df09:1400:ba27:ebff:fe55:6192
 rasp3   IN    AAAA  2001:818:df09:1400:ba27:ebff:fec8:c629
-personal      IN    AAAA  2001:818:df09:1400:d63d:7eff:fef5:4b1f
+personal1     IN    AAAA  2001:818:df09:1400:d63d:7eff:fef5:4b1f
+personal2     IN    AAAA  2001:818:df09:1400:2ef0:5dff:fe21:4123
 ipv4.router1  IN    A     192.168.1.1
 ipv4.router2  IN    A     192.168.1.2
 ipv4.seed     IN    A     192.168.1.3
@@ -66,7 +68,8 @@ ipv4.nas1     IN    A     192.168.1.11
 ipv4.rasp1    IN    A     192.168.1.21
 ipv4.rasp2    IN    A     192.168.1.22
 ipv4.rasp3    IN    A     192.168.1.23
-ipv4.personal IN    A     192.168.1.51
+ipv4.personal1      IN    A     192.168.1.51
+ipv4.personal2      IN    A     192.168.1.52
 ipv6.router1  IN    AAAA  2001:818:df09:1400::1
 ipv6.router2  IN    AAAA  2001:818:df09:1400:1ad6:c7ff:fe52:e94a
 ipv6.seed     IN    AAAA  2001:818:df09:1400:ba27:ebff:fe43:5a9f
@@ -74,7 +77,8 @@ ipv6.nas1     IN    AAAA  2001:818:df09:1400:211:32ff:fe23:4fb
 ipv6.rasp1    IN    AAAA  2001:818:df09:1400:ba27:ebff:fe16:55ae
 ipv6.rasp2    IN    AAAA  2001:818:df09:1400:ba27:ebff:fe55:6192
 ipv6.rasp3    IN    AAAA  2001:818:df09:1400:ba27:ebff:fec8:c629
-ipv6.personal IN    AAAA  2001:818:df09:1400:d63d:7eff:fef5:4b1f
+ipv6.personal1      IN    AAAA  2001:818:df09:1400:d63d:7eff:fef5:4b1f
+ipv6.personal2      IN    AAAA  2001:818:df09:1400:2ef0:5dff:fe21:4123
 local.router1 IN    AAAA  fe80::fa98:b9ff:fe6c:5e9d
 local.router2 IN    AAAA  fe80::1ad6:c7ff:fe52:e94a
 local.seed    IN    AAAA  fe80::ba27:ebff:fe43:5a9f
@@ -82,7 +86,8 @@ local.nas1    IN    AAAA  fe80::211:32ff:fe23:4fb
 local.rasp1   IN    AAAA  fe80::ba27:ebff:fe16:55ae
 local.rasp2   IN    AAAA  fe80::ba27:ebff:fe55:6192
 local.rasp3   IN    AAAA  fe80::ba27:ebff:fec8:c629
-local.personal      IN    AAAA  fe80::d63d:7eff:fef5:4b1f
+local.personal1     IN    AAAA  fe80::d63d:7eff:fef5:4b1f
+local.personal2     IN    AAAA  fe80::2ef0:5dff:fe21:4123
 
 ns1     IN    A     172.16.0.3
 ns1     IN    AAAA  2001:818:df09:1400:ba27:ebff:fe43:5a9f
@@ -103,7 +108,9 @@ olec1   IN    CNAME xbmc1
 olec2   IN    CNAME xbmc2
 kodi1   IN    CNAME xbmc1
 kodi2   IN    CNAME xbmc2
-desktop IN    CNAME personal
+desktop IN    CNAME desktop1
+desktop1      IN    CNAME personal1
+desktop2      IN    CNAME personal2
 retropie      IN    CNAME rasp3
 ipv4.rasp     IN    CNAME ipv4.rasp1
 ipv4.xbmc1    IN    CNAME ipv4.rasp1
@@ -112,7 +119,8 @@ ipv4.olec1    IN    CNAME ipv4.xbmc1
 ipv4.olec2    IN    CNAME ipv4.xbmc2
 ipv4.kodi1    IN    CNAME ipv4.xbmc1
 ipv4.kodi2    IN    CNAME ipv4.xbmc2
-ipv4.desktop  IN    CNAME ipv4.personal
+ipv4.desktop1 IN    CNAME ipv4.personal1
+ipv4.desktop2  IN    CNAME ipv4.personal2
 ipv4.retropie IN    CNAME ipv4.rasp3
 ipv6.rasp     IN    CNAME ipv6.rasp1
 ipv6.xbmc1    IN    CNAME ipv6.rasp1
@@ -121,5 +129,6 @@ ipv6.olec1    IN    CNAME ipv6.xbmc1
 ipv6.olec2    IN    CNAME ipv6.xbmc2
 ipv6.kodi1    IN    CNAME ipv6.xbmc1
 ipv6.kodi2    IN    CNAME ipv6.xbmc2
-ipv6.desktop  IN    CNAME ipv6.personal
+ipv6.desktop1 IN    CNAME ipv6.personal1
+ipv6.desktop2 IN    CNAME ipv6.personal2
 ipv6.retropie IN    CNAME ipv6.rasp3
