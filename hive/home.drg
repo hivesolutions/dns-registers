@@ -108,7 +108,8 @@ olec1   IN    CNAME xbmc1
 olec2   IN    CNAME xbmc2
 kodi1   IN    CNAME xbmc1
 kodi2   IN    CNAME xbmc2
-desktop IN    CNAME desktop1
+desktop IN    CNAME personal
+personal      IN    CNAME personal1
 desktop1      IN    CNAME personal1
 desktop2      IN    CNAME personal2
 retropie      IN    CNAME rasp3
