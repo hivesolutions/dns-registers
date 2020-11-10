@@ -48,3 +48,6 @@ first-day.pt.    IN    SOA    ns1.bemisc.com.    hostmaster.first-day.pt. (
 
 ; domain alias
 www     IN    CNAME first-day.pt.
+
+; facebook verification
+first-day.pt.      IN    TXT   "facebook-domain-verification=hmnxh4e1zebccc2pc0x82sgrf6pu4o"
