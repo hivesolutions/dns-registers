@@ -343,6 +343,13 @@ toy     IN    CNAME servidor4
 carreira      IN    CNAME servidor5
 cristina      IN    CNAME servidor6
 
+; english alias
+server1 IN    CNAME servidor1
+server2 IN    CNAME servidor2
+server3 IN    CNAME servidor3
+server4 IN    CNAME servidor4
+server5 IN    CNAME servidor5
+
 ; os alias
 ubuntu  IN    CNAME vbox1
 scudum  IN    CNAME vbox2
