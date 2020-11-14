@@ -144,6 +144,7 @@ s2      IN    CNAME server2
 s3      IN    CNAME server3
 s4      IN    CNAME server4
 s5      IN    CNAME server5
+s6      IN    CNAME server6
 
 ; legacy alias
 ripe-nas-1    IN    CNAME nas1
@@ -159,11 +160,13 @@ rfarm2  IN    CNAME server2
 rfarm3  IN    CNAME server3
 rfarm4  IN    CNAME server4
 rfarm5  IN    CNAME server5
+rfarm6  IN    CNAME server6
 rfarm01 IN    CNAME server1
 rfarm02 IN    CNAME server2
 rfarm03 IN    CNAME server3
 rfarm04 IN    CNAME server4
 rfarm05 IN    CNAME server5
+rfarm06 IN    CNAME server6
 farm1   IN    CNAME rfarm1
 farm2   IN    CNAME rfarm2
 farm3   IN    CNAME rfarm3
