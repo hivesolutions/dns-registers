@@ -85,8 +85,8 @@ finger1 IN    A     10.0.0.63
 driver1 IN    A     10.0.0.71
 driver2 IN    A     10.0.0.72
 
-; nuc names
-nuc1    IN    A     10.0.0.81
+; dump server names
+dump1   IN    A     10.0.0.81
 
 ; tech names
 jm      IN    A     10.0.1.11
