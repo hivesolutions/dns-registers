@@ -146,6 +146,14 @@ s4      IN    CNAME server4
 s5      IN    CNAME server5
 s6      IN    CNAME server6
 
+; servidor alias
+servidor1     IN    CNAME server1
+servidor2     IN    CNAME server2
+servidor3     IN    CNAME server3
+servidor4     IN    CNAME server4
+servidor5     IN    CNAME server5
+servidor6     IN    CNAME server6
+
 ; legacy alias
 ripe-nas-1    IN    CNAME nas1
 
