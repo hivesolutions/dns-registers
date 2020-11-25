@@ -128,6 +128,7 @@ door-admin    IN    CNAME door-admin-1
 maya    IN    CNAME driver2
 printer       IN    CNAME printer1
 unifi   IN    CNAME driver1
+rancher IN    CNAME server7
 
 ; rabbitmq alias
 rabbitmq      IN    CNAME pie2
