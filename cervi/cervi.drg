@@ -22,7 +22,7 @@
 
 ; domain global parameters
 $TTL 1h
- 
+
 ; domain general parameters
 cervi.    IN    SOA    ns1.cervi.    hostmaster.cervi. (
             1          ; serial number
