@@ -42,3 +42,7 @@ lasbestas.com.    IN    SOA    ns1.bemisc.com.    hostmaster.lasbestas.com. (
 
 ; domain names
 www     IN    CNAME proxy.bemisc.com.
+
+
+; keybase validation fields
+lasbestas.com.      IN    TXT   "google-site-verification=FgL_HsAbAdbMyrfTthrlrG0A90nw3MuEkrXFtfU8OSs"
