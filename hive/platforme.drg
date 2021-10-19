@@ -60,6 +60,7 @@ server4 IN    A     10.0.0.24
 server5 IN    A     10.0.0.25
 server6 IN    A     10.0.0.26
 server7 IN    A     10.0.0.27
+server8 IN    A     10.0.0.28
 
 ; pie names
 pie1    IN    A     10.0.0.31
@@ -149,6 +150,7 @@ s4      IN    CNAME server4
 s5      IN    CNAME server5
 s6      IN    CNAME server6
 s7      IN    CNAME server7
+s8      IN    CNAME server8
 
 ; servidor alias
 servidor1     IN    CNAME server1
@@ -158,6 +160,7 @@ servidor4     IN    CNAME server4
 servidor5     IN    CNAME server5
 servidor6     IN    CNAME server6
 servidor7     IN    CNAME server7
+servidor8     IN    CNAME server8
 
 ; legacy alias
 ripe-nas-1    IN    CNAME nas1
@@ -175,6 +178,7 @@ rfarm4  IN    CNAME server4
 rfarm5  IN    CNAME server5
 rfarm6  IN    CNAME server6
 rfarm7  IN    CNAME server7
+rfarm8  IN    CNAME server8
 rfarm01 IN    CNAME server1
 rfarm02 IN    CNAME server2
 rfarm03 IN    CNAME server3
@@ -182,6 +186,7 @@ rfarm04 IN    CNAME server4
 rfarm05 IN    CNAME server5
 rfarm06 IN    CNAME server6
 rfarm07 IN    CNAME server7
+rfarm08 IN    CNAME server8
 farm1   IN    CNAME rfarm1
 farm2   IN    CNAME rfarm2
 farm3   IN    CNAME rfarm3
