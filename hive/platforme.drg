@@ -61,6 +61,7 @@ server5 IN    A     10.0.0.25
 server6 IN    A     10.0.0.26
 server7 IN    A     10.0.0.27
 server8 IN    A     10.0.0.28
+server9 IN    A     10.0.0.29
 
 ; pie names
 pie1    IN    A     10.0.0.31
@@ -130,7 +131,10 @@ door-admin    IN    CNAME door-admin-1
 maya    IN    CNAME driver2
 printer       IN    CNAME printer1
 unifi   IN    CNAME driver1
+clo3d1  IN    CNAME server6
 rancher IN    CNAME server7
+hermes  IN    CNAME server8
+clo3d2  IN    CNAME server9
 
 ; rabbitmq alias
 rabbitmq      IN    CNAME pie2
@@ -151,6 +155,7 @@ s5      IN    CNAME server5
 s6      IN    CNAME server6
 s7      IN    CNAME server7
 s8      IN    CNAME server8
+s9      IN    CNAME server9
 
 ; servidor alias
 servidor1     IN    CNAME server1
@@ -161,6 +166,7 @@ servidor5     IN    CNAME server5
 servidor6     IN    CNAME server6
 servidor7     IN    CNAME server7
 servidor8     IN    CNAME server8
+servidor9     IN    CNAME server9
 
 ; legacy alias
 ripe-nas-1    IN    CNAME nas1
@@ -179,6 +185,7 @@ rfarm5  IN    CNAME server5
 rfarm6  IN    CNAME server6
 rfarm7  IN    CNAME server7
 rfarm8  IN    CNAME server8
+rfarm9  IN    CNAME server9
 rfarm01 IN    CNAME server1
 rfarm02 IN    CNAME server2
 rfarm03 IN    CNAME server3
@@ -187,6 +194,7 @@ rfarm05 IN    CNAME server5
 rfarm06 IN    CNAME server6
 rfarm07 IN    CNAME server7
 rfarm08 IN    CNAME server8
+rfarm09 IN    CNAME server9
 farm1   IN    CNAME rfarm1
 farm2   IN    CNAME rfarm2
 farm3   IN    CNAME rfarm3
