@@ -99,3 +99,4 @@ $TTL 1h
 5.4.16.172.in-addr.arpa.   IN    PTR    vbox5.hive.
 6.4.16.172.in-addr.arpa.   IN    PTR    vbox6.hive.
 7.4.16.172.in-addr.arpa.   IN    PTR    vbox7.hive.
+8.4.16.172.in-addr.arpa.   IN    PTR    vbox8.hive.
