@@ -59,6 +59,8 @@ fr-logic-1    IN    AAAA  2a01:4f8:190:5137::2
 fr-logic-2    IN    AAAA  2a01:4f8:172:171e::2
 fr-logic-3    IN    AAAA  2a01:4f8:10a:e55::2
 fr-logic-4    IN    AAAA  2a01:4f8:222:295d::2
+am-logic-1    IN    AAAA  fe80::dc2e:4cff:fe25:9027
+pa-logic-1    IN    AAAA  fe80::dc1c:3cff:fe12:e032
 fr-sandbox-1  IN    AAAA  2a03:b0c0:3:d0::23d4:5001
 ipv4.fr-ns-1  IN    A     138.68.98.137
 ipv4.fr-ns-2  IN    A     104.236.254.235
@@ -77,6 +79,8 @@ ipv6.fr-logic-1     IN    AAAA  2a01:4f8:190:5137::2
 ipv6.fr-logic-2     IN    AAAA  2a01:4f8:172:171e::2
 ipv6.fr-logic-3     IN    AAAA  2a01:4f8:10a:e55::2
 ipv6.fr-logic-4     IN    AAAA  2a01:4f8:222:295d::2
+ipv6.am-logic-1     IN    AAAA  fe80::dc2e:4cff:fe25:9027
+ipv6.pa-logic-1     IN    AAAA  fe80::dc1c:3cff:fe12:e032
 ipv6.fr-sandbox-1   IN    AAAA  2a03:b0c0:3:d0::23d4:5001
 
 ; domain names
