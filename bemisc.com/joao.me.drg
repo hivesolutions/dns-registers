@@ -49,6 +49,7 @@ joao.me.    IN    SOA    ns1.bemisc.com.    hostmaster.joao.me. (
 
 ; domain alias
 www     IN    CNAME proxy.bemisc.com.
+boytacean     IN    CNAME boytacean.netlify.app.
 chip-ahoyto   IN    CNAME chip-ahoyto.netlify.app.
 
 ; keybase validation fields
