@@ -86,7 +86,7 @@ vpn-vodafone  IN    CNAME hq-vodafone
 ; spf validation fields
 hive.pt.      IN    TXT   "v=spf1 a:fr-logic-2.bemisc.com a:hq-vodafone.hive.pt include:_spf.google.com ~all"
         IN    SPF   "v=spf1 a:fr-logic-2.bemisc.com a:hq-vodafone.hive.pt include:_spf.google.com ~all"
-stage.hive.pt IN    TXT   "v=spf1 a:fr-logic-2.bemisc.com a:hq-vodafone.hive.pt include:_spf.google.com ~all"
+stage.hive.pt.      IN    TXT   "v=spf1 a:fr-logic-2.bemisc.com a:hq-vodafone.hive.pt include:_spf.google.com ~all"
 stage.hive.pt.      IN    SPF   "v=spf1 a:fr-logic-2.bemisc.com a:hq-vodafone.hive.pt include:_spf.google.com ~all"
 
 ; dkim validation fields
