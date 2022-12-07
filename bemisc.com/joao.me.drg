@@ -50,6 +50,7 @@ joao.me.    IN    SOA    ns1.bemisc.com.    hostmaster.joao.me. (
 ; domain alias
 www     IN    CNAME proxy.bemisc.com.
 boytacean     IN    CNAME boytacean.pages.dev.
+battlerust    IN    CNAME battlerust.pages.dev.
 chip-ahoyto   IN    CNAME chip-ahoyto.pages.dev.
 
 ; keybase validation fields
