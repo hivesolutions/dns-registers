@@ -55,7 +55,7 @@ power-pdu     IN    A     172.16.0.10
 router-main   IN    AAAA  2001:818:e64c:8100::1
 switch-extra  IN    AAAA  2001:818:e64c:8100:861b:5eff:fe95:b565
 impressora1   IN    AAAA  2001:818:e64c:8100:a2d3:c1ff:fe82:f2e4
-impressora2   IN    AAAA  2001:818:e64c:8100:fa0d:60ff:fe0a:519f
+impressora2   IN    AAAA  2001:818:e64c:8100:e270:eaff:fe4a:b39c
 ipv4.router-main    IN    A     172.16.0.1
 ipv4.switch-extra   IN    A     172.16.0.2
 ipv4.impressora1    IN    A     172.16.0.3
@@ -63,11 +63,11 @@ ipv4.impressora2    IN    A     172.16.0.7
 ipv6.router-main    IN    AAAA  2001:818:e64c:8100::1
 ipv6.switch-extra   IN    AAAA  2001:818:e64c:8100:861b:5eff:fe95:b565
 ipv6.impressora1    IN    AAAA  2001:818:e64c:8100:a2d3:c1ff:fe82:f2e4
-ipv6.impressora2    IN    AAAA  2001:818:e64c:8100:fa0d:60ff:fe0a:519f
+ipv6.impressora2    IN    AAAA  2001:818:e64c:8100:e270:eaff:fe4a:b39c
 local.router-main   IN    AAAA  fe80::b26e:bfff:fe63:bde8
 local.switch-extra  IN    AAAA  fe80::861b:5eff:fe95:b565
 local.impressora1   IN    AAAA  fe80::a2d3:c1ff:fe82:f2e4
-local.impressora2   IN    AAAA  fe80::fa0d:60ff:fe0a:519f
+local.impressora2   IN    AAAA  fe80::e270:eaff:fe4a:b39c	
 
 servidor1     IN    A     172.16.0.11
 servidor2     IN    A     172.16.0.12
