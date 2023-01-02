@@ -326,6 +326,8 @@ ipv4.dhcp     IN    CNAME ipv4.seed
 ipv6.dhcp     IN    CNAME ipv6.seed
 local.dhcp    IN    CNAME local.seed
 
+retropie      IN    CNAME pie1
+
 wemos   IN    CNAME wemos1
 esp8266 IN    CNAME wemos
 micropython   IN    CNAME esp8266
@@ -345,6 +347,10 @@ v5      IN    CNAME vbox5
 v6      IN    CNAME vbox6
 v7      IN    CNAME vbox7
 v8      IN    CNAME vbox8
+r1      IN    CNAME rasp1
+r2      IN    CNAME rasp2
+r3      IN    CNAME rasp3
+r4      IN    CNAME rasp4
 
 ; english alias
 server1 IN    CNAME servidor1
