@@ -54,5 +54,8 @@ boytacean     IN    CNAME boytacean.pages.dev.
 battlerust    IN    CNAME battlerust.pages.dev.
 chip-ahoyto   IN    CNAME chip-ahoyto.pages.dev.
 
+; internal domain alias
+resume  IN    CNAME cv
+
 ; keybase validation fields
 joao.me.      IN    TXT   "keybase-site-verification=k-tS7Xoj_XaVV3wlEFoDhmkeEzU2XsNyJhLPVLR0HIg"
