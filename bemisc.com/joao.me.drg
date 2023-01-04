@@ -48,6 +48,7 @@ joao.me.    IN    SOA    ns1.bemisc.com.    hostmaster.joao.me. (
         IN    NS    ns2.bemisc.com.
 
 ; domain alias
+cv      IN    CNAME joamag-cv.pages.dev.
 www     IN    CNAME proxy.bemisc.com.
 boytacean     IN    CNAME boytacean.pages.dev.
 battlerust    IN    CNAME battlerust.pages.dev.
