@@ -188,13 +188,13 @@ local.seed    IN    AAAA  fe80::ba27:ebff:fe67:ac1f
 
 pie1    IN    A     172.16.2.1
 pie2    IN    A     172.16.2.2
-pie1    IN    AAAA  2001:818:e64c:8100:ba27:ebff:fe32:a12b
+pie1    IN    AAAA  2001:818:e64c:8100:c198:4913:e04c:8f6d
 pie2    IN    AAAA  2001:818:e64c:8100:dea6:32ff:fe09:d8c0
 ipv4.pie1     IN    A     172.16.2.1
 ipv4.pie2     IN    A     172.16.2.2
-ipv6.pie1     IN    AAAA  2001:818:e64c:8100:ba27:ebff:fe32:a12b
+ipv6.pie1     IN    AAAA  2001:818:e64c:8100:c198:4913:e04c:8f6d
 ipv6.pie2     IN    AAAA  2001:818:e64c:8100:dea6:32ff:fe09:d8c0
-local.pie1    IN    AAAA  fe80::ba27:ebff:fe32:a12b
+local.pie1    IN    AAAA  fe80::eb32:a363:68e8:0069
 local.pie2    IN    AAAA  fe80::dea6:32ff:fe09:d8c0
 
 sonoff1 IN    A     172.16.3.1
