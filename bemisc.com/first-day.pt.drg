@@ -33,7 +33,7 @@ first-day.pt.    IN    SOA    ns1.bemisc.com.    hostmaster.first-day.pt. (
 )
 
 ; domain main address
-        IN    A     46.252.201.1
+        IN    A     172.66.45.34
 
 ; google apps email
         IN    MX    1     ASPMX.L.GOOGLE.COM.
@@ -47,7 +47,7 @@ first-day.pt.    IN    SOA    ns1.bemisc.com.    hostmaster.first-day.pt. (
         IN    NS    ns2.bemisc.com.
 
 ; domain alias
-www     IN    CNAME first-day.pt.
+www     IN    CNAME first-day-35a.pages.dev.
 
 ; facebook verification
 first-day.pt.       IN    TXT   "facebook-domain-verification=6znf642cblvbcbet23a9hva88oqtrr"
