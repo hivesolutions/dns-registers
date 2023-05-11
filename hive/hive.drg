@@ -203,10 +203,14 @@ sonoff1 IN    A     172.16.3.1
 sonoff2 IN    A     172.16.3.2
 sonoff3 IN    A     172.16.3.3
 wemos1  IN    A     172.16.3.11
+home-assistant-1    IN    A     172.16.3.21
 ipv4.sonoff1  IN    A     172.16.3.1
 ipv4.sonoff2  IN    A     172.16.3.2
 ipv4.sonoff3  IN    A     172.16.3.3
 ipv4.wemos1   IN    A     172.16.3.11
+ipv4.home-assistant-1     IN    A     172.16.3.21
+ipv6.home-assistant-1     IN    AAAA  2001:818:e64c:8100:a5ca:ede:e318:b852
+local.home-assistant-1    IN    AAAA  fe80::1c2:7c86:4943:2df3
 
 vbox1   IN    A     172.16.4.1
 vbox2   IN    A     172.16.4.2
@@ -334,6 +338,9 @@ wemos   IN    CNAME wemos1
 esp8266 IN    CNAME wemos
 micropython   IN    CNAME esp8266
 
+home-assistant      IN    CNAME home-assistant-1
+homeassistant IN    CNAME home-assistant
+
 ; shortcut alias
 s1      IN    CNAME servidor1
 s2      IN    CNAME servidor2
@@ -353,6 +360,7 @@ r1      IN    CNAME rasp1
 r2      IN    CNAME rasp2
 r3      IN    CNAME rasp3
 r4      IN    CNAME rasp4
+h1      IN    CNAME home-assistant-1
 
 ; english alias
 server1 IN    CNAME servidor1
