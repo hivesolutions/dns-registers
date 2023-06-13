@@ -155,6 +155,7 @@ omnix-hive    IN    CNAME proxy
 omni-hive     IN    CNAME proxy
 omni-amiranda IN    CNAME proxy
 omnix-amiranda      IN    CNAME proxy
+dropbox-notifier    IN    CNAME proxy
 omni-gateway-ldj    IN    CNAME proxy
 omni-repairs-ldj    IN    CNAME proxy
 omni-retail-bridge-ldj    IN    CNAME proxy
