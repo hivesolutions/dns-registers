@@ -134,6 +134,8 @@ cameria IN    CNAME proxy
 metrium IN    CNAME proxy
 story   IN    CNAME proxy
 minio   IN    CNAME proxy
+minio-data    IN    CNAME proxy
+minio-files   IN    CNAME proxy
 whistler      IN    CNAME proxy
 rockmongo     IN    CNAME proxy
 phpmyadmin    IN    CNAME proxy
