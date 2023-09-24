@@ -151,6 +151,7 @@ hello-quorum  IN    CNAME proxy
 rabbitmq      IN    CNAME proxy
 posterum      IN    CNAME proxy
 budy-ldj      IN    CNAME proxy
+mbalancer     IN    CNAME proxy
 colony-print  IN    CNAME proxy
 websites-ldj  IN    CNAME proxy
 mongo-express IN    CNAME proxy
