@@ -234,6 +234,7 @@ vbox5   IN    AAAA  2001:818:e64c:8100:a00:27ff:fe78:872e
 vbox6   IN    AAAA  2001:818:e64c:8100:a00:27ff:fe35:d5de
 vbox7   IN    AAAA  2001:818:e64c:8100:a00:27ff:feaf:e036
 vbox8   IN    AAAA  2001:818:e64c:8100:a00:27ff:fe4c:e331
+vbox9   IN    AAAA  2001:818:e64c:8100:a00:27ff:fef8:8b35
 ipv4.vbox1    IN    A     172.16.4.1
 ipv4.vbox2    IN    A     172.16.4.2
 ipv4.vbox3    IN    A     172.16.4.3
@@ -251,6 +252,7 @@ ipv6.vbox5    IN    AAAA  2001:818:e64c:8100:a00:27ff:fe78:872e
 ipv6.vbox6    IN    AAAA  2001:818:e64c:8100:a00:27ff:fe35:d5de
 ipv6.vbox7    IN    AAAA  2001:818:e64c:8100:a00:27ff:feaf:e036
 ipv6.vbox8    IN    AAAA  2001:818:e64c:8100:a00:27ff:fe4c:e331
+ipv6.vbox8    IN    AAAA  2001:818:e64c:8100:a00:27ff:fef8:8b35
 local.vbox1   IN    AAAA  fe80::a00:27ff:fed3:f855
 local.vbox2   IN    AAAA  fe80::a00:27ff:fe79:bb93
 local.vbox3   IN    AAAA  fe80::a00:27ff:fedc:b0f
@@ -259,6 +261,7 @@ local.vbox5   IN    AAAA  fe80::a00:27ff:fe78:872e
 local.vbox6   IN    AAAA  fe80::a00:27ff:fe35:d5de
 local.vbox7   IN    AAAA  fe80::a00:27ff:feaf:e036
 local.vbox8   IN    AAAA  fe80::a00:27ff:fe4c:e331
+local.vbox9   IN    AAAA  fe80::a00:27ff:fef8:8b35
 
 ns1     IN    A     172.16.0.11
 ns2     IN    A     172.16.0.12
