@@ -225,6 +225,7 @@ vbox5   IN    A     172.16.4.5
 vbox6   IN    A     172.16.4.6
 vbox7   IN    A     172.16.4.7
 vbox8   IN    A     172.16.4.8
+vbox9   IN    A     172.16.4.9
 vbox1   IN    AAAA  2001:818:e64c:8100:a00:27ff:fed3:f855
 vbox2   IN    AAAA  2001:818:e64c:8100:a00:27ff:fe79:bb93
 vbox3   IN    AAAA  2001:818:e64c:8100:a00:27ff:fedc:b0f
@@ -241,6 +242,7 @@ ipv4.vbox5    IN    A     172.16.4.5
 ipv4.vbox6    IN    A     172.16.4.6
 ipv4.vbox7    IN    A     172.16.4.7
 ipv4.vbox8    IN    A     172.16.4.8
+ipv4.vbox9    IN    A     172.16.4.9
 ipv6.vbox1    IN    AAAA  2001:818:e64c:8100:a00:27ff:fed3:f855
 ipv6.vbox2    IN    AAAA  2001:818:e64c:8100:a00:27ff:fe79:bb93
 ipv6.vbox3    IN    AAAA  2001:818:e64c:8100:a00:27ff:fedc:b0f
@@ -361,6 +363,7 @@ v5      IN    CNAME vbox5
 v6      IN    CNAME vbox6
 v7      IN    CNAME vbox7
 v8      IN    CNAME vbox8
+v9      IN    CNAME vbox9
 r1      IN    CNAME rasp1
 r2      IN    CNAME rasp2
 r3      IN    CNAME rasp3
