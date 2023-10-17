@@ -74,6 +74,7 @@ servidor2     IN    A     172.16.0.12
 servidor3     IN    A     172.16.0.13
 servidor4     IN    A     172.16.0.14
 servidor5     IN    A     172.16.0.15
+servidor6     IN    A     172.16.0.16
 servidor1     IN    AAAA  2001:818:e64c:8100:6d4:c4ff:fead:ce26
 servidor2     IN    AAAA  2001:818:e64c:8100:6d4:c4ff:fead:f74d
 servidor3     IN    AAAA  2001:818:e64c:8100:8e89:a5ff:fedf:3631
@@ -84,6 +85,7 @@ ipv4.servidor2      IN    A     172.16.0.12
 ipv4.servidor3      IN    A     172.16.0.13
 ipv4.servidor4      IN    A     172.16.0.14
 ipv4.servidor5      IN    A     172.16.0.15
+ipv4.servidor6      IN    A     172.16.0.16
 ipv6.servidor1      IN    AAAA  2001:818:e64c:8100:6d4:c4ff:fead:ce26
 ipv6.servidor2      IN    AAAA  2001:818:e64c:8100:6d4:c4ff:fead:f74d
 ipv6.servidor3      IN    AAAA  2001:818:e64c:8100:8e89:a5ff:fedf:3631
@@ -368,6 +370,7 @@ server2 IN    CNAME servidor2
 server3 IN    CNAME servidor3
 server4 IN    CNAME servidor4
 server5 IN    CNAME servidor5
+server6 IN    CNAME servidor6
 
 ; domain alias
 agata   IN    CNAME servidor1
