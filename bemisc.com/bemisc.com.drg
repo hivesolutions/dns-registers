@@ -164,6 +164,7 @@ omni-gateway-ldj    IN    CNAME proxy
 omni-repairs-ldj    IN    CNAME proxy
 omni-retail-bridge-ldj    IN    CNAME proxy
 orion-retail-bridge-ldj   IN    CNAME proxy
+orion-stock-watch-ldj     IN    CNAME proxy
 oibiquini-extras    IN    CNAME proxy
 websites-oibiquini  IN    CNAME proxy
 takethebill-hive    IN    CNAME proxy
