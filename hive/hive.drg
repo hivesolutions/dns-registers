@@ -168,10 +168,12 @@ router-mega   IN    A     172.16.0.51
 router-extra  IN    A     172.16.0.52
 router-upper  IN    A     172.16.0.53
 router-lower  IN    A     172.16.0.54
+router-mega-extra   IN    A     172.16.0.55
 ipv4.router-mega    IN    A     172.16.0.51
 ipv4.router-extra   IN    A     172.16.0.52
 ipv4.router-upper   IN    A     172.16.0.53
 ipv4.router-lower   IN    A     172.16.0.54
+ipv4.router-mega-extra    IN    A     172.16.0.55
 
 joamag-mob    IN    A     172.16.0.61
 ipv4.joamag-mob     IN    A     172.16.0.61
