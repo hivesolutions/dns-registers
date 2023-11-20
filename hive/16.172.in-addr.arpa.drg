@@ -76,6 +76,7 @@ $TTL 1h
 51.0.16.172.in-addr.arpa.  IN    PTR    router-mega.hive.
 52.0.16.172.in-addr.arpa.  IN    PTR    router-extra.hive.
 53.0.16.172.in-addr.arpa.  IN    PTR    router-upper.hive.
+54.0.16.172.in-addr.arpa.  IN    PTR    router-lower.hive.
 
 61.0.16.172.in-addr.arpa.  IN    PTR    joamag-mob.hive.
 
