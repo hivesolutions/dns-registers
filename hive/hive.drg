@@ -346,12 +346,15 @@ local.dhcp    IN    CNAME local.seed
 
 retropie      IN    CNAME pie1
 
+; wemos alias
 wemos   IN    CNAME wemos1
 esp8266 IN    CNAME wemos
 micropython   IN    CNAME esp8266
 
+; home assistant alias
 home-assistant      IN    CNAME home-assistant-1
 homeassistant IN    CNAME home-assistant
+ha      IN    CNAME home-assistant
 
 ; shortcut alias
 s1      IN    CNAME servidor1
