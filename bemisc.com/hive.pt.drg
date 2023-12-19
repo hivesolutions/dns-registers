@@ -59,9 +59,9 @@ static  IN    CNAME cdn
 
 ; headquarters domain names
 hq-vodafone   IN    A     93.108.246.53
-hq-vodafone   IN    AAAA  2001:818:e64c:8100:3a2c:4aff:feb1:cd3d
+;hq-vodafone   IN    AAAA  2001:818:e64c:8100:3a2c:4aff:feb1:cd3d
 ipv4.hq-vodafone    IN    A     93.108.246.53
-ipv6.hq-vodafone    IN    AAAA  2001:818:e64c:8100:3a2c:4aff:feb1:cd3d
+;ipv6.hq-vodafone    IN    AAAA  2001:818:e64c:8100:3a2c:4aff:feb1:cd3d
 
 hq      IN    CNAME hq-vodafone
 vpn     IN    CNAME hq
