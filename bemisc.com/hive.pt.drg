@@ -63,16 +63,17 @@ hq-vodafone   IN    A     93.108.246.53
 ipv4.hq-vodafone    IN    A     93.108.246.53
 ;ipv6.hq-vodafone    IN    AAAA  2001:818:e64c:8100:3a2c:4aff:feb1:cd3d
 
-; dyndns alias
-hq-dyndns     IN    CNAME  hivesolutions.asuscomm.com.
+; ddns alias
+hq-ddns IN    CNAME hivesolutions.asuscomm.com.
+ipv4.hq-ddns  IN    CNAME  hivesolutions.asuscomm.com.
 
-hq      IN    CNAME hq-dyndns
+hq      IN    CNAME hq-ddns
 vpn     IN    CNAME hq
 sede    IN    CNAME hq
 test    IN    CNAME hq
 archive IN    CNAME hq
 mirrors IN    CNAME hq
-ipv4.hq IN    CNAME ipv4.hq-vodafone
+ipv4.hq IN    CNAME ipv4.hq-ddns
 ipv4.vpn      IN    CNAME ipv4.hq
 ipv4.sede     IN    CNAME ipv4.hq
 ;ipv6.hq IN    CNAME ipv6.hq-vodafone
