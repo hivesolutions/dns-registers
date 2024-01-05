@@ -211,11 +211,13 @@ sonoff2 IN    A     172.16.3.2
 sonoff3 IN    A     172.16.3.3
 wemos1  IN    A     172.16.3.11
 home-assistant-1    IN    A     172.16.3.21
+nuki-bridge-1 IN    A     172.16.3.31
 ipv4.sonoff1  IN    A     172.16.3.1
 ipv4.sonoff2  IN    A     172.16.3.2
 ipv4.sonoff3  IN    A     172.16.3.3
 ipv4.wemos1   IN    A     172.16.3.11
 ipv4.home-assistant-1     IN    A     172.16.3.21
+ipv4.nuki-bridge-1  IN    A     172.16.3.31
 ;ipv6.home-assistant-1     IN    AAAA  2001:818:e64c:8100:a5ca:ede:e318:b852
 ;local.home-assistant-1    IN    AAAA  fe80::1c2:7c86:4943:2df3
 
