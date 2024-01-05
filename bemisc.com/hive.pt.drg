@@ -58,8 +58,10 @@ cdn     IN    CNAME hive-static.netlify.com.
 static  IN    CNAME cdn
 
 ; headquarters domain names
+hq-meo  IN    A     194.65.184.10
 hq-vodafone   IN    A     93.108.246.53
 ;hq-vodafone   IN    AAAA  2001:818:e64c:8100:3a2c:4aff:feb1:cd3d
+ipv4.hq-meo   IN    A     194.65.184.10
 ipv4.hq-vodafone    IN    A     93.108.246.53
 ;ipv6.hq-vodafone    IN    AAAA  2001:818:e64c:8100:3a2c:4aff:feb1:cd3d
 
@@ -76,10 +78,11 @@ mirrors IN    CNAME hq
 ipv4.hq IN    CNAME ipv4.hq-ddns
 ipv4.vpn      IN    CNAME ipv4.hq
 ipv4.sede     IN    CNAME ipv4.hq
-;ipv6.hq IN    CNAME ipv6.hq-vodafone
+;ipv6.hq IN    CNAME ipv6.hq-meo
 ;ipv6.vpn      IN    CNAME ipv6.hq
 ;ipv6.sede     IN    CNAME ipv6.hq
 
+vpn-meo IN    CNAME hq-meo
 vpn-vodafone  IN    CNAME hq-vodafone
 
 ; wildcard redirection
@@ -88,10 +91,10 @@ vpn-vodafone  IN    CNAME hq-vodafone
 *       IN    CNAME proxy.bemisc.com.
 
 ; spf validation fields
-hive.pt.      IN    TXT   "v=spf1 a:fr-logic-2.bemisc.com a:hq-vodafone.hive.pt include:_spf.google.com ~all"
-        IN    SPF   "v=spf1 a:fr-logic-2.bemisc.com a:hq-vodafone.hive.pt include:_spf.google.com ~all"
-stage.hive.pt.      IN    TXT   "v=spf1 a:fr-logic-2.bemisc.com a:hq-vodafone.hive.pt include:_spf.google.com ~all"
-stage.hive.pt.      IN    SPF   "v=spf1 a:fr-logic-2.bemisc.com a:hq-vodafone.hive.pt include:_spf.google.com ~all"
+hive.pt.      IN    TXT   "v=spf1 a:fr-logic-2.bemisc.com a:hq-meo.hive.pt a:hq-vodafone.hive.pt include:_spf.google.com ~all"
+        IN    SPF   "v=spf1 a:fr-logic-2.bemisc.com a:hq-meo.hive.pt a:hq-vodafone.hive.pt include:_spf.google.com ~all"
+stage.hive.pt.      IN    TXT   "v=spf1 a:fr-logic-2.bemisc.com a:hq-meo.hive.pt a:hq-vodafone.hive.pt include:_spf.google.com ~all"
+stage.hive.pt.      IN    SPF   "v=spf1 a:fr-logic-2.bemisc.com a:hq-meo.hive.pt a:hq-vodafone.hive.pt include:_spf.google.com ~all"
 
 ; dkim validation fields
 20130717162259.pm._domainkey.hive.pt.  IN TXT "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCmktrO9BHPK//yEA9xNgr+jdekr3Inpo/07p7iDi01Ejfevemk52VMI7nlWSsPlvSm3Y34SJfmzj+JVbZ2WDnlK8LTUO3PUKeb6pW8sK0djxTMREnMM+nPRwYWNGIQ3FU4dCTxEZNV4AEuN43iaxZC9ZPaYCoT5EHUASpqU9cwCwIDAQAB"
