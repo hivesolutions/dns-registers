@@ -60,9 +60,11 @@ static  IN    CNAME cdn
 ; headquarters domain names
 hq-meo  IN    A     194.65.184.10
 hq-vodafone   IN    A     93.108.246.53
+;hq-meo  IN    AAAA  XXXX:XXXX:XXXX:XXXX:XXXX:XXXX:XXXX:XXXX
 ;hq-vodafone   IN    AAAA  2001:818:e64c:8100:3a2c:4aff:feb1:cd3d
 ipv4.hq-meo   IN    A     194.65.184.10
 ipv4.hq-vodafone    IN    A     93.108.246.53
+;ipv6.hq-meo   IN    AAAA  XXXX:XXXX:XXXX:XXXX:XXXX:XXXX:XXXX:XXXX
 ;ipv6.hq-vodafone    IN    AAAA  2001:818:e64c:8100:3a2c:4aff:feb1:cd3d
 
 ; ddns alias
