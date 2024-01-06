@@ -71,13 +71,13 @@ ipv4.hq-vodafone    IN    A     93.108.246.53
 hq-ddns IN    CNAME hivesolutions.asuscomm.com.
 ipv4.hq-ddns  IN    CNAME  hivesolutions.asuscomm.com.
 
-hq      IN    CNAME hq-ddns
+hq      IN    CNAME hq-meo
 vpn     IN    CNAME hq
 sede    IN    CNAME hq
 test    IN    CNAME hq
 archive IN    CNAME hq
 mirrors IN    CNAME hq
-ipv4.hq IN    CNAME ipv4.hq-ddns
+ipv4.hq IN    CNAME ipv4.hq-meo
 ipv4.vpn      IN    CNAME ipv4.hq
 ipv4.sede     IN    CNAME ipv4.hq
 ;ipv6.hq IN    CNAME ipv6.hq-meo
