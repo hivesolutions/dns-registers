@@ -72,5 +72,9 @@ lugardajoia.com.    IN    TXT   "v=spf1 a:fr-logic-2.bemisc.com include:_spf.goo
 ; dkim validation fields
 20160520103508._domainkey.lugardajoia.com. IN TXT "k=rsa; p=MIGeMA0GCSqGSIb3DQEBAQUAA4GMADCBiAKBgLxr2mznTxo+H3s8Fz52FK7RBlYJ+QYVYMExbvfcev5/bxfWRIgrPcARDO4Iz4TO1sIveYH+E0klDkr8RhooP2SJm+SLOUbLAFqj8u35a6w6xU/Xg7GdQhtpHiF0DXAP5pwStcZ8ydArkpuW34h5vmatfzDTPil4BWMDB/wigBHxAgMBAAE="
 
+; dmarc validation fields
+_dmarc.lugardajoia.com. IN TXT "v=DMARC1; p=none; rua=mailto:geral@lugardajoia.com"
+        IN TXT "v=DMARC1; p=none; rua=mailto:geral@lugardajoia.com"
+
 ; facebook verification
 lugardajoia.com.    IN    TXT   "facebook-domain-verification=hmnxh4e1zebccc2pc0x82sgrf6pu4o"
