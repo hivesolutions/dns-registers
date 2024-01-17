@@ -37,7 +37,7 @@ bemisc.com.    IN    SOA    ns1.bemisc.com.    hostmaster.bemisc.com. (
         IN    AAAA  2a01:4f8:172:171e::2
 
 ; improvmx email forwarding
-        IN    MX    10    mx1.improvmx.com..
+        IN    MX    10    mx1.improvmx.com.
         IN    MX    20    mx2.improvmx.com.
 
 ; domain name servers
