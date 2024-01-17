@@ -181,16 +181,16 @@ static  IN    CNAME cdn
 *       IN    CNAME proxy
 
 ; spf validation fields
-bemisc.com.   IN    TXT   "v=spf1 a mx a:fr-logic-2.bemisc.com include:_spf.google.com ~all"
-fr-logic-1.bemisc.com.    IN    TXT   "v=spf1 a mx a:fr-logic-1.bemisc.com include:_spf.google.com ~all"
-fr-logic-2.bemisc.com.    IN    TXT   "v=spf1 a mx a:fr-logic-2.bemisc.com include:_spf.google.com ~all"
-fr-logic-3.bemisc.com.    IN    TXT   "v=spf1 a mx a:fr-logic-3.bemisc.com include:_spf.google.com ~all"
-fr-logic-4.bemisc.com.    IN    TXT   "v=spf1 a mx a:fr-logic-4.bemisc.com include:_spf.google.com ~all"
-        IN    SPF   "v=spf1 a mx a:fr-logic-2.bemisc.com include:_spf.google.com ~all"
-fr-logic-1    IN    SPF   "v=spf1 a mx a:fr-logic-1.bemisc.com include:_spf.google.com ~all"
-fr-logic-2    IN    SPF   "v=spf1 a mx a:fr-logic-2.bemisc.com include:_spf.google.com ~all"
-fr-logic-3    IN    SPF   "v=spf1 a mx a:fr-logic-3.bemisc.com include:_spf.google.com ~all"
-fr-logic-4    IN    SPF   "v=spf1 a mx a:fr-logic-4.bemisc.com include:_spf.google.com ~all"
+bemisc.com.   IN    TXT   "v=spf1 a mx a:fr-logic-2.bemisc.com include:spf.improvmx.com include:_spf.google.com ~all"
+fr-logic-1.bemisc.com.    IN    TXT   "v=spf1 a mx a:fr-logic-1.bemisc.com include:spf.improvmx.com include:_spf.google.com ~all"
+fr-logic-2.bemisc.com.    IN    TXT   "v=spf1 a mx a:fr-logic-2.bemisc.com include:spf.improvmx.com include:_spf.google.com ~all"
+fr-logic-3.bemisc.com.    IN    TXT   "v=spf1 a mx a:fr-logic-3.bemisc.com include:spf.improvmx.com include:_spf.google.com ~all"
+fr-logic-4.bemisc.com.    IN    TXT   "v=spf1 a mx a:fr-logic-4.bemisc.com include:spf.improvmx.com include:_spf.google.com ~all"
+        IN    SPF   "v=spf1 a mx a:fr-logic-2.bemisc.com include:spf.improvmx.com include:_spf.google.com ~all"
+fr-logic-1    IN    SPF   "v=spf1 a mx a:fr-logic-1.bemisc.com include:spf.improvmx.com include:_spf.google.com ~all"
+fr-logic-2    IN    SPF   "v=spf1 a mx a:fr-logic-2.bemisc.com include:spf.improvmx.com include:_spf.google.com ~all"
+fr-logic-3    IN    SPF   "v=spf1 a mx a:fr-logic-3.bemisc.com include:spf.improvmx.com include:_spf.google.com ~all"
+fr-logic-4    IN    SPF   "v=spf1 a mx a:fr-logic-4.bemisc.com include:spf.improvmx.com include:_spf.google.com ~all"
 
 ; dkim validation fields
 20151228172536._domainkey.bemisc.com. IN TXT "k=rsa; p=MIGeMA0GCSqGSIb3DQEBAQUAA4GMADCBiAKBgKJdzttELwRhDjsttCKAMMwevn/9RL3ueXpNjM8SC7zrCXEoCE8bUAo6Z3bCd3RfIUEH1smImbNnUepQ/x8jumWhynj9gVoGNvUzMHWylrJ0N2b0EtXd07CPMknZNUNL5X5FWcyAGRC/aB7af4MdJOrC6+76vCbomcgc+6C0qoYrAgMBAAE="
