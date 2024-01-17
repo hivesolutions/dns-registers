@@ -197,5 +197,5 @@ fr-logic-4    IN    SPF   "v=spf1 a mx a:fr-logic-4.bemisc.com include:_spf.goog
 20160310111254._domainkey.mailme.bemisc.com. IN TXT "k=rsa; p=MIGeMA0GCSqGSIb3DQEBAQUAA4GMADCBiAKBgNPQfGtRA275QqXITW28hO4rDwcsXt/e32iZtMoYIQmRetZkIsB+zNUL+WY88E4Bw6CWGjUa7HBgvOBDrHAgT3OSgaZCrbNNBt7Y9uiH7km3MDQSO7dyWdmXIeMs2NiYfLuCqpNy5W69rBxGn6UZ6TpmDrJpLM8r6WMBz/mHKhWJAgMBAAE="
 
 ; dmarc validation fields
-_dmarc.bemisc.com.  IN TXT "v=DMARC1; p=none; rua=mailto:global@hive.pt"
-        IN TXT "v=DMARC1; p=none; rua=mailto:global@hive.pt"
+_dmarc.bemisc.com.  IN TXT "v=DMARC1; p=none; rua=mailto:global@bemisc.com"
+        IN TXT "v=DMARC1; p=none; rua=mailto:global@bemisc.com"
