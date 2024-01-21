@@ -99,8 +99,8 @@ stage.hive.pt.      IN    SPF   "v=spf1 a:fr-logic-2.bemisc.com a:hq-meo.hive.pt
 20130717162259.pm._domainkey.hive.pt.  IN TXT "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCmktrO9BHPK//yEA9xNgr+jdekr3Inpo/07p7iDi01Ejfevemk52VMI7nlWSsPlvSm3Y34SJfmzj+JVbZ2WDnlK8LTUO3PUKeb6pW8sK0djxTMREnMM+nPRwYWNGIQ3FU4dCTxEZNV4AEuN43iaxZC9ZPaYCoT5EHUASpqU9cwCwIDAQAB"
 
 ; dmarc validation fields
-_dmarc.hive.pt.     IN TXT "v=DMARC1; p=none; rua=mailto:global@hive.pt"
-        IN TXT "v=DMARC1; p=none; rua=mailto:global@hive.pt"
+_dmarc.hive.pt.     IN TXT "v=DMARC1; p=none; rua=mailto:dmarc@hive.pt"
+        IN TXT "v=DMARC1; p=none; rua=mailto:dmarc@hive.pt"
 
 ; return path alias
 pm-bounces    IN     CNAME pm.mtasv.net.
