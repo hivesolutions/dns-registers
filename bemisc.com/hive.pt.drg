@@ -70,11 +70,11 @@ ipv6.hq-vodafone    IN    A     93.108.246.53
 
 ; ddns alias
 hq-ddns IN    CNAME hivesolutions.asuscomm.com.
-ipv4.hq-ddns  IN    CNAME  hivesolutions.asuscomm.com.
+ipv4.hq-ddns  IN    CNAME hivesolutions.asuscomm.com.
 
 ; nabucasa.com (homee assitant) alias
 ha      IN    CNAME zkd4yymfjpuemujfnttobisoruww6bvd.ui.nabu.casa.
-_acme-challenge.ha.hive.pt      IN    CNAME _acme-challenge.zkd4yymfjpuemujfnttobisoruww6bvd.ui.nabu.casa.
+_acme-challenge     IN    CNAME _acme-challenge.zkd4yymfjpuemujfnttobisoruww6bvd.ui.nabu.casa.
 
 hq      IN    CNAME hq-meo
 vpn     IN    CNAME hq
