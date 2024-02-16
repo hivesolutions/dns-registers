@@ -74,7 +74,9 @@ ipv4.hq-ddns  IN    CNAME hivesolutions.asuscomm.com.
 
 ; nabucasa.com (homee assitant) alias
 ha      IN    CNAME zkd4yymfjpuemujfnttobisoruww6bvd.ui.nabu.casa.
+home-assistant      IN    CNAME zkd4yymfjpuemujfnttobisoruww6bvd.ui.nabu.casa.
 _acme-challenge.ha  IN    CNAME _acme-challenge.zkd4yymfjpuemujfnttobisoruww6bvd.ui.nabu.casa.
+_acme-challenge.home-assistant  IN    CNAME _acme-challenge.zkd4yymfjpuemujfnttobisoruww6bvd.ui.nabu.casa.
 
 hq      IN    CNAME hq-meo
 vpn     IN    CNAME hq
