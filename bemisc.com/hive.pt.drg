@@ -58,11 +58,11 @@ static  IN    CNAME cdn
 hq-meo  IN    A     194.65.184.10
 hq-vodafone   IN    A     93.108.246.53
 ;hq-meo  IN    AAAA  XXXX:XXXX:XXXX:XXXX:XXXX:XXXX:XXXX:XXXX
-;hq-vodafone   IN    AAAA  2001:818:e64c:8100:3a2c:4aff:feb1:cd3d
+hq-vodafone   IN    AAAA  2001:818:e64c:8100:3a2c:4aff:feb1:cd3d
 ipv4.hq-meo   IN    A     194.65.184.10
 ipv4.hq-vodafone    IN    A     93.108.246.53
 ;ipv6.hq-meo   IN    AAAA  XXXX:XXXX:XXXX:XXXX:XXXX:XXXX:XXXX:XXXX
-;ipv6.hq-vodafone    IN    AAAA  2001:818:e64c:8100:3a2c:4aff:feb1:cd3d
+ipv6.hq-vodafone    IN    AAAA  2001:818:e64c:8100:3a2c:4aff:feb1:cd3d
 
 ; temporary IPv6 fixes
 ipv6.hq-meo   IN    A     194.65.184.10
@@ -78,16 +78,16 @@ home-assistant      IN    CNAME zkd4yymfjpuemujfnttobisoruww6bvd.ui.nabu.casa.
 _acme-challenge.ha  IN    CNAME _acme-challenge.zkd4yymfjpuemujfnttobisoruww6bvd.ui.nabu.casa.
 _acme-challenge.home-assistant  IN    CNAME _acme-challenge.zkd4yymfjpuemujfnttobisoruww6bvd.ui.nabu.casa.
 
-hq      IN    CNAME hq-meo
+hq      IN    CNAME hq-vodafone
 vpn     IN    CNAME hq
 sede    IN    CNAME hq
 test    IN    CNAME hq
 archive IN    CNAME hq
 mirrors IN    CNAME hq
-ipv4.hq IN    CNAME ipv4.hq-meo
+ipv4.hq IN    CNAME ipv4.hq-vodafone
 ipv4.vpn      IN    CNAME ipv4.hq
 ipv4.sede     IN    CNAME ipv4.hq
-ipv6.hq IN    CNAME ipv6.hq-meo
+ipv6.hq IN    CNAME ipv6.hq-vodafone
 ipv6.vpn      IN    CNAME ipv6.hq
 ipv6.sede     IN    CNAME ipv6.hq
 
