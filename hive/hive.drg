@@ -406,3 +406,6 @@ bsd     IN    CNAME freebsd
 
 ; wildcard redirection
 *.stage IN    CNAME proxy
+
+; named redirection
+unifi   IN    CNAME proxy
