@@ -227,6 +227,7 @@ vbox6   IN    A     172.16.4.6
 vbox7   IN    A     172.16.4.7
 vbox8   IN    A     172.16.4.8
 vbox9   IN    A     172.16.4.9
+vbox10  IN    A     172.16.4.10
 vbox1   IN    AAAA  2001:818:e64c:8100:a00:27ff:fed3:f855
 vbox2   IN    AAAA  2001:818:e64c:8100:a00:27ff:fe79:bb93
 vbox3   IN    AAAA  2001:818:e64c:8100:a00:27ff:fedc:b0f
@@ -236,6 +237,7 @@ vbox6   IN    AAAA  2001:818:e64c:8100:a00:27ff:fe35:d5de
 vbox7   IN    AAAA  2001:818:e64c:8100:a00:27ff:feaf:e036
 vbox8   IN    AAAA  2001:818:e64c:8100:a00:27ff:fe4c:e331
 vbox9   IN    AAAA  2001:818:e64c:8100:a00:27ff:fef8:8b35
+vbox10  IN    AAAA  2001:818:e64c:8100:9aaa:c58:8513:ac37
 ipv4.vbox1    IN    A     172.16.4.1
 ipv4.vbox2    IN    A     172.16.4.2
 ipv4.vbox3    IN    A     172.16.4.3
@@ -245,6 +247,7 @@ ipv4.vbox6    IN    A     172.16.4.6
 ipv4.vbox7    IN    A     172.16.4.7
 ipv4.vbox8    IN    A     172.16.4.8
 ipv4.vbox9    IN    A     172.16.4.9
+ipv4.vbox10   IN    A     172.16.4.10
 ipv6.vbox1    IN    AAAA  2001:818:e64c:8100:a00:27ff:fed3:f855
 ipv6.vbox2    IN    AAAA  2001:818:e64c:8100:a00:27ff:fe79:bb93
 ipv6.vbox3    IN    AAAA  2001:818:e64c:8100:a00:27ff:fedc:b0f
@@ -253,7 +256,8 @@ ipv6.vbox5    IN    AAAA  2001:818:e64c:8100:a00:27ff:fe78:872e
 ipv6.vbox6    IN    AAAA  2001:818:e64c:8100:a00:27ff:fe35:d5de
 ipv6.vbox7    IN    AAAA  2001:818:e64c:8100:a00:27ff:feaf:e036
 ipv6.vbox8    IN    AAAA  2001:818:e64c:8100:a00:27ff:fe4c:e331
-ipv6.vbox8    IN    AAAA  2001:818:e64c:8100:a00:27ff:fef8:8b35
+ipv6.vbox9    IN    AAAA  2001:818:e64c:8100:a00:27ff:fef8:8b35
+ipv6.vbox10   IN    AAAA  2001:818:e64c:8100:9aaa:c58:8513:ac37
 local.vbox1   IN    AAAA  fe80::a00:27ff:fed3:f855
 local.vbox2   IN    AAAA  fe80::a00:27ff:fe79:bb93
 local.vbox3   IN    AAAA  fe80::a00:27ff:fedc:b0f
@@ -263,6 +267,7 @@ local.vbox6   IN    AAAA  fe80::a00:27ff:fe35:d5de
 local.vbox7   IN    AAAA  fe80::a00:27ff:feaf:e036
 local.vbox8   IN    AAAA  fe80::a00:27ff:fe4c:e331
 local.vbox9   IN    AAAA  fe80::a00:27ff:fef8:8b35
+local.vbox10  IN    AAAA  fe80::564f:81dc:7025:55f2
 
 ns1     IN    A     172.16.0.11
 ns2     IN    A     172.16.0.12
@@ -373,6 +378,7 @@ v6      IN    CNAME vbox6
 v7      IN    CNAME vbox7
 v8      IN    CNAME vbox8
 v9      IN    CNAME vbox9
+v10     IN    CNAME vbox10
 r1      IN    CNAME rasp1
 r2      IN    CNAME rasp2
 r3      IN    CNAME rasp3
