@@ -78,19 +78,19 @@ home-assistant      IN    CNAME zkd4yymfjpuemujfnttobisoruww6bvd.ui.nabu.casa.
 _acme-challenge.ha  IN    CNAME _acme-challenge.zkd4yymfjpuemujfnttobisoruww6bvd.ui.nabu.casa.
 _acme-challenge.home-assistant  IN    CNAME _acme-challenge.zkd4yymfjpuemujfnttobisoruww6bvd.ui.nabu.casa.
 
-hq      IN    CNAME hq-vodafone
-# hq     IN    CNAME hq-meo
+;hq      IN    CNAME hq-vodafone
+hq     IN    CNAME hq-meo
 vpn     IN    CNAME hq
 sede    IN    CNAME hq
 test    IN    CNAME hq
 archive IN    CNAME hq
 mirrors IN    CNAME hq
-ipv4.hq IN    CNAME ipv4.hq-vodafone
-# ipv4.hq IN    CNAME ipv4.hq-meo
+;ipv4.hq IN    CNAME ipv4.hq-vodafone
+ipv4.hq IN    CNAME ipv4.hq-meo
 ipv4.vpn      IN    CNAME ipv4.hq
 ipv4.sede     IN    CNAME ipv4.hq
-ipv6.hq IN    CNAME ipv6.hq-vodafone
-# ipv6.hq IN    CNAME ipv6.hq-meo
+;ipv6.hq IN    CNAME ipv6.hq-vodafone
+;ipv6.hq IN    CNAME ipv6.hq-meo
 ipv6.vpn      IN    CNAME ipv6.hq
 ipv6.sede     IN    CNAME ipv6.hq
 
