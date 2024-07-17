@@ -50,7 +50,7 @@ blog    IN    CNAME proxy.bemisc.com.
 docs    IN    CNAME proxy.bemisc.com.
 openid  IN    CNAME proxy.bemisc.com.
 
-; cdn alias
+; CDN alias
 cdn     IN    CNAME hive-static.netlify.com.
 static  IN    CNAME cdn
 
@@ -68,11 +68,11 @@ ipv6.hq-vodafone    IN    AAAA  2001:818:e64c:8100:3a2c:4aff:feb1:cd3d
 ipv6.hq-meo   IN    A     194.65.184.10
 ipv6.hq-vodafone    IN    A     93.108.246.53
 
-; ddns alias
+; DDNS alias
 hq-ddns IN    CNAME hivesolutions.asuscomm.com.
 ipv4.hq-ddns  IN    CNAME hivesolutions.asuscomm.com.
 
-; nabucasa.com (homee assitant) alias
+; nabucasa.com (home assistant) alias
 ha      IN    CNAME zkd4yymfjpuemujfnttobisoruww6bvd.ui.nabu.casa.
 home-assistant      IN    CNAME zkd4yymfjpuemujfnttobisoruww6bvd.ui.nabu.casa.
 _acme-challenge.ha  IN    CNAME _acme-challenge.zkd4yymfjpuemujfnttobisoruww6bvd.ui.nabu.casa.
@@ -103,21 +103,21 @@ vpn-vodafone  IN    CNAME hq-vodafone
 *.private     IN    CNAME hq
 *       IN    CNAME proxy.bemisc.com.
 
-; spf validation fields
+; SPF validation fields
 hive.pt.      IN    TXT   "v=spf1 a:fr-logic-2.bemisc.com a:hq-meo.hive.pt a:hq-vodafone.hive.pt include:_spf.google.com ~all"
         IN    SPF   "v=spf1 a:fr-logic-2.bemisc.com a:hq-meo.hive.pt a:hq-vodafone.hive.pt include:_spf.google.com ~all"
 stage.hive.pt.      IN    TXT   "v=spf1 a:fr-logic-2.bemisc.com a:hq-meo.hive.pt a:hq-vodafone.hive.pt include:_spf.google.com ~all"
 stage.hive.pt.      IN    SPF   "v=spf1 a:fr-logic-2.bemisc.com a:hq-meo.hive.pt a:hq-vodafone.hive.pt include:_spf.google.com ~all"
 
-; dkim validation fields
+; DKIM validation fields
 20130717162259.pm._domainkey.hive.pt.  IN TXT "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCmktrO9BHPK//yEA9xNgr+jdekr3Inpo/07p7iDi01Ejfevemk52VMI7nlWSsPlvSm3Y34SJfmzj+JVbZ2WDnlK8LTUO3PUKeb6pW8sK0djxTMREnMM+nPRwYWNGIQ3FU4dCTxEZNV4AEuN43iaxZC9ZPaYCoT5EHUASpqU9cwCwIDAQAB"
 
-; dmarc validation fields
+; DMARC validation fields
 _dmarc.hive.pt.     IN TXT "v=DMARC1; p=none; rua=mailto:dmarc@hive.pt"
         IN TXT "v=DMARC1; p=none; rua=mailto:dmarc@hive.pt"
 
 ; return path alias
 pm-bounces    IN     CNAME pm.mtasv.net.
 
-; github validation
+; GitHub validation
 _github-challenge-hivesolutions.hive.pt. IN TXT "5250f3962d"

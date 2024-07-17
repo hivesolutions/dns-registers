@@ -63,6 +63,6 @@ mirrors IN    CNAME hq
 *.private     IN    CNAME hq
 *       IN    CNAME proxy.bemisc.com.
 
-; spf validation fields
+; SPF validation fields
 hiveinc.co.   IN    TXT   "v=spf1 include:_spf.google.com ~all"
         IN    SPF   "v=spf1 include:_spf.google.com ~all"

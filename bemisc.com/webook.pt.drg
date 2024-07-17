@@ -48,10 +48,10 @@ webook.pt.    IN    SOA    ns1.bemisc.com.    hostmaster.webook.pt. (
 blog    IN    CNAME webookporto.wordpress.com.
 *       IN    CNAME proxy.bemisc.com.
 
-; spf validation fields
+; SPF validation fields
 webook.pt.    IN    TXT   "v=spf1 a mx include:bemisc.com include:_spf.google.com ~all"
         IN    SPF   "v=spf1 a mx include:bemisc.com include:_spf.google.com ~all"
 
-; dkim validation fields
+; DKIM validation fields
 20140326153705.pm._domainkey.webook.pt.    IN    TXT    "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC6EcdQ2UM5b7s85EvRN9NhCcnlVlK342yVCvaaViKh3kHdv8H++OOpE7Z+I9Lp3IFKTey9qSz8R3crbNn7Oo90L8N69BmTopYrg8zYeOeXTtrw1/YmZVEoxCUNzrYeNYCaMs85YeFBBn/XkwfHGbPulikDlB9Df0AhkYdIK+bOkwIDAQAB"
 20140327235818.hive._domainkey.webook.pt.  IN    TXT    "k=rsa; p=MIGeMA0GCSqGSIb3DQEBAQUAA4GMADCBiAKBgJc+HE2DkTuDFX9NjtYzG+drVGypuzbFWvAhJBfZkwehEnViUEOAopBpaPuIwtPc7lrj/tlRCbLTFSoAcnuREZBe09AnW4Ip19FZxAHPVsPlTqeaLJ8XKcEAzN++/YSzfiyYI12Zcczb1f/QKYAVEOwN1PRYRfxTL6H9+Eo7ECTbAgMBAAE="

@@ -50,9 +50,9 @@ oibiquini.com.    IN    SOA    ns1.bemisc.com.    hostmaster.oibiquini.com. (
 passatempo    IN    CNAME proxy.bemisc.com.
 extras  IN    CNAME proxy.bemisc.com.
 
-; spf validation fields
+; SPF validation fields
 oibiquini.com.      IN    TXT   "v=spf1 a mx include:bemisc.com include:_spf.google.com ~all"
         IN    SPF   "v=spf1 a mx include:bemisc.com include:_spf.google.com ~all"
 
-; dkim validation fields
+; DKIM validation fields
 20140426102345._domainkey.oibiquini.com. IN TXT "k=rsa; p=MIGeMA0GCSqGSIb3DQEBAQUAA4GMADCBiAKBgKM7ZxQSmcMMustM2eCpHN7ULOJsVBUa/QIBRS6OOp0TFDeNM+pKjSo87zrYm+cbpv0Dg+JVGzdNIcV4aZhkjAJ3SXu3HopOVVpt3BRAzx6tzWBmPZxW1i1hvhyi/jiTD4mc4iU1lp+QVD10foGDqnFnq//bZz98Vmg0RdhnIC0dAgMBAAE="
