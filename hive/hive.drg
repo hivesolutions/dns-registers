@@ -332,6 +332,8 @@ rancher2      IN    CNAME servidor4
 logstash      IN    CNAME servidor4
 mosquito      IN    CNAME servidor4
 elasticsearch IN    CNAME servidor4
+ipv4.db       IN    CNAME ipv4.servidor4
+ipv4.dbs      IN    CNAME ipv4.servidor4
 
 nas     IN    CNAME nas1
 files   IN    CNAME nas1
