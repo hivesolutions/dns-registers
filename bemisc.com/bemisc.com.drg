@@ -197,3 +197,7 @@ fr-logic-4    IN    SPF   "v=spf1 a mx a:fr-logic-4.bemisc.com include:spf.impro
 ; DMARC validation fields
 _dmarc.bemisc.com.  IN TXT "v=DMARC1; p=none; rua=mailto:dmarc@bemisc.com"
         IN TXT "v=DMARC1; p=none; rua=mailto:dmarc@bemisc.com"
+
+; nabucasa.com (home assistant) home alias
+ha-home      IN    CNAME bfur65x7bxvd2s8kujogdddxs0oowylq.ui.nabu.casa.
+_acme-challenge.ha-home  IN    CNAME _acme-challenge.bfur65x7bxvd2s8kujogdddxs0oowylq.ui.nabu.casa.
