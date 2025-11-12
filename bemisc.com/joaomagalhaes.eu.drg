@@ -51,3 +51,7 @@ blog    IN    CNAME proxy.bemisc.com.
 ; SPF validation fields
 joaomagalhaes.eu.   IN    TXT   "v=spf1 a:fr-logic-2.bemisc.com include:_spf.google.com include:servers.mcsv.net ~all"
         IN    SPF   "v=spf1 a:fr-logic-2.bemisc.com include:_spf.google.com include:servers.mcsv.net ~all"
+
+; DMARC validation fields
+_dmarc.joaomagalhaes.eu.  IN TXT "v=DMARC1; p=none; rua=mailto:dmarc@joaomagalhaes.eu"
+        IN TXT "v=DMARC1; p=none; rua=mailto:dmarc@joaomagalhaes.eu"
