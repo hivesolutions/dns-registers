@@ -180,6 +180,9 @@ takethebill-amiranda      IN    CNAME proxy
 cdn     IN    CNAME hive-static.netlify.com.
 static  IN    CNAME cdn
 
+; other alias
+omni-docs     CNAME omni-docs-2tr.pages.dev.
+
 ; nabucasa.com (home assistant) home alias
 ha-home       IN    CNAME bfur65x7bxvd2s8kujogdddxs0oowylq.ui.nabu.casa.
 _acme-challenge.ha-home   IN    CNAME _acme-challenge.bfur65x7bxvd2s8kujogdddxs0oowylq.ui.nabu.casa.
