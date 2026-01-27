@@ -44,5 +44,8 @@ frontdoorhq.com.    IN    SOA    ns1.bemisc.com.    hostmaster.frontdoorhq.com. 
         IN    NS    ns1.bemisc.com.
         IN    NS    ns2.bemisc.com.
 
+; other alias
+docs    CNAME omni-docs-2tr.pages.dev.
+
 ; domain alias
 *       IN    CNAME proxy.bemisc.com.

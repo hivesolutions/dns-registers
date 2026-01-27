@@ -60,3 +60,6 @@ ipv4.amiranda       IN    CNAME ipv4.proxy.bemisc.com.
 ipv6.amiranda       IN    CNAME ipv6.proxy.bemisc.com.
 *.amiranda    IN    CNAME proxy.bemisc.com.
 passamiranda  IN    CNAME proxy.bemisc.com.
+
+; other alias
+docs    CNAME omni-docs-2tr.pages.dev.
