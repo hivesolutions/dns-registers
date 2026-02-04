@@ -114,10 +114,14 @@ stage.hive.pt.      IN    SPF   "v=spf1 a:fr-logic-2.bemisc.com a:hq-meo.hive.pt
 
 ; DMARC validation fields
 _dmarc.hive.pt.     IN TXT "v=DMARC1; p=none; rua=mailto:dmarc@hive.pt"
-        IN TXT "v=DMARC1; p=none; rua=mailto:dmarc@hive.pt"
+        IN    TXT "v=DMARC1; p=none; rua=mailto:dmarc@hive.pt"
 
 ; return path alias
 pm-bounces    IN     CNAME pm.mtasv.net.
 
 ; GitHub validation
 _github-challenge-hivesolutions.hive.pt. IN TXT "5250f3962d"
+
+; Google validation
+hive.pt.       IN    TXT   "google-site-verification=2bofV-xahFTJYuLSJ8MkBs2xLdR9mctV8zC6cuBtgYc"
+www.hive.pt.   IN    TXT   "google-site-verification=2bofV-xahFTJYuLSJ8MkBs2xLdR9mctV8zC6cuBtgYc"
