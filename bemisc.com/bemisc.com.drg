@@ -108,6 +108,7 @@ cifs    IN    CNAME fr-logic-2
 proxy   IN    CNAME fr-logic-2
 ssh     IN    CNAME fr-logic-3
 pushi   IN    CNAME fr-logic-3
+nomad   IN    CNAME fr-logic-5
 rancher IN    CNAME fr-logic-3
 rancher-fast  IN    CNAME fr-logic-3
 ipv4.ssh      IN    CNAME ipv4.fr-logic-2
