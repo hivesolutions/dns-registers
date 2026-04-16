@@ -64,7 +64,7 @@ ipv6.impressora2    IN    AAAA  2001:818:e64c:8100:e270:eaff:fe4a:b39c
 local.router-main   IN    AAAA  fe80::b26e:bfff:fe63:bde8
 local.switch-extra  IN    AAAA  fe80::861b:5eff:fe95:b565
 local.impressora1   IN    AAAA  fe80::a2d3:c1ff:fe82:f2e4
-local.impressora2   IN    AAAA  fe80::e270:eaff:fe4a:b39c	
+local.impressora2   IN    AAAA  fe80::e270:eaff:fe4a:b39c
 
 servidor1     IN    A     172.16.0.11
 servidor2     IN    A     172.16.0.12

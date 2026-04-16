@@ -185,6 +185,11 @@ static  IN    CNAME cdn
 ; other alias
 omni-docs     IN    CNAME omni-docs-2tr.pages.dev.
 
+; temporary alias
+omni-gateway-ldj    IN    CNAME omni-gateway-ldj.aux
+orion-retail-bridge-ldj   IN    CNAME orion-retail-bridge-ldj.aux
+orion-stock-watch-ldj     IN    CNAME orion-stock-watch-ldj.aux
+
 ; nabucasa.com (home assistant) home alias
 ha-home       IN    CNAME bfur65x7bxvd2s8kujogdddxs0oowylq.ui.nabu.casa.
 _acme-challenge.ha-home   IN    CNAME _acme-challenge.bfur65x7bxvd2s8kujogdddxs0oowylq.ui.nabu.casa.
