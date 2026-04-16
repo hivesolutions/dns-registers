@@ -112,14 +112,14 @@ nomad   IN    CNAME fr-logic-5
 rancher IN    CNAME fr-logic-3
 proxy-aux     IN    CNAME fr-logic-5
 rancher-fast  IN    CNAME fr-logic-3
-ipv4.ssh      IN    CNAME ipv4.fr-logic-2
+ipv4.ssh      IN    CNAME ipv4.fr-logic-3
 ipv4.smtp     IN    CNAME ipv4.fr-logic-5
 ipv4.cifs     IN    CNAME ipv4.fr-logic-2
 ipv4.proxy    IN    CNAME ipv4.fr-logic-2
 ipv4.pushi    IN    CNAME ipv4.fr-logic-3
 ipv4.rancher  IN    CNAME ipv4.fr-logic-3
 ipv4.rancher-fast   IN    CNAME ipv4.fr-logic-3
-ipv6.ssh      IN    CNAME ipv6.fr-logic-2
+ipv6.ssh      IN    CNAME ipv6.fr-logic-3
 ipv6.smtp     IN    CNAME ipv6.fr-logic-5
 ipv6.proxy    IN    CNAME ipv6.fr-logic-2
 ipv6.pushi    IN    CNAME ipv6.fr-logic-3
