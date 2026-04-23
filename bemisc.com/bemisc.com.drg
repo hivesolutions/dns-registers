@@ -37,6 +37,9 @@ bemisc.com.    IN    SOA    ns1.bemisc.com.    hostmaster.bemisc.com. (
         IN    MX    10    mx1.improvmx.com.
         IN    MX    20    mx2.improvmx.com.
 
+; alternative mail server (@aux.bemisc.com)
+aux     IN    MX    10    alt.fr-logic-5
+
 ; domain name servers
         IN    NS    ns1.bemisc.com.
         IN    NS    ns2.bemisc.com.
@@ -51,6 +54,7 @@ fr-logic-2    IN    A     138.201.62.42
 fr-logic-3    IN    A     88.99.62.22
 fr-logic-4    IN    A     46.4.46.184
 fr-logic-5    IN    A     144.76.167.230
+alt.fr-logic-5      IN    A     144.76.167.187
 am-logic-1    IN    A     51.15.86.208
 pa-logic-1    IN    A     51.15.206.50
 fr-sandbox-1  IN    A     138.68.76.193
@@ -62,6 +66,7 @@ fr-logic-2    IN    AAAA  2a01:4f8:172:171e::2
 fr-logic-3    IN    AAAA  2a01:4f8:10a:e55::2
 fr-logic-4    IN    AAAA  2a01:4f8:222:295d::2
 fr-logic-5    IN    AAAA  2a01:4f8:200:43ed::2
+alt.fr-logic-5      IN    AAAA  2a01:4f8:200:43ed::3
 am-logic-1    IN    AAAA  2001:bc8:1830:a26::1
 pa-logic-1    IN    AAAA  2001:bc8:47a0:531::1
 fr-sandbox-1  IN    AAAA  2a03:b0c0:3:d0::23d4:5001
@@ -73,6 +78,7 @@ ipv4.fr-logic-2     IN    A     138.201.62.42
 ipv4.fr-logic-3     IN    A     88.99.62.22
 ipv4.fr-logic-4     IN    A     46.4.46.184
 ipv4.fr-logic-5     IN    A     144.76.167.230
+ipv4.alt.fr-logic-5 IN    A     144.76.167.187
 ipv4.am-logic-1     IN    A     51.15.86.208
 ipv4.pa-logic-1     IN    A     51.15.206.50
 ipv4.fr-sandbox-1   IN    A     138.68.76.193
@@ -84,6 +90,7 @@ ipv6.fr-logic-2     IN    AAAA  2a01:4f8:172:171e::2
 ipv6.fr-logic-3     IN    AAAA  2a01:4f8:10a:e55::2
 ipv6.fr-logic-4     IN    AAAA  2a01:4f8:222:295d::2
 ipv6.fr-logic-5     IN    AAAA  2a01:4f8:200:43ed::2
+ipv6.alt.fr-logic-5 IN    AAAA  2a01:4f8:200:43ed::3
 ipv6.am-logic-1     IN    AAAA  2001:bc8:1830:a26::1
 ipv6.pa-logic-1     IN    AAAA  2001:bc8:47a0:531::1
 ipv6.fr-sandbox-1   IN    AAAA  2a03:b0c0:3:d0::23d4:5001
@@ -190,7 +197,7 @@ orion-stock-watch-ldj     IN    CNAME orion-stock-watch-ldj.aux
 ha-home       IN    CNAME bfur65x7bxvd2s8kujogdddxs0oowylq.ui.nabu.casa.
 _acme-challenge.ha-home   IN    CNAME _acme-challenge.bfur65x7bxvd2s8kujogdddxs0oowylq.ui.nabu.casa.
 
-*.aux         IN    CNAME proxy-aux
+*.aux   IN    CNAME proxy-aux
 
 *       IN    CNAME proxy
 
