@@ -197,6 +197,7 @@ orion-stock-watch-ldj     IN    CNAME orion-stock-watch-ldj.aux
 ha-home       IN    CNAME bfur65x7bxvd2s8kujogdddxs0oowylq.ui.nabu.casa.
 _acme-challenge.ha-home   IN    CNAME _acme-challenge.bfur65x7bxvd2s8kujogdddxs0oowylq.ui.nabu.casa.
 
+headless      IN    CNAME proxy-aux
 *.aux   IN    CNAME proxy-aux
 
 *       IN    CNAME proxy
