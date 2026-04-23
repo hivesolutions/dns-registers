@@ -37,9 +37,6 @@ bemisc.com.    IN    SOA    ns1.bemisc.com.    hostmaster.bemisc.com. (
         IN    MX    10    mx1.improvmx.com.
         IN    MX    20    mx2.improvmx.com.
 
-; alternative mail server (@aux.bemisc.com)
-aux     IN    MX    10    alt.fr-logic-5
-
 ; domain name servers
         IN    NS    ns1.bemisc.com.
         IN    NS    ns2.bemisc.com.
@@ -196,6 +193,9 @@ orion-stock-watch-ldj     IN    CNAME orion-stock-watch-ldj.aux
 ; nabucasa.com (home assistant) home alias
 ha-home       IN    CNAME bfur65x7bxvd2s8kujogdddxs0oowylq.ui.nabu.casa.
 _acme-challenge.ha-home   IN    CNAME _acme-challenge.bfur65x7bxvd2s8kujogdddxs0oowylq.ui.nabu.casa.
+
+; alternative mail server (@aux.bemisc.com)
+aux     IN    MX    10    alt.fr-logic-5
 
 headless      IN    CNAME proxy-aux
 *.aux   IN    CNAME proxy-aux
