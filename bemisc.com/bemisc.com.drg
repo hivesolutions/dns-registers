@@ -161,7 +161,6 @@ hello-appier  IN    CNAME proxy
 hello-quorum  IN    CNAME proxy
 rabbitmq      IN    CNAME proxy
 posterum      IN    CNAME proxy
-budy-ldj      IN    CNAME proxy
 mbalancer     IN    CNAME proxy
 colony-print  IN    CNAME proxy
 websites-ldj  IN    CNAME proxy
@@ -196,11 +195,13 @@ _acme-challenge.ha-home   IN    CNAME _acme-challenge.bfur65x7bxvd2s8kujogdddxs0
 
 ; alternative mail server (@aux.bemisc.com)
 aux     IN    MX    10    alt.fr-logic-5
+neo     IN    MX    10    alt.fr-logic-5
 
 ; aux and alt aliases
 headless      IN    CNAME proxy-aux
 budy-ldj      IN    CNAME proxy-aux
 *.aux   IN    CNAME proxy-aux
+*.neo   IN    CNAME proxy-aux
 
 *       IN    CNAME proxy
 
