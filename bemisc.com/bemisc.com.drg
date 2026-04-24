@@ -162,7 +162,6 @@ mbalancer     IN    CNAME proxy
 colony-print  IN    CNAME proxy
 websites-ldj  IN    CNAME proxy
 mongo-express IN    CNAME proxy
-omnix-hive    IN    CNAME proxy
 omni-hive     IN    CNAME proxy
 omni-amiranda IN    CNAME proxy
 omnix-amiranda      IN    CNAME proxy
@@ -197,6 +196,7 @@ neo     IN    MX    10    alt.fr-logic-5
 ; aux and alt aliases
 omnix   IN    CNAME proxy-aux
 omnix-ldj     IN    CNAME proxy-aux
+omnix-hive    IN    CNAME proxy-aux
 rabbitmq      IN    CNAME proxy-aux
 cameria IN    CNAME proxy-aux
 headless      IN    CNAME proxy-aux
