@@ -132,7 +132,7 @@ ipv6.rancher-fast   IN    CNAME ipv6.fr-logic-3
 
 ; domain alias
 mail    IN    CNAME smtp
-print   IN    CNAME proxy
+print   IN    CNAME proxy-aux
 colony  IN    CNAME proxy
 repos   IN    CNAME proxy
 mailme  IN    CNAME proxy
@@ -159,7 +159,7 @@ hello-appier  IN    CNAME proxy
 hello-quorum  IN    CNAME proxy
 posterum      IN    CNAME proxy
 mbalancer     IN    CNAME proxy
-colony-print  IN    CNAME proxy
+colony-print  IN    CNAME proxy-aux
 websites-ldj  IN    CNAME proxy
 mongo-express IN    CNAME proxy
 omni-hive     IN    CNAME proxy
