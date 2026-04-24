@@ -18,15 +18,15 @@
 ; __license__   = Hive Solutions Confidential Usage License (HSCUL)
 
 ; domain global parameters
-$TTL 1h
+$TTL 10m
 
 ; domain general parameters
 lastblock.io.    IN    SOA    ns1.bemisc.com.    hostmaster.lastblock.io. (
-            1          ; serial number
+            2026042401 ; serial number
             4h         ; refresh time
             1h         ; transfer retry time
             7d         ; expiry time
-            1h         ; negative cache time
+            10m        ; negative cache time
 )
 
 ; domain main address
