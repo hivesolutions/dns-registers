@@ -49,7 +49,7 @@ hq      IN    A     62.48.210.70
 
 ; domain alias
 www     IN    CNAME proxy.bemisc.com.
-budy    IN    CNAME proxy.bemisc.com.
+budy    IN    CNAME proxy-aux.bemisc.com.
 ustore  IN    CNAME proxy.bemisc.com.
 omnix   IN    CNAME proxy.bemisc.com.
 sede    IN    CNAME hq

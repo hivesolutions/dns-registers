@@ -200,7 +200,6 @@ alt     IN    MX    10    alt.fr-logic-5
 
 ; aux and alt aliases
 headless      IN    CNAME proxy-aux
-budy    IN    CNAME proxy-aux
 budy-ldj      IN    CNAME proxy-aux
 *.aux   IN    CNAME proxy-aux
 *.alt   IN    CNAME proxy-aux
