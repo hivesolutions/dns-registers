@@ -141,7 +141,6 @@ libs    IN    CNAME proxy
 omnix   IN    CNAME proxy
 files   IN    CNAME proxy
 webook  IN    CNAME proxy
-cameria IN    CNAME proxy
 metrium IN    CNAME proxy
 story   IN    CNAME proxy
 minio   IN    CNAME proxy
@@ -198,6 +197,7 @@ aux     IN    MX    10    alt.fr-logic-5
 neo     IN    MX    10    alt.fr-logic-5
 
 ; aux and alt aliases
+cameria IN    CNAME proxy-aux
 headless      IN    CNAME proxy-aux
 budy-ldj      IN    CNAME proxy-aux
 *.aux   IN    CNAME proxy-aux
