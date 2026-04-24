@@ -164,7 +164,6 @@ websites-ldj  IN    CNAME proxy
 mongo-express IN    CNAME proxy
 omni-hive     IN    CNAME proxy
 omni-amiranda IN    CNAME proxy
-omnix-amiranda      IN    CNAME proxy
 dropbox-notifier    IN    CNAME proxy
 omni-repairs-ldj    IN    CNAME proxy
 accounting-bonanza  IN    CNAME proxy
@@ -197,6 +196,7 @@ neo     IN    MX    10    alt.fr-logic-5
 omnix   IN    CNAME proxy-aux
 omnix-ldj     IN    CNAME proxy-aux
 omnix-hive    IN    CNAME proxy-aux
+omnix-amiranda      IN    CNAME proxy-aux
 rabbitmq      IN    CNAME proxy-aux
 cameria IN    CNAME proxy-aux
 headless      IN    CNAME proxy-aux
