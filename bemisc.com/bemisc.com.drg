@@ -138,7 +138,6 @@ repos   IN    CNAME proxy
 mailme  IN    CNAME proxy
 ldj     IN    CNAME proxy
 libs    IN    CNAME proxy
-omnix   IN    CNAME proxy
 files   IN    CNAME proxy
 webook  IN    CNAME proxy
 metrium IN    CNAME proxy
@@ -197,6 +196,8 @@ aux     IN    MX    10    alt.fr-logic-5
 neo     IN    MX    10    alt.fr-logic-5
 
 ; aux and alt aliases
+omnix   IN    CNAME proxy-aux
+omnix-ldj     IN    CNAME proxy-aux
 cameria IN    CNAME proxy-aux
 headless      IN    CNAME proxy-aux
 budy-ldj      IN    CNAME proxy-aux
