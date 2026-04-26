@@ -150,7 +150,7 @@ rockmongo     IN    CNAME proxy
 phpmyadmin    IN    CNAME proxy
 shopdesk      IN    CNAME proxy
 proyectos     IN    CNAME proxy
-campaigner    IN    CNAME proxy
+campaigner    IN    CNAME proxy-aux
 internus      IN    CNAME proxy
 crossline     IN    CNAME proxy
 instashow     IN    CNAME proxy
