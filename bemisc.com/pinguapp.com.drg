@@ -38,4 +38,4 @@ pinguapp.com.    IN    SOA    ns1.bemisc.com.    hostmaster.pinguapp.com. (
         IN    NS    ns2.bemisc.com.
 
 ; domain alias
-www     IN    CNAME proxy.bemisc.com.
+www     IN    CNAME proxy-aux.bemisc.com.
