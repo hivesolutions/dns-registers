@@ -144,6 +144,7 @@ metrium IN    CNAME proxy
 story   IN    CNAME proxy
 minio   IN    CNAME proxy
 pingu   IN    CNAME proxy-aux
+grafana IN    CNAME proxy-aux
 minio-data    IN    CNAME proxy
 minio-files   IN    CNAME proxy
 whistler      IN    CNAME proxy
