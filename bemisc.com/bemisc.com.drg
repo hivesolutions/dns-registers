@@ -138,7 +138,7 @@ repos   IN    CNAME proxy
 mailme  IN    CNAME proxy
 ldj     IN    CNAME proxy
 libs    IN    CNAME proxy
-files   IN    CNAME proxy
+files   IN    CNAME proxy-aux
 webook  IN    CNAME proxy
 metrium IN    CNAME proxy
 story   IN    CNAME proxy
