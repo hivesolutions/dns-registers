@@ -30,12 +30,12 @@ joamag.com.    IN    SOA    ns1.bemisc.com.    hostmaster.joamag.com. (
 )
 
 ; domain main address
-        IN    A     138.201.62.42
-        IN    AAAA  2a01:4f8:172:171e::2
+        IN    A     144.76.167.230
+        IN    AAAA  2a01:4f8:200:43ed::2
 
 ; domain name servers
         IN    NS    ns1.bemisc.com.
         IN    NS    ns2.bemisc.com.
 
 ; domain alias
-www     IN    CNAME proxy.bemisc.com.
+www     IN    CNAME proxy-aux.bemisc.com.

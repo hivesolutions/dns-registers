@@ -156,7 +156,7 @@ campaigner    IN    CNAME proxy-aux
 internus      IN    CNAME proxy
 crossline     IN    CNAME proxy
 instashow     IN    CNAME proxy
-joamag-neo    IN    CNAME proxy
+joamag-neo    IN    CNAME proxy-aux
 hello-appier  IN    CNAME proxy
 hello-quorum  IN    CNAME proxy
 posterum      IN    CNAME proxy

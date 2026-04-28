@@ -30,8 +30,8 @@ joaomagalhaes.eu.    IN    SOA    ns1.bemisc.com.    hostmaster.joaomagalhaes.eu
 )
 
 ; domain main address
-        IN    A     138.201.62.42
-        IN    AAAA  2a01:4f8:172:171e::2
+        IN    A     144.76.167.230
+        IN    AAAA  2a01:4f8:200:43ed::2
 
 ; google apps email
         IN    MX    1     ASPMX.L.GOOGLE.COM.
@@ -45,8 +45,8 @@ joaomagalhaes.eu.    IN    SOA    ns1.bemisc.com.    hostmaster.joaomagalhaes.eu
         IN    NS    ns2.bemisc.com.
 
 ; domain alias
-www     IN    CNAME proxy.bemisc.com.
-blog    IN    CNAME proxy.bemisc.com.
+www     IN    CNAME proxy-aux.bemisc.com.
+blog    IN    CNAME proxy-aux.bemisc.com.
 
 ; SPF validation fields
 joaomagalhaes.eu.   IN    TXT   "v=spf1 a:fr-logic-5.bemisc.com include:_spf.google.com include:servers.mcsv.net ~all"

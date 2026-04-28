@@ -30,8 +30,8 @@ joao.me.    IN    SOA    ns1.bemisc.com.    hostmaster.joao.me. (
 )
 
 ; domain main address
-        IN    A     138.201.62.42
-        IN    AAAA  2a01:4f8:172:171e::2
+        IN    A     144.76.167.230
+        IN    AAAA  2a01:4f8:200:43ed::2
 
 ; google apps email
         IN    MX    1     ASPMX.L.GOOGLE.COM.
@@ -46,7 +46,7 @@ joao.me.    IN    SOA    ns1.bemisc.com.    hostmaster.joao.me. (
 
 ; domain alias
 cv      IN    CNAME joamag-cv.pages.dev.
-www     IN    CNAME proxy.bemisc.com.
+www     IN    CNAME proxy-aux.bemisc.com.
 boytacean     IN    CNAME boytacean.pages.dev.
 battlerust    IN    CNAME battlerust.pages.dev.
 chip-ahoyto   IN    CNAME chip-ahoyto.pages.dev.
