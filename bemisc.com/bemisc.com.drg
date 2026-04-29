@@ -133,8 +133,8 @@ ipv6.rancher-fast   IN    CNAME ipv6.fr-logic-3
 ; domain alias
 mail    IN    CNAME smtp
 print   IN    CNAME proxy-aux
-colony  IN    CNAME proxy
-repos   IN    CNAME proxy
+colony  IN    CNAME proxy-aux
+repos   IN    CNAME proxy-aux
 mailme  IN    CNAME proxy
 ldj     IN    CNAME proxy
 libs    IN    CNAME proxy
