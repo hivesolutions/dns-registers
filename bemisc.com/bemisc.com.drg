@@ -135,7 +135,7 @@ mail    IN    CNAME smtp
 print   IN    CNAME proxy-aux
 colony  IN    CNAME proxy-aux
 repos   IN    CNAME proxy-aux
-mailme  IN    CNAME proxy
+mailme  IN    CNAME proxy-aux
 ldj     IN    CNAME proxy
 libs    IN    CNAME proxy
 files   IN    CNAME proxy-aux
@@ -143,11 +143,18 @@ webook  IN    CNAME proxy
 metrium IN    CNAME proxy
 story   IN    CNAME proxy
 minio   IN    CNAME proxy
+omnix   IN    CNAME proxy-aux
 pingu   IN    CNAME proxy-aux
+cameria IN    CNAME proxy-aux
 grafana IN    CNAME proxy-aux
 minio-data    IN    CNAME proxy
 minio-files   IN    CNAME proxy
 whistler      IN    CNAME proxy
+omnix-ldj     IN    CNAME proxy-aux
+omnix-hive    IN    CNAME proxy-aux
+rabbitmq      IN    CNAME proxy-aux
+headless      IN    CNAME proxy-aux
+budy-ldj      IN    CNAME proxy-aux
 rockmongo     IN    CNAME proxy
 phpmyadmin    IN    CNAME proxy
 shopdesk      IN    CNAME proxy
@@ -166,6 +173,7 @@ websites-ldj  IN    CNAME proxy
 mongo-express IN    CNAME proxy
 omni-hive     IN    CNAME proxy
 omni-amiranda IN    CNAME proxy
+omnix-amiranda      IN    CNAME proxy-aux
 dropbox-notifier    IN    CNAME proxy
 omni-repairs-ldj    IN    CNAME proxy
 accounting-bonanza  IN    CNAME proxy
@@ -195,14 +203,6 @@ aux     IN    MX    10    alt.fr-logic-5
 neo     IN    MX    10    alt.fr-logic-5
 
 ; aux and alt aliases
-omnix   IN    CNAME proxy-aux
-omnix-ldj     IN    CNAME proxy-aux
-omnix-hive    IN    CNAME proxy-aux
-omnix-amiranda      IN    CNAME proxy-aux
-rabbitmq      IN    CNAME proxy-aux
-cameria IN    CNAME proxy-aux
-headless      IN    CNAME proxy-aux
-budy-ldj      IN    CNAME proxy-aux
 *.aux   IN    CNAME proxy-aux
 *.neo   IN    CNAME proxy-aux
 
