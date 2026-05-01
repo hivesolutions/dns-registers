@@ -146,6 +146,7 @@ minio   IN    CNAME proxy
 omnix   IN    CNAME proxy-aux
 omniz   IN    CNAME proxy-aux
 pingu   IN    CNAME proxy-aux
+mailog  IN    CNAME proxy-aux
 cameria IN    CNAME proxy-aux
 grafana IN    CNAME proxy-aux
 minio-data    IN    CNAME proxy
