@@ -170,6 +170,7 @@ hello-appier  IN    CNAME proxy
 hello-quorum  IN    CNAME proxy
 posterum      IN    CNAME proxy
 mbalancer     IN    CNAME proxy
+mailog-latest IN    CNAME proxy-aux
 colony-print  IN    CNAME proxy-aux
 websites-ldj  IN    CNAME proxy
 mongo-express IN    CNAME proxy
