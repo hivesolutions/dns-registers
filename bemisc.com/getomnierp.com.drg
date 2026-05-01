@@ -22,7 +22,7 @@ $TTL 10m
 
 ; domain general parameters
 getomnierp.com.    IN    SOA    ns1.bemisc.com.    hostmaster.getomnierp.com. (
-            2026042401 ; serial number
+            2026050101 ; serial number
             4h         ; refresh time
             1h         ; transfer retry time
             7d         ; expiry time
@@ -36,6 +36,7 @@ getomnierp.com.    IN    SOA    ns1.bemisc.com.    hostmaster.getomnierp.com. (
 ; domain name servers
         IN    NS    ns1.bemisc.com.
         IN    NS    ns2.bemisc.com.
+        IN    NS    ns3.bemisc.com.
 
 ; domain alias
 www     IN    CNAME proxy.bemisc.com.

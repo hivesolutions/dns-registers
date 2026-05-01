@@ -22,7 +22,7 @@ $TTL 10m
 
 ; domain general parameters
 joaomagalhaes.info.    IN    SOA    ns1.bemisc.com.    hostmaster.joaomagalhaes.info. (
-            2026042401 ; serial number
+            2026050101 ; serial number
             4h         ; refresh time
             1h         ; transfer retry time
             7d         ; expiry time
@@ -36,6 +36,7 @@ joaomagalhaes.info.    IN    SOA    ns1.bemisc.com.    hostmaster.joaomagalhaes.
 ; domain name servers
         IN    NS    ns1.bemisc.com.
         IN    NS    ns2.bemisc.com.
+        IN    NS    ns3.bemisc.com.
 
 ; domain names
 www     IN    CNAME proxy-aux.bemisc.com.

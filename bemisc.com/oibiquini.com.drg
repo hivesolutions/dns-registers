@@ -22,7 +22,7 @@ $TTL 10m
 
 ; domain general parameters
 oibiquini.com.    IN    SOA    ns1.bemisc.com.    hostmaster.oibiquini.com. (
-            2026042401 ; serial number
+            2026050101 ; serial number
             4h         ; refresh time
             1h         ; transfer retry time
             7d         ; expiry time
@@ -42,6 +42,7 @@ oibiquini.com.    IN    SOA    ns1.bemisc.com.    hostmaster.oibiquini.com. (
 ; domain name servers
         IN    NS    ns1.bemisc.com.
         IN    NS    ns2.bemisc.com.
+        IN    NS    ns3.bemisc.com.
 
 ; domain names
 *       IN    A     23.227.38.32
