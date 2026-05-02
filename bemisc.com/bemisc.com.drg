@@ -151,7 +151,7 @@ colony  IN    CNAME proxy-aux
 repos   IN    CNAME proxy-aux
 mailme  IN    CNAME proxy-aux
 ldj     IN    CNAME proxy
-libs    IN    CNAME proxy
+libs    IN    CNAME proxy-aux
 files   IN    CNAME proxy-aux
 webook  IN    CNAME proxy
 metrium IN    CNAME proxy
