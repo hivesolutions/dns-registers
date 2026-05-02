@@ -48,8 +48,8 @@ oibiquini.com.    IN    SOA    ns1.bemisc.com.    hostmaster.oibiquini.com. (
 *       IN    A     23.227.38.32
 
 ; domain alias
-passatempo    IN    CNAME proxy.bemisc.com.
-extras  IN    CNAME proxy.bemisc.com.
+passatempo    IN    CNAME proxy-aux.bemisc.com.
+extras  IN    CNAME proxy-aux.bemisc.com.
 
 ; SPF validation fields
 oibiquini.com.      IN    TXT   "v=spf1 a mx include:bemisc.com include:_spf.google.com ~all"
