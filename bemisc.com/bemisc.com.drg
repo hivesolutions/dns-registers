@@ -150,7 +150,7 @@ print   IN    CNAME proxy-aux
 colony  IN    CNAME proxy-aux
 repos   IN    CNAME proxy-aux
 mailme  IN    CNAME proxy-aux
-ldj     IN    CNAME proxy
+ldj     IN    CNAME proxy-aux
 libs    IN    CNAME proxy-aux
 files   IN    CNAME proxy-aux
 webook  IN    CNAME proxy
