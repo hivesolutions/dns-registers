@@ -191,6 +191,7 @@ websites-ldj  IN    CNAME proxy
 mongo-express IN    CNAME proxy
 ustore-ldj    IN    CNAME proxy-aux
 omni-mcp      IN    CNAME proxy-aux
+mailme-mcp    IN    CNAME proxy-aux
 omni-hive     IN    CNAME proxy
 omni-amiranda IN    CNAME proxy
 omnix-amiranda      IN    CNAME proxy-aux
