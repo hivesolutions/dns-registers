@@ -1,18 +1,26 @@
-FROM hivesolutions/alpine:latest
+FROM alpine:3.22
 
 LABEL version="1.0"
 LABEL maintainer="Hive Solutions <development@hive.pt>"
 
 EXPOSE 53/udp
+EXPOSE 53/tcp
 
-ADD bind /etc/bind
-ADD bemisc.com /etc/bind/dns-registers/bemisc.com
-ADD configuration /etc/bind/dns-registers/configuration
-ADD hive /etc/bind/dns-registers/hive
+RUN apk add --no-cache bind libcap-setcap &&\
+    setcap 'cap_net_bind_service=+ep' /usr/sbin/named
 
-RUN apk update && apk add bind
-RUN ln -s /etc/bind/dns-registers/configuration/named.conf.authoritative /etc/bind/named.conf
-RUN echo "include \"/etc/bind/dns-registers/configuration/bemisc.com.conf\";" >> /etc/bind/named.conf
-RUN echo "include \"/etc/bind/dns-registers/configuration/hive.conf\";" >> /etc/bind/named.conf
+COPY --chown=root:named bind /etc/bind
+COPY --chown=root:named bemisc.com /etc/bind/dns-registers/bemisc.com
+COPY --chown=root:named configuration /etc/bind/dns-registers/configuration
+COPY --chown=root:named hive /etc/bind/dns-registers/hive
+
+RUN printf 'include "/etc/bind/dns-registers/configuration/named.conf.authoritative";\ninclude "/etc/bind/dns-registers/configuration/bemisc.com.conf";\ninclude "/etc/bind/dns-registers/configuration/hive.conf";\n' > /etc/bind/named.conf &&\
+    chown root:named /etc/bind/named.conf &&\
+    chmod 0640 /etc/bind/named.conf
+
+USER named
+
+HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
+    CMD dig @127.0.0.1 -p 53 +short +tries=1 +time=2 hive.pt SOA >/dev/null || exit 1
 
 CMD ["/usr/sbin/named", "-g"]
