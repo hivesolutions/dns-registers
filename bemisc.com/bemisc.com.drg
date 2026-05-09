@@ -188,8 +188,8 @@ phpmyadmin    IN    CNAME proxy
 ustore-ldj    IN    CNAME proxy-aux
 minio-files   IN    CNAME proxy
 colony-print  IN    CNAME proxy-aux
-hello-appier  IN    CNAME proxy
-hello-quorum  IN    CNAME proxy
+hello-appier  IN    CNAME proxy-aux
+hello-quorum  IN    CNAME proxy-aux
 websites-ldj  IN    CNAME proxy
 mailog-latest IN    CNAME proxy-aux
 mongo-express IN    CNAME proxy
