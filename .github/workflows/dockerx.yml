@@ -1,0 +1,54 @@
+name: DockerX Workflow
+on:
+  push:
+    tags:
+      - "*"
+    branches-ignore:
+      - none
+  workflow_dispatch:
+jobs:
+  fast:
+    name: Fast (${{ matrix.config.dockerfile }})
+    strategy:
+      fail-fast: false
+      matrix:
+        config:
+          - { dockerfile: "Dockerfile", tag_suffix: "-amd64" }
+          - { dockerfile: "Dockerfile.authoritative", tag_suffix: "-authoritative-amd64" }
+    uses: ./.github/workflows/dockerx-build.yml
+    with:
+      dockerfile: ${{ matrix.config.dockerfile }}
+      platforms: "linux/amd64"
+      tag_suffix: ${{ matrix.config.tag_suffix }}
+    secrets:
+      DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
+      DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
+  full:
+    name: Full (${{ matrix.config.dockerfile }})
+    strategy:
+      fail-fast: false
+      matrix:
+        config:
+          - { dockerfile: "Dockerfile", tag_suffix: "", platforms: "linux/amd64,linux/arm64/v8" }
+          - { dockerfile: "Dockerfile.authoritative", tag_suffix: "-authoritative", platforms: "linux/amd64,linux/arm64/v8" }
+    uses: ./.github/workflows/dockerx-build.yml
+    with:
+      dockerfile: ${{ matrix.config.dockerfile }}
+      platforms: ${{ matrix.config.platforms }}
+      tag_suffix: ${{ matrix.config.tag_suffix }}
+    secrets:
+      DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
+      DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
+  trigger-deploy:
+    name: Trigger dns-registers deployment
+    needs: full
+    if: github.event_name == 'push' && github.ref_name == 'master'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: hivesolutions/deploy-action@v1
+        with:
+          repository: hivesolutions/infra-bemisc
+          service: dns-registers
+          group: network
+          tag: authoritative
+          token: ${{ secrets.INFRA_DEPLOY_PAT }}
