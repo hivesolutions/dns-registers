@@ -204,6 +204,7 @@ omnix-amiranda      IN    CNAME proxy-aux
 dropbox-notifier    IN    CNAME proxy
 oibiquini-extras    IN    CNAME proxy-aux
 omni-repairs-ldj    IN    CNAME proxy
+signature-latest    IN    CNAME proxy-aux
 takethebill-hive    IN    CNAME proxy
 accounting-bonanza  IN    CNAME proxy
 websites-oibiquini  IN    CNAME proxy-aux
