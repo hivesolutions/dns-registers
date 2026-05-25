@@ -30,8 +30,8 @@ hive.pt.    IN    SOA    ns1.bemisc.com.    hostmaster.hive.pt. (
 )
 
 ; domain main address
-        IN    A     138.201.62.42
-        IN    AAAA  2a01:4f8:172:171e::2
+        IN    A     144.76.167.230
+        IN    AAAA  2a01:4f8:200:43ed::2
 
 ; google apps email
         IN    MX    1     ASPMX.L.GOOGLE.COM.
@@ -46,7 +46,7 @@ hive.pt.    IN    SOA    ns1.bemisc.com.    hostmaster.hive.pt. (
         IN    NS    ns3.bemisc.com.
 
 ; domain alias
-www     IN    CNAME proxy.bemisc.com.
+www     IN    CNAME proxy-aux.bemisc.com.
 blog    IN    CNAME proxy.bemisc.com.
 docs    IN    CNAME proxy.bemisc.com.
 openid  IN    CNAME proxy.bemisc.com.
