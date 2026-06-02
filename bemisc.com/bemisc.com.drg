@@ -207,7 +207,7 @@ dropbox-notifier    IN    CNAME proxy
 oibiquini-extras    IN    CNAME proxy-aux
 omni-repairs-ldj    IN    CNAME proxy
 takethebill-hive    IN    CNAME proxy
-accounting-bonanza  IN    CNAME proxy
+accounting-bonanza  IN    CNAME proxy-aux
 websites-oibiquini  IN    CNAME proxy-aux
 takethebill-amiranda      IN    CNAME proxy
 
