@@ -22,7 +22,7 @@ $TTL 10m
 
 ; domain general parameters
 takethebill.com.    IN    SOA   ns1.bemisc.com.    hostmaster.takethebill.com. (
-            2026050101 ; serial number
+            2026062000 ; serial number
             4h         ; refresh time
             1h         ; transfer retry time
             7d         ; expiry time
@@ -46,7 +46,7 @@ takethebill.com.    IN    SOA   ns1.bemisc.com.    hostmaster.takethebill.com. (
         IN    NS    ns3.bemisc.com.
 
 ; domain alias
-www     IN    CNAME proxy.bemisc.com.
-ldj     IN    CNAME proxy.bemisc.com.
-hive    IN    CNAME proxy.bemisc.com.
-amiranda      IN    CNAME proxy.bemisc.com.
+www     IN    CNAME proxy-aux.bemisc.com.
+ldj     IN    CNAME proxy-aux.bemisc.com.
+hive    IN    CNAME proxy-aux.bemisc.com.
+amiranda      IN    CNAME proxy-aux.bemisc.com.
