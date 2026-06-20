@@ -22,7 +22,7 @@ $TTL 10m
 
 ; domain general parameters
 puxiapp.com.    IN    SOA    ns1.bemisc.com.    hostmaster.puxiapp.com. (
-            2026050101 ; serial number
+            2026062000 ; serial number
             4h         ; refresh time
             1h         ; transfer retry time
             7d         ; expiry time
@@ -40,5 +40,5 @@ puxiapp.com.    IN    SOA    ns1.bemisc.com.    hostmaster.puxiapp.com. (
 
 ; domain alias
 proxy   IN    CNAME pushi.bemisc.com.
-www     IN    CNAME proxy
-ws      IN    CNAME proxy
+www     IN    CNAME proxy-aux
+ws      IN    CNAME proxy-aux
