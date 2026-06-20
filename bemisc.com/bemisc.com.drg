@@ -180,7 +180,7 @@ whistler      IN    CNAME proxy
 crossline     IN    CNAME proxy-aux
 instashow     IN    CNAME proxy
 mbalancer     IN    CNAME proxy
-omni-hive     IN    CNAME proxy
+omni-hive     IN    CNAME proxy-aux
 omnix-ldj     IN    CNAME proxy-aux
 proyectos     IN    CNAME proxy
 rockmongo     IN    CNAME proxy
@@ -201,7 +201,7 @@ websites-ldj  IN    CNAME proxy
 elasticsearch IN    CNAME proxy-aux
 mailog-latest IN    CNAME proxy-aux
 mongo-express IN    CNAME proxy
-omni-amiranda IN    CNAME proxy
+omni-amiranda IN    CNAME proxy-aux
 omnix-amiranda      IN    CNAME proxy-aux
 signatur-latest     IN    CNAME proxy-aux
 takethebill-ldj     IN    CNAME proxy-aux

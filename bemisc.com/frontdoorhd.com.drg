@@ -22,7 +22,7 @@ $TTL 10m
 
 ; domain general parameters
 frontdoorhd.com.    IN    SOA    ns1.bemisc.com.    hostmaster.frontdoorhd.com. (
-            2026050101 ; serial number
+            2026062000 ; serial number
             4h         ; refresh time
             1h         ; transfer retry time
             7d         ; expiry time
@@ -46,21 +46,21 @@ frontdoorhd.com.    IN    SOA    ns1.bemisc.com.    hostmaster.frontdoorhd.com. 
         IN    NS    ns3.bemisc.com.
 
 ; domain alias
-ldj     IN    CNAME fr-logic-5.bemisc.com.
-ipv4.ldj      IN    CNAME ipv4.fr-logic-5.bemisc.com.
-ipv6.ldj      IN    CNAME ipv6.fr-logic-5.bemisc.com.
-*.ldj   IN    CNAME fr-logic-5.bemisc.com.
-passldj IN    CNAME fr-logic-5.bemisc.com.
-hive    IN    CNAME proxy.bemisc.com.
-ipv4.hive     IN    CNAME ipv4.proxy.bemisc.com.
-ipv6.hive     IN    CNAME ipv6.proxy.bemisc.com.
-*.hive  IN    CNAME proxy.bemisc.com.
-passive       IN    CNAME proxy.bemisc.com.
-amiranda      IN    CNAME proxy.bemisc.com.
-ipv4.amiranda       IN    CNAME ipv4.proxy.bemisc.com.
-ipv6.amiranda       IN    CNAME ipv6.proxy.bemisc.com.
-*.amiranda    IN    CNAME proxy.bemisc.com.
-passamiranda  IN    CNAME proxy.bemisc.com.
+ldj     IN    CNAME proxy-aux.bemisc.com.
+ipv4.ldj      IN    CNAME ipv4.proxy-aux.bemisc.com.
+ipv6.ldj      IN    CNAME ipv6.proxy-aux.bemisc.com.
+*.ldj   IN    CNAME proxy-aux.bemisc.com.
+passldj IN    CNAME proxy-aux.bemisc.com.
+hive    IN    CNAME proxy-aux.bemisc.com.
+ipv4.hive     IN    CNAME ipv4.proxy-aux.bemisc.com.
+ipv6.hive     IN    CNAME ipv6.proxy-aux.bemisc.com.
+*.hive  IN    CNAME proxy-aux.bemisc.com.
+passive       IN    CNAME proxy-aux.bemisc.com.
+amiranda      IN    CNAME proxy-aux.bemisc.com.
+ipv4.amiranda       IN    CNAME ipv4.proxy-aux.bemisc.com.
+ipv6.amiranda       IN    CNAME ipv6.proxy-aux.bemisc.com.
+*.amiranda    IN    CNAME proxy-aux.bemisc.com.
+passamiranda  IN    CNAME proxy-aux.bemisc.com.
 
 ; other alias
 docs    CNAME omni-docs-2tr.pages.dev.
