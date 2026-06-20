@@ -42,3 +42,4 @@ puxiapp.com.    IN    SOA    ns1.bemisc.com.    hostmaster.puxiapp.com. (
 proxy   IN    CNAME pushi.bemisc.com.
 www     IN    CNAME proxy
 ws      IN    CNAME proxy
+admin   IN    CNAME proxy
