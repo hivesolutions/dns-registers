@@ -171,6 +171,7 @@ hive-neo      IN    CNAME proxy-aux
 internus      IN    CNAME proxy
 isabella      IN    CNAME proxy-aux
 logstash      IN    CNAME proxy-aux
+omni-ldj      IN    CNAME proxy-aux
 omni-mcp      IN    CNAME proxy-aux
 posterum      IN    CNAME proxy
 rabbitmq      IN    CNAME proxy-aux
