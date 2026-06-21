@@ -148,6 +148,7 @@ ipv6.rancher-fast   IN    CNAME ipv6.fr-logic-3
 ldj     IN    CNAME proxy-aux
 libs    IN    CNAME proxy-aux
 mail    IN    CNAME smtp
+mjpg    IN    CNAME proxy-aux
 files   IN    CNAME proxy-aux
 minio   IN    CNAME proxy
 omnix   IN    CNAME proxy-aux
