@@ -165,7 +165,7 @@ webook  IN    CNAME proxy
 cameria IN    CNAME proxy-aux
 grafana IN    CNAME proxy-aux
 httpbin IN    CNAME proxy-aux
-metrium IN    CNAME proxy
+metrium IN    CNAME proxy-aux
 budy-ldj      IN    CNAME proxy-aux
 headless      IN    CNAME proxy-aux
 hive-neo      IN    CNAME proxy-aux
