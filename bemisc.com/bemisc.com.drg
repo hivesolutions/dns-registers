@@ -22,7 +22,7 @@ $TTL 10m
 
 ; domain general parameters
 bemisc.com.    IN    SOA    ns1.bemisc.com.    hostmaster.bemisc.com. (
-            2026071200 ; serial number
+            2026071201 ; serial number
             4h         ; refresh time
             1h         ; transfer retry time
             7d         ; expiry time
@@ -206,6 +206,7 @@ elasticsearch IN    CNAME proxy-aux
 mailog-latest IN    CNAME proxy-aux
 mongo-express IN    CNAME proxy
 omni-amiranda IN    CNAME proxy-aux
+sensium-admin IN    CNAME proxy-aux
 omnix-amiranda      IN    CNAME proxy-aux
 signatur-latest     IN    CNAME proxy-aux
 takethebill-ldj     IN    CNAME proxy-aux
@@ -216,6 +217,7 @@ takethebill-hive    IN    CNAME proxy-aux
 accounting-bonanza  IN    CNAME proxy-aux
 websites-oibiquini  IN    CNAME proxy-aux
 colony-print-latest       IN    CNAME proxy-aux
+sensium-admin-latest      IN    CNAME proxy-aux
 takethebill-amiranda      IN    CNAME proxy-aux
 
 ; CDN alias
