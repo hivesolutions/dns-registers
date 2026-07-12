@@ -22,7 +22,7 @@ $TTL 10m
 
 ; domain general parameters
 bemisc.com.    IN    SOA    ns1.bemisc.com.    hostmaster.bemisc.com. (
-            2026062600 ; serial number
+            2026071200 ; serial number
             4h         ; refresh time
             1h         ; transfer retry time
             7d         ; expiry time
@@ -142,6 +142,7 @@ ipv6.smtp     IN    CNAME ipv6.fr-logic-5
 ipv6.proxy    IN    CNAME ipv6.fr-logic-2
 ipv6.pushi    IN    CNAME ipv6.fr-logic-5
 ipv6.rancher  IN    CNAME ipv6.fr-logic-3
+ipv6.proxy-aux      IN    CNAME ipv6.fr-logic-5
 ipv6.rancher-fast   IN    CNAME ipv6.fr-logic-3
 
 ; domain alias
