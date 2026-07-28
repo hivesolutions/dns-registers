@@ -430,4 +430,4 @@ bsd     IN    CNAME freebsd
 *.stage IN    CNAME proxy
 
 ; named redirection
-unifi   IN    CNAME proxy
+unifi   IN    CNAME vbox9
