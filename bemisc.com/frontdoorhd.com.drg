@@ -22,7 +22,7 @@ $TTL 10m
 
 ; domain general parameters
 frontdoorhd.com.    IN    SOA    ns1.bemisc.com.    hostmaster.frontdoorhd.com. (
-            2026080201 ; serial number
+            2026080202 ; serial number
             4h         ; refresh time
             1h         ; transfer retry time
             7d         ; expiry time
@@ -65,3 +65,6 @@ passamiranda  IN    CNAME proxy-aux.bemisc.com.
 
 ; other alias
 docs    CNAME omni-docs-2tr.pages.dev.
+
+; google site verification
+frontdoorhd.com.    IN    TXT   "google-site-verification=AfmbdZiGHW4AjBQcFpmFABvah3IOGd9-N9HLcnXAKfg"
