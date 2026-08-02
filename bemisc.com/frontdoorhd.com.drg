@@ -22,7 +22,7 @@ $TTL 10m
 
 ; domain general parameters
 frontdoorhd.com.    IN    SOA    ns1.bemisc.com.    hostmaster.frontdoorhd.com. (
-            2026080200 ; serial number
+            2026080201 ; serial number
             4h         ; refresh time
             1h         ; transfer retry time
             7d         ; expiry time
@@ -30,8 +30,8 @@ frontdoorhd.com.    IN    SOA    ns1.bemisc.com.    hostmaster.frontdoorhd.com. 
 )
 
 ; domain main address
-        IN    A     138.201.62.42
-        IN    AAAA  2a01:4f8:172:171e::2
+        IN    A     144.76.167.230
+        IN    AAAA  2a01:4f8:200:43ed::2
 
 ; google apps email
         IN    MX    1     ASPMX.L.GOOGLE.COM.
