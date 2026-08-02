@@ -22,7 +22,7 @@ $TTL 10m
 
 ; domain general parameters
 frontdoorhq.com.    IN    SOA    ns1.bemisc.com.    hostmaster.frontdoorhq.com. (
-            2026080202 ; serial number
+            2026080203 ; serial number
             4h         ; refresh time
             1h         ; transfer retry time
             7d         ; expiry time
@@ -51,3 +51,6 @@ docs    CNAME omni-docs-2tr.pages.dev.
 ; domain alias
 mcp     IN    CNAME proxy-aux.bemisc.com.
 *       IN    CNAME proxy.bemisc.com.
+
+; google site verification
+frontdoorhq.com.    IN    TXT   "google-site-verification=FHc-V9mAEqJrAZEs1VDA444cFGc7-34qWZdjdC4Ssk0"
