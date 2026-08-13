@@ -214,7 +214,7 @@ omnix-amiranda      IN    CNAME proxy-aux
 gitlab-registry     IN    CNAME proxy-aux
 signatur-latest     IN    CNAME proxy-aux
 takethebill-ldj     IN    CNAME proxy-aux
-dropbox-notifier    IN    CNAME proxy
+dropbox-notifier    IN    CNAME proxy-aux
 oibiquini-extras    IN    CNAME proxy-aux
 omni-repairs-ldj    IN    CNAME proxy
 takethebill-hive    IN    CNAME proxy-aux
