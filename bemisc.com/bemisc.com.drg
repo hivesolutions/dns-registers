@@ -22,7 +22,7 @@ $TTL 10m
 
 ; domain general parameters
 bemisc.com.    IN    SOA    ns1.bemisc.com.    hostmaster.bemisc.com. (
-            2026082301 ; serial number
+            2026082401 ; serial number
             4h         ; refresh time
             1h         ; transfer retry time
             7d         ; expiry time
@@ -218,6 +218,7 @@ dropbox-notifier    IN    CNAME proxy-aux
 oibiquini-extras    IN    CNAME proxy-aux
 omni-repairs-ldj    IN    CNAME proxy
 takethebill-hive    IN    CNAME proxy-aux
+joamag-neo-latest   IN    CNAME proxy-aux
 accounting-bonanza  IN    CNAME proxy-aux
 websites-oibiquini  IN    CNAME proxy-aux
 colony-print-latest       IN    CNAME proxy-aux
