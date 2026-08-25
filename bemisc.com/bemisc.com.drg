@@ -22,7 +22,7 @@ $TTL 10m
 
 ; domain general parameters
 bemisc.com.    IN    SOA    ns1.bemisc.com.    hostmaster.bemisc.com. (
-            2026082401 ; serial number
+            2026082402 ; serial number
             4h         ; refresh time
             1h         ; transfer retry time
             7d         ; expiry time
@@ -167,6 +167,7 @@ webook  IN    CNAME proxy
 cameria IN    CNAME proxy-aux
 grafana IN    CNAME proxy-aux
 httpbin IN    CNAME proxy-aux
+jenkins IN    CNAME proxy-aux
 metrium IN    CNAME proxy-aux
 budy-ldj      IN    CNAME proxy-aux
 headless      IN    CNAME proxy-aux
