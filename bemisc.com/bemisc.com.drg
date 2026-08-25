@@ -178,7 +178,7 @@ isabella      IN    CNAME proxy-aux
 logstash      IN    CNAME proxy-aux
 omni-ldj      IN    CNAME proxy-aux
 omni-mcp      IN    CNAME proxy-aux
-posterum      IN    CNAME proxy
+posterum      IN    CNAME proxy-aux
 rabbitmq      IN    CNAME proxy-aux
 shopdesk      IN    CNAME proxy
 signatur      IN    CNAME proxy-aux
