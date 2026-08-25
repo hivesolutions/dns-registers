@@ -22,7 +22,7 @@ $TTL 10m
 
 ; domain general parameters
 bemisc.com.    IN    SOA    ns1.bemisc.com.    hostmaster.bemisc.com. (
-            2026082403 ; serial number
+            2026082404 ; serial number
             4h         ; refresh time
             1h         ; transfer retry time
             7d         ; expiry time
@@ -151,7 +151,7 @@ libs    IN    CNAME proxy-aux
 mail    IN    CNAME smtp
 mjpg    IN    CNAME proxy-aux
 files   IN    CNAME proxy-aux
-minio   IN    CNAME proxy
+minio   IN    CNAME proxy-aux
 omnix   IN    CNAME proxy-aux
 omniz   IN    CNAME proxy-aux
 pingu   IN    CNAME proxy-aux
@@ -193,12 +193,12 @@ rockmongo     IN    CNAME proxy
 campaigner    IN    CNAME proxy-aux
 joamag-neo    IN    CNAME proxy-aux
 mailme-mcp    IN    CNAME proxy-aux
-minio-data    IN    CNAME proxy
+minio-data    IN    CNAME proxy-aux
 omnix-hive    IN    CNAME proxy-aux
 phpmyadmin    IN    CNAME proxy
 ustore-ldj    IN    CNAME proxy-aux
 httpbin-neo   IN    CNAME proxy-aux
-minio-files   IN    CNAME proxy
+minio-files   IN    CNAME proxy-aux
 omni-latest   IN    CNAME proxy-aux
 colony-print  IN    CNAME proxy-aux
 hello-appier  IN    CNAME proxy-aux
