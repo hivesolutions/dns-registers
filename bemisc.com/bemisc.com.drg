@@ -157,7 +157,7 @@ omniz   IN    CNAME proxy-aux
 pingu   IN    CNAME proxy-aux
 print   IN    CNAME proxy-aux
 repos   IN    CNAME proxy-aux
-story   IN    CNAME proxy
+story   IN    CNAME proxy-aux
 colony  IN    CNAME proxy-aux
 gitlab  IN    CNAME proxy-aux
 kibana  IN    CNAME proxy-aux
