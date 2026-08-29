@@ -181,7 +181,7 @@ omni-ldj      IN    CNAME proxy-aux
 omni-mcp      IN    CNAME proxy-aux
 posterum      IN    CNAME proxy-aux
 rabbitmq      IN    CNAME proxy-aux
-shopdesk      IN    CNAME proxy
+shopdesk      IN    CNAME proxy-aux
 signatur      IN    CNAME proxy-aux
 whistler      IN    CNAME proxy
 crossline     IN    CNAME proxy-aux
