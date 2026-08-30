@@ -183,7 +183,7 @@ posterum      IN    CNAME proxy-aux
 rabbitmq      IN    CNAME proxy-aux
 shopdesk      IN    CNAME proxy-aux
 signatur      IN    CNAME proxy-aux
-whistler      IN    CNAME proxy
+whistler      IN    CNAME proxy-aux
 crossline     IN    CNAME proxy-aux
 digitizer     IN    CNAME proxy-aux
 instashow     IN    CNAME proxy
