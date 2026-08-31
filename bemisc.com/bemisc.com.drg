@@ -221,7 +221,7 @@ signatur-latest     IN    CNAME proxy-aux
 takethebill-ldj     IN    CNAME proxy-aux
 dropbox-notifier    IN    CNAME proxy-aux
 oibiquini-extras    IN    CNAME proxy-aux
-omni-repairs-ldj    IN    CNAME proxy
+omni-repairs-ldj    IN    CNAME proxy-aux
 takethebill-hive    IN    CNAME proxy-aux
 joamag-neo-latest   IN    CNAME proxy-aux
 websites-cobeacon   IN    CNAME proxy-aux
