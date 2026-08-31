@@ -164,7 +164,7 @@ kibana  IN    CNAME proxy-aux
 mailme  IN    CNAME proxy-aux
 mailog  IN    CNAME proxy-aux
 rustfs  IN    CNAME proxy-aux
-webook  IN    CNAME proxy
+webook  IN    CNAME proxy-aux
 cameria IN    CNAME proxy-aux
 grafana IN    CNAME proxy-aux
 httpbin IN    CNAME proxy-aux
@@ -174,7 +174,7 @@ metrium IN    CNAME proxy-aux
 budy-ldj      IN    CNAME proxy-aux
 headless      IN    CNAME proxy-aux
 hive-neo      IN    CNAME proxy-aux
-internus      IN    CNAME proxy
+internus      IN    CNAME proxy-aux
 isabella      IN    CNAME proxy-aux
 logstash      IN    CNAME proxy-aux
 omni-ldj      IN    CNAME proxy-aux
@@ -186,7 +186,7 @@ signatur      IN    CNAME proxy-aux
 whistler      IN    CNAME proxy-aux
 crossline     IN    CNAME proxy-aux
 digitizer     IN    CNAME proxy-aux
-instashow     IN    CNAME proxy
+instashow     IN    CNAME proxy-aux
 mbalancer     IN    CNAME proxy-aux
 omni-hive     IN    CNAME proxy-aux
 omnix-ldj     IN    CNAME proxy-aux
